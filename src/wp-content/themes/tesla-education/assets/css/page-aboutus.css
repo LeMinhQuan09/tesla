@@ -200,5 +200,34 @@
 }
 /*== END SECTION 7 - VISION  ==*/
 /*== SECTION 8 - CORE VALUE  ==*/
-
+.about__value-list {
+    gap: 15px;
+}
+.about__value-list .item {
+    width: 25%;
+    padding: 25px 30px 20px 15px;
+    background-color: #EEEEEE;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.about__value-list .icon img {
+    height: 45px;
+}
+.about__value-list .first_letter {
+    position: absolute;
+    top: 0;
+    right: -15px;
+    font-size: 180px;
+    font-weight: 900;
+    width: 180px;
+    height: 110px;
+    text-align: right;
+    font-family: "SVN-Gotham", sans-serif;
+}
+.about__value-list .title {
+    margin-top: 12px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
 /*== END SECTION 8 - CORE VALUE  ==*/

@@ -30,11 +30,11 @@ define( 'WP_CACHE', true /* Modified by NitroPack */ );
 define('FS_METHOD', 'direct');
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'klqfuapshosting_tesla' );
+define( 'DB_NAME', 'teslanew' );
 /** MySQL database username */
-define( 'DB_USER', 'klqfuapshosting_tesla' );
+define( 'DB_USER', 'root' );
 /** MySQL database password */
-define( 'DB_PASSWORD', 't@admin1504.com!@#' );
+define( 'DB_PASSWORD', '' );
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
 /** Database charset to use in creating database tables. */
