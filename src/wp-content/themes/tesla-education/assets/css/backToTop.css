@@ -1,0 +1,85 @@
+.progress-wrap, .progress-wrap-box{
+	position: fixed;
+	right: 20px;
+	bottom: 185px;
+	height: 46px;
+	width: 46px;
+	cursor: pointer;
+	display: block;
+	border-radius: 50px;
+	box-shadow: inset  0 0 0 2px rgba(95, 58, 252,0.2);
+	z-index: 99;
+	opacity: 0;
+	visibility: hidden;
+	transform: translateY(15px);
+	-webkit-transition: all 200ms linear;
+	transition: all 200ms linear;
+}
+.progress-wrap-box
+{
+	right: 65px;
+    box-shadow: none;
+}
+.progress-wrap-box .explore-icon
+{
+    transform: translateY(15px);
+}
+.progress-wrap-box .icon-explore
+{
+	margin-right: 20px;
+    height: 30px;
+    width: 30px;
+    background-image: url('https://beta.tesla.edu.vn/wp-content/uploads/2022/04/Bar-ico-orange.png');
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: 10px;
+}
+@media (min-width: 992px) {
+	.progress-wrap, .progress-wrap-box{
+		bottom: 300px;
+	}
+}
+.progress-wrap.active-progress, .progress-wrap-box.active-progress-ic {
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(0);
+}
+.progress-wrap::after {
+	position: absolute;
+	content: '\f176';
+	font-family: "Font Awesome 5 Pro";
+	text-align: center;
+	line-height: 46px;
+	font-size: 20px;
+	color: #2b4eff;
+	left: 0;
+	top: 0;
+	height: 46px;
+	width: 46px;
+	cursor: pointer;
+	display: block;
+	z-index: 1;
+	-webkit-transition: all 200ms linear;
+	transition: all 200ms linear;
+}
+.progress-wrap svg path { 
+	fill: none; 
+}
+.progress-wrap svg.progress-circle path {
+	stroke: #2b4eff;
+	stroke-width: 4;
+	box-sizing:border-box;
+	-webkit-transition: all 200ms linear;
+	transition: all 200ms linear;
+}
+@media(max-width: 1199px)
+{
+	.progress-wrap-box
+	{
+		display: none;
+	}
+}

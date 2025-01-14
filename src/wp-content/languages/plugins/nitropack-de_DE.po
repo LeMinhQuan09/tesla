@@ -1,0 +1,110 @@
+# Translation of Plugins - NitroPack – Caching &amp; Speed Optimization for Core Web Vitals, Defer CSS &amp; JS, Lazy load Images and CDN - Stable (latest release) in German
+# This file is distributed under the same license as the Plugins - NitroPack – Caching &amp; Speed Optimization for Core Web Vitals, Defer CSS &amp; JS, Lazy load Images and CDN - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-01-09 03:34:28+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - NitroPack – Caching &amp; Speed Optimization for Core Web Vitals, Defer CSS &amp; JS, Lazy load Images and CDN - Stable (latest release)\n"
+
+#: functions.php:3006
+msgid "Connected"
+msgstr "Verbunden"
+
+#: functions.php:3088
+msgid "Disconnected"
+msgstr "Verbindung getrennt"
+
+#: view/dashboard-oneclick.php:173 view/dashboard.php:210
+msgid "Test Mode"
+msgstr "Testmodus"
+
+#: view/oneclick.php:7
+msgid "NitroPack OneClick™"
+msgstr "NitroPack OneClick™"
+
+#: view/dashboard-oneclick.php:13 view/dashboard.php:13
+msgid "Optimized pages"
+msgstr "Optimierte Seiten"
+
+#: view/connect-oneclick.php:28
+msgid "Connect to NitroPack OneClick"
+msgstr "Mit NitroPack OneClick verbinden"
+
+#: diagnostics.php:190
+msgid "Not found"
+msgstr "Nicht gefunden"
+
+#: functions.php:3976
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: view/dashboard-oneclick.php:48 view/dashboard.php:48
+#: view/modals/modal-modes.php:2
+msgid "Standard"
+msgstr "Standard"
+
+#: view/dashboard-oneclick.php:25 view/dashboard.php:25
+msgid "Unknown"
+msgstr "Unbekannt"
+
+#: view/admin.php:205 view/oneclick.php:143
+msgid "Error:"
+msgstr "Fehler:"
+
+#: view/safemode.php:19
+msgid "Yes, deactivate"
+msgstr "Ja, deaktivieren"
+
+#: view/modals/modal-posttypes.php:54
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: view/modals/modal-modes.php:129 view/modals/modal-posttypes.php:53
+msgid "Close"
+msgstr "Schließen"
+
+#: diagnostics.php:90 diagnostics.php:93 diagnostics.php:94 diagnostics.php:95
+#: diagnostics.php:96 diagnostics.php:98 diagnostics.php:99 diagnostics.php:100
+#: diagnostics.php:155
+msgid "Undefined"
+msgstr "Undefiniert"
+
+#: view/connect.php:52
+msgid "here"
+msgstr "hier"
+
+#: view/dashboard-oneclick.php:25 view/dashboard.php:25
+msgid "Reason"
+msgstr "Ursache"
+
+#: view/dashboard-oneclick.php:24 view/dashboard.php:24
+msgid "Never"
+msgstr "Niemals"
+
+#: view/dashboard-oneclick.php:16 view/dashboard.php:16
+msgid "Processing"
+msgstr "Wird verarbeitet"
+
+#. Plugin URI of the plugin
+#: main.php
+msgid "https://nitropack.io/platform/wordpress"
+msgstr "https://nitropack.io/platform/wordpress"
+
+#. Author URI of the plugin
+#: main.php
+msgid "https://nitropack.io/"
+msgstr "https://nitropack.io/"
+
+#. Plugin Name of the plugin
+#: main.php
+msgid "NitroPack"
+msgstr "NitroPack"
+
+#: functions.php:1236
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Du hast nicht die erforderlichen Berechtigungen, um auf diese Seite zuzugreifen."

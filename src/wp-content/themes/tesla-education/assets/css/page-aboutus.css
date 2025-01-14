@@ -1,0 +1,204 @@
+/*== SECTION 1 - CONTENT ABOUT  ==*/
+.about__content .about__content-img {
+    width: 45%;
+}
+.about__content .about__content-text {
+    width: 55%;
+}
+.about__content-img img {
+    width: 100%;
+}
+/*== END SECTION 1 - CONTENT ABOUT  ==*/
+/*== SECTION 2 - VIDEO  ==*/
+.about__video .img img {
+    object-fit: cover;
+    border-radius: 15px;
+}
+/*== END SECTION 2 - VIDEO  ==*/
+/*== SECTION 3 - PARTNERS  ==*/
+.about__partners .blurred-text {
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.about__partners-wrapper .p-relative {
+    background-color: #fff;
+}
+.about__partners-wrapper .p-relative::before {
+    content: '';
+    display: block;
+    padding-bottom: 90%;
+}
+.about__partners-wrapper img {
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    height: 80%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+}
+/*== END SECTION 3 - PARTNERS  ==*/
+/*== SECTION 4 - MESSAGE  ==*/
+.about__message-text .blurred-text {
+    top: calc(50% - 10px);
+    width: 200%;
+    -webkit-text-stroke: 1.5px #ffffff80;
+}
+.about__message-text .heading-title::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 150px;
+    height: 1px;
+    background-color: #fff;
+}
+.about__message-text .heading-group {
+    margin-bottom: 35px;
+}
+.about__message-img img {
+    width: 100%;
+}
+/*== END SECTION 4 - MESSAGE  ==*/
+/*== SECTION 5 - GLANCE  ==*/
+.about__glance {
+    background-color: #F8F8F8;
+}
+.about__glance-img img {
+    width: 100%;
+    border-radius: 7px;
+}
+.about__glance-img .short {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 95%;
+    border-radius: 6px;
+}
+.about__glance-img .short p:last-child {
+    margin-bottom: 0;
+}
+.about__glance-text .blurred-text {
+    left: -30px;
+}
+.about__glance-text .icon {
+    width: 40px;
+    height: 40px;
+}
+.about__glance-text .item {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #D1D1D1;
+}
+.about__glance-text .item:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.about__glance-text .content .title {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.about__glance-text .content {
+    width: calc(100% - 40px);
+}
+.about__glance-text .content p:last-child {
+    margin-bottom: 0;
+}
+/*== END SECTION 5 - GLANCE  ==*/
+/*== SECTION 6 - LEADERSHIP  ==*/
+.about__leadership-wrapper {
+    margin-bottom: 50px;
+    justify-content: flex-end;
+}
+.about__leadership-wrapper:last-child {
+    margin-bottom: 0;
+}
+.about__leadership .blurred-text {
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.about__leadership-avt {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 400px;
+    height: 90%;
+    box-shadow: 0px 6px 10px 0px #00000040;
+    background-color: #fff;
+    z-index: 1;
+    /* background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.8) 28.4%, #FFFFFF 100%); */
+    border-radius: 26px;
+}
+.about__leadership-avt img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.about__leadership-content {
+    padding: 70px 60px 50px 250px;
+    border: 1px solid #C5C5C5;
+    border-radius: 21px;
+    width: calc(100% - 200px);
+}
+.about__leadership-content .title {
+    font-size: 28px;
+}
+.about__leadership-content .title,
+.about__leadership-content .job {
+    text-transform: uppercase;
+    color: #1B1464;
+}
+.about__leadership-content .profile::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 110px;
+    height: 5px;
+    background-color: var(--cl-sub);
+}
+/*== END SECTION 6 - LEADERSHIP  ==*/
+/*== SECTION 7 - VISION  ==*/
+.about__vision .heading-group .blurred-text {
+    left: 0;
+}
+.about__vision .heading-group {
+    margin-bottom: 90px;
+}
+.about__vision-main {
+    border: 1px solid #E6E6E6;
+    border-top-left-radius: 60px;
+}
+.about__vision-main .heading-group {
+    margin-bottom: 30px;
+}
+.about__vision-main .heading-title::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 65px;
+    height: 3px;
+    background-color: var(--cl-sub);
+}
+.about__vision-main .heading-group .blurred-text {
+    top: calc(50% - 10px);
+    left: -50px;
+}
+.about__vision-img {
+    position: relative;
+    z-index: 2;
+}
+.about__vision-main img {
+    width: 100%;
+    border-bottom-left-radius: 25px;
+    transform: scale(1.1);
+}
+.about__mission-main img {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 25px;
+}
+/*== END SECTION 7 - VISION  ==*/
+/*== SECTION 8 - CORE VALUE  ==*/
+
+/*== END SECTION 8 - CORE VALUE  ==*/

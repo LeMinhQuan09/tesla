@@ -1,0 +1,38 @@
+{
+    "config_path": "cbb99b87e872d3ad20609b426d081b44",
+    "tesla.edu.vn": {
+        "siteId": "rKVtvHLLmhtqsMyUNqqZSGAuMxfgjRyH",
+        "siteSecret": "EDT2ZJYOtRRWfGJ5CQj4T6eISdTLtoO49oUsJmOVrC7tGNZL5deL2FZ9cd8bYwe1",
+        "blogId": 1,
+        "compression": true,
+        "webhookToken": "f691c92d409c880a8ec22b237a31fb8b",
+        "home_url": "https:\/\/tesla.edu.vn",
+        "admin_url": "https:\/\/tesla.edu.vn\/wp-admin\/",
+        "hosting": "unknown",
+        "alwaysBuffer": true,
+        "isEzoicActive": false,
+        "isApoActive": false,
+        "isNginxHelperActive": false,
+        "isLateIntegrationInitRequired": false,
+        "isDlmActive": false,
+        "isWoocommerceCacheHandlerActive": false,
+        "isWoocommerceActive": false,
+        "isAeliaCurrencySwitcherActive": false,
+        "isGeoTargetingWPActive": false,
+        "dlm_downloading_url": null,
+        "dlm_download_endpoint": null,
+        "pluginVersion": "1.17.0",
+        "options_cache": {
+            "cache_handler_cache_handler": false,
+            "woocommerce_default_customer_address": false,
+            "ajaxShortcodes": {
+                "enabled": false,
+                "shortcodes": []
+            },
+            "wc_aelia_currency_switcher": {
+                "ipgeolocation_enabled": null
+            }
+        },
+        "additional_domains": []
+    }
+}

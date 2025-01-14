@@ -1,0 +1,777 @@
+# Translation of Plugins - Video Gallery &#8211; YouTube Playlist, Channel Gallery by YotuWP - Development (trunk) in German
+# This file is distributed under the same license as the Plugins - Video Gallery &#8211; YouTube Playlist, Channel Gallery by YotuWP - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-02-05 23:12:45+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.7\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - Video Gallery &#8211; YouTube Playlist, Channel Gallery by YotuWP - Development (trunk)\n"
+
+#: inc/views.php:396
+msgid "Effects"
+msgstr "Effekte"
+
+#: inc/views.php:359
+msgid "Gallery Background Color"
+msgstr "Galerie-Hintergrundfarbe"
+
+#: inc/views.php:363
+msgid "The background color of gallery."
+msgstr "Die Hintergrundfarbe der Galerie."
+
+#: inc/views.php:402
+msgid "Video Box Effect"
+msgstr "Video-Box-Effekt"
+
+#: inc/views.php:556
+msgid "Delete Cache"
+msgstr "Cache leeren"
+
+#: inc/views.php:488
+msgid "Enable Tracking?"
+msgstr "Tracking aktivieren?"
+
+#: inc/views.php:559
+msgid "Delete all videos cache to get latest update from your channel/playlist."
+msgstr "Den Video-Cache komplett löschen, um die neuesten Aktualisierungen deines Channels/Playlist zu erhalten."
+
+#: yotuwp.php:1353
+msgid "There is a error on clear cache files. Please ensure you have permission on folder /wp-content/yotuwp_cache/"
+msgstr "Es gab einen Fehler beim Löschen des Caches. Bitte stelle sicher, dass du Berechtigungen für das Verzeichnis /wp-content/yotuwp_cache/ hast"
+
+#: yotuwp.php:1356
+msgid "All cache files were deleted!"
+msgstr "Alle Cache-Dateien wurden gelöscht!"
+
+#: inc/views.php:555
+msgid "Clear cache data"
+msgstr "Cache-Daten löschen"
+
+#: inc/views.php:241 inc/views.php:253
+msgid "Yes"
+msgstr "Ja"
+
+#: inc/views.php:240 inc/views.php:252
+msgid "No"
+msgstr "Nein"
+
+#: inc/views.php:270
+msgid "Preferred captions language"
+msgstr "Bevorzugte Sprache für Bildunterschriften"
+
+#: inc/views.php:272
+msgid "Change preferred language for captions. The option value is an ISO 639-1 two-letter language code or a fully specified locale. You can get your language code from %s"
+msgstr "Bevorzugte Sprache für Bildunterschriften ändern. Der Wert der Option ist ein ISO 639-1-Zwei-Buchstaben-Code oder eine vollständige Sprachangabe. Du findest die entsprechenden Codes unter %s"
+
+#: inc/views.php:719
+msgid "Insert Shortcode"
+msgstr "Shortcode einfügen"
+
+#: inc/views.php:261
+msgid "Player Language"
+msgstr "Sprache des Players"
+
+#: inc/views.php:106
+msgid "Change video thumnail ratio to remove top and bottom bar."
+msgstr "Video-Vorschaubild-Verhältnis ändern, um Rand oben und unten zu entfernen."
+
+#: inc/views.php:238
+msgid "Enable closed captions for video. ."
+msgstr "Geschlossene Untertitel für Video aktivieren."
+
+#: inc/views.php:235
+msgid "Force Closed Captions"
+msgstr "Geschlossene Untertitel erzwingen"
+
+#: inc/views.php:247
+msgid "Show annotations"
+msgstr "Anmerkungen anzeigen"
+
+#: inc/views.php:250
+msgid "Choose whether to show annotations or not"
+msgstr "Wählen, ob Anmerkungen angezeigt werden oder nicht"
+
+#: inc/views.php:263
+msgid "The language in interface of player. Default is English. The option value is an ISO 639-1 two-letter language code or a fully specified locale. You can get your language code from %s"
+msgstr "Die Sprache der Player-Bedienoberfläche. Standard ist Englisch. Der Wert der Option ist ein ISO 639-1-Zwei-Buchstaben-Code oder eine vollständige Sprachangabe. Du findest die entsprechenden Codes unter %s"
+
+#: inc/views.php:572
+msgid "10x Audience Engagement"
+msgstr "10x Aufmerksamkeit des Publikums"
+
+#: inc/fields.php:115
+msgid "Your trial license for YotuWP is expired. Please purchase a license for keeping your customize styling. You can purchase a license <a target=\"_blank\" href=\"%s\">from here</a>"
+msgstr "Deine Testlizenz für YotuWP ist abgelaufen. Bitte erwirb eine Lizenz, um dein individuelles Styling zu behalten. Du kannst <a target=\"_blank\" href=\"%s\">hier eine erwerben</a>"
+
+#: inc/views.php:586
+msgid "More details"
+msgstr "Weitere Details"
+
+#: inc/views.php:414
+msgid "Intro"
+msgstr "Intro"
+
+#: inc/fields.php:262
+msgid "%s"
+msgstr "%s"
+
+#: yotuwp.php:1255
+msgid "Checking..."
+msgstr "Prüfen..."
+
+#: inc/views.php:27
+msgid "General"
+msgstr "Allgemein"
+
+#: inc/tracking.php:91
+msgid "No, thanks"
+msgstr "Nein, danke"
+
+#: inc/tracking.php:90
+msgid "Sure, I would love to help."
+msgstr "Klar, ich würde gerne helfen."
+
+#: inc/views.php:368
+msgid "Video Thumbnail"
+msgstr "Video-Vorschaubild"
+
+#: inc/views.php:383
+msgid "Yabnb - Grid Only"
+msgstr "Yabnb - Nur Raster"
+
+#: inc/views.php:379
+msgid "Yooglus - Grid Only"
+msgstr "Yooglus - Nur Raster"
+
+#: inc/views.php:372
+msgid "Style for a video on list"
+msgstr "Stil für ein Video auf der Liste"
+
+#: inc/views.php:149
+msgid "The distance betwen top browser with player when play a video. Set 0 for auto center player in screen. Default : 100(px)"
+msgstr "Der Abstand zwischen der Oberseite des Browsers zum Player beim Abspielen eines Videos. 0 einstellen für automatisches Zentrieren des Players. Standard: 100(px)"
+
+#: yotuwp.php:1253
+msgid "Please insert license key before verify"
+msgstr "Bitte Lizenzschlüssel eingeben und dann prüfen"
+
+#: yotuwp.php:1254
+msgid "Are you sure about deactivation current license for this domain?"
+msgstr "Bist du sicher, dass du die aktuelle Lizenz für diese Domain deaktivieren willst?"
+
+#: inc/fields.php:113
+msgid "You are using YotuWP Pro trial license. You have %s days left to active license before all advance features leave to default settings."
+msgstr "Du benutzt eine Testlizenz von YotuWp Pro. Du hast noch %s Tage, um die Lizenz zu aktivieren, bevor alle fortgeschrittenen Funktionen auf Standardwerte zurückgesetzt werden."
+
+#: inc/tracking.php:89 inc/views.php:492
+msgid "Allow <strong>YotuWP - YouTube Gallery</strong> to track plugin usage? Become a contributor by opting in to our anonymous data tracking. We guarantee no sensitive data is collected."
+msgstr "<strong>YotuWP - YouTube Gallery</strong> ermöglichen, Daten über die Benutzung zu sammeln? Werde zum Mitwirkenden, indem du anonymes Datensammeln erlaubst. Wir garantieren, dass wir keine sensiblen Daten sammeln."
+
+#: yotuwp.php:1160
+msgid "Once a Year"
+msgstr "Einmal pro Jahr"
+
+#: yotuwp.php:1150
+msgid "Once Every 10 Days"
+msgstr "Einmal in 10 Tagen"
+
+#: yotuwp.php:1140
+msgid "Once Every 3 Days"
+msgstr "Einmal in 3 Tagen"
+
+#: yotuwp.php:1130
+msgid "Once Every 10 Hours"
+msgstr "Einmal in 10 Stunden"
+
+#: yotuwp.php:1125
+msgid "Once Every 9 Hours"
+msgstr "Einmal in 9 Stunden"
+
+#: yotuwp.php:1120
+msgid "Once Every 8 Hours"
+msgstr "Einmal in 8 Stunden"
+
+#: yotuwp.php:1115
+msgid "Once Every 7 Hours"
+msgstr "Einmal in 7 Stunden"
+
+#: yotuwp.php:1110
+msgid "Once Every 6 Hours"
+msgstr "Einmal in 6 Stunden"
+
+#: yotuwp.php:1105
+msgid "Once Every 5 Hours"
+msgstr "Einmal in 5 Stunden"
+
+#: yotuwp.php:1100
+msgid "Once Every 4 Hours"
+msgstr "Einmal in 4 Stunden"
+
+#: yotuwp.php:1095
+msgid "Once Every 3 Hours"
+msgstr "Einmal in 3 Stunden"
+
+#: yotuwp.php:1090
+msgid "Once Every 2 Hours"
+msgstr "Einmal in 2 Stunden"
+
+#: yotuwp.php:1085
+msgid "Once an Hour"
+msgstr "Einmal pro Stunde"
+
+#: yotuwp.php:1080
+msgid "Twice an Hour"
+msgstr "Zweimal pro Stunde"
+
+#: yotuwp.php:1075
+msgid "Once Every 15 Minutes"
+msgstr "Einmal in 15 Minuten"
+
+#: yotuwp.php:1070
+msgid "Once Every 5 Minutes"
+msgstr "Einmal in 5 Minuten"
+
+#: yotuwp.php:1065
+msgid "Once Every 1 Minute"
+msgstr "Einmal pro Minute"
+
+#: yotuwp.php:936
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+#: inc/views.php:872 inc/views.php:1001
+msgid "Version"
+msgstr "Version"
+
+#: inc/views.php:510
+msgid "Enable?"
+msgstr "Aktivieren?"
+
+#: templates/pagination.php:19
+msgid "of"
+msgstr "von"
+
+#: yotuwp.php:1248
+msgid "Search Results:"
+msgstr "Suchergebnisse:"
+
+#. Author URI of the plugin
+msgid "https://www.yotuwp.com/contact/"
+msgstr "https://www.yotuwp.com/contact/"
+
+#. Plugin URI of the plugin
+msgid "https://www.yotuwp.com/"
+msgstr "https://www.yotuwp.com/"
+
+#. Plugin Name of the plugin
+msgid "YotuWP - YouTube Gallery"
+msgstr "YotuWP - YouTube Gallery"
+
+#: yotuwp.php:922 yotuwp.php:935
+msgid "YotuWP"
+msgstr "YotuWP"
+
+#: yotuwp.php:827
+msgid "Template not found : "
+msgstr "Template nicht gefunden: "
+
+#: inc/views.php:874
+msgid "YotuWP Settings"
+msgstr "YotuWP-Einstellungen"
+
+#: inc/views.php:707
+msgid "Do you need help?"
+msgstr "Brauchst du Hilfe?"
+
+#: inc/views.php:698
+msgid "Use default options"
+msgstr "Standardoptionen verwenden"
+
+#: inc/views.php:630
+msgid "Username"
+msgstr "Benutzername"
+
+#: inc/views.php:627
+msgid "Channel"
+msgstr "Channel"
+
+#: inc/views.php:624
+msgid "Playlist/List"
+msgstr "Playlist/Liste"
+
+#: inc/views.php:589
+msgid "Document"
+msgstr "Dokument"
+
+#: inc/views.php:594
+msgid "Read this article"
+msgstr "Lies diesen Beitrag"
+
+#: inc/views.php:280
+msgid "Styling"
+msgstr "Styling"
+
+#: inc/views.php:519
+msgid "Timeout"
+msgstr "Timeout"
+
+#: inc/views.php:504
+msgid "Cache"
+msgstr "Cache"
+
+#: inc/views.php:479
+msgid "Youtube API Key"
+msgstr "Youtube API Key"
+
+#: inc/views.php:472
+msgid "API"
+msgstr "API"
+
+#: inc/views.php:218
+msgid "Show info"
+msgstr "Information anzeigen"
+
+#: inc/views.php:202
+msgid "Loop"
+msgstr "Schleife"
+
+#: inc/views.php:194
+msgid "Related Videos"
+msgstr "Verwandte Videos"
+
+#: inc/views.php:170
+msgid "Controls"
+msgstr "Steuerungen"
+
+#: inc/views.php:131
+msgid "Large"
+msgstr "Groß"
+
+#: inc/views.php:132
+msgid "Popup"
+msgstr "Pop-up"
+
+#: inc/views.php:139
+msgid "Player width"
+msgstr "Breite des Players"
+
+#: inc/views.php:126
+msgid "Player Mode"
+msgstr "Player-Modus"
+
+#: inc/views.php:120
+msgid "Player"
+msgstr "Player"
+
+#: inc/views.php:129
+msgid "Layout for video player."
+msgstr "Layout für Video-Player."
+
+#: inc/views.php:43
+msgid "Columns"
+msgstr "Spalten"
+
+#: inc/views.php:19
+msgid "Mix"
+msgstr "Mix"
+
+#: inc/views.php:18
+msgid "List"
+msgstr "Liste"
+
+#: inc/views.php:17
+msgid "Grid"
+msgstr "Raster"
+
+#: inc/views.php:36
+msgid "Layout for display videos."
+msgstr "Layout zur Anzeige der Videos."
+
+#: inc/views.php:33
+msgid "Videos Layout Template"
+msgstr "Videos-Layout-Template"
+
+#: inc/fields.php:203
+msgid " Settings"
+msgstr "Einstellungen"
+
+#: inc/fields.php:237
+msgid "Style %s"
+msgstr "Stil %s"
+
+#. Description of the plugin
+msgid "Easy embed YouTube playlist, channel, videos and user videos to posts/pages/widgets"
+msgstr "Einfaches Einbinden von YouTube-Playlisten, Channels und Videos auf Beiträgen/Seiten/Widgets"
+
+#: yotuwp.php:995 yotuwp.php:998
+msgid "Yotu - Embed Youtube"
+msgstr "Yotu - Embed Youtube"
+
+#: yotuwp.php:944 yotuwp.php:945
+msgid "Shortcode Generator"
+msgstr "Shortcode-Generator"
+
+#: inc/views.php:639
+msgid "By Keyword"
+msgstr "Nach Schlüsselwort"
+
+#: inc/views.php:636
+msgid "Multi Videos"
+msgstr "Multi-Videos"
+
+#: inc/views.php:633
+msgid "Single Video"
+msgstr "Einzelnes Video"
+
+#: inc/views.php:594
+msgid "You do not know how to get YouTube API key"
+msgstr "Du weißt nicht, wie du einen YouTube-API-Schlüssel erhältst"
+
+#: inc/views.php:591
+msgid "Read more"
+msgstr "Weiterlesen"
+
+#: inc/views.php:591
+msgid "YotuWP Document"
+msgstr "YotuWP-Dokument"
+
+#: inc/views.php:292 inc/views.php:375
+msgid "Default"
+msgstr "Standard"
+
+#: inc/views.php:210
+msgid "Branding logo"
+msgstr "Branding-Logo"
+
+#: inc/views.php:323
+msgid "Button Text Color"
+msgstr "Button-Textfarbe"
+
+#: inc/views.php:326
+msgid "The color of text on button."
+msgstr "Die Farbe des Button-Textes."
+
+#: inc/views.php:332
+msgid "Button Background Color"
+msgstr "Button-Hintergrundfarbe"
+
+#: inc/views.php:336
+msgid "The button background color."
+msgstr "Die Hintergrundfarbe des Buttons."
+
+#: inc/views.php:341
+msgid "Button Color Hover"
+msgstr "Button-Farbe bei Mauszeigerkontakt"
+
+#: inc/views.php:345
+msgid "The color of text button on hover."
+msgstr "Die Farbe des Buttons bei Mauszeigerkontakt."
+
+#: inc/views.php:350
+msgid "Button Background Color Hover"
+msgstr "Button-Hintergrundfarbe bei Mauszeigerkontakt"
+
+#: inc/views.php:354
+msgid "The background color of button on hover."
+msgstr "Die Hintergrundfarbe des Buttons bei Mauszeigerkontakt."
+
+#: yotuwp.php:1251
+msgid "Play next video."
+msgstr "Nächstes Video abspielen."
+
+#: yotuwp.php:1252
+msgid "Play previous video."
+msgstr "Voriges Video abspielen."
+
+#: templates/pagination.php:6
+msgid "Load more"
+msgstr "Mehr laden"
+
+#: yotuwp.php:1250
+msgid "YotuWP: 500 Internal Server Error. Please inform administrator about issues."
+msgstr "YotuWP: 500 Internal Server Error. Bitte informiere den Administrator der Website darüber."
+
+#: inc/views.php:734
+msgid "You can follow guide to get API Key and setup it."
+msgstr "Du kannst der Anleitung folgen, um einen API-Schlüssel zu erhalten und diesen einzurichten."
+
+#: inc/views.php:696
+msgid "Step #2: Layout Settings"
+msgstr "Schritt #2: Layout-Einstellungen"
+
+#: inc/views.php:707 inc/views.php:734
+msgid "Check out document here"
+msgstr "Lies das Dokument hier"
+
+#: inc/views.php:723
+msgid "Step #3: Copy your shortcode"
+msgstr "Schritt #3: Deinen Shortcode kopieren"
+
+#: inc/views.php:647 inc/views.php:654 inc/views.php:663 inc/views.php:672
+#: inc/views.php:681 inc/views.php:690
+msgid "Verify"
+msgstr "Prüfen"
+
+#: inc/views.php:608
+msgid "contact form"
+msgstr "Kontaktformular"
+
+#: inc/views.php:605
+msgid "WordPress.org forum"
+msgstr "WordPress.org-Forum"
+
+#: inc/views.php:603
+msgid "Support"
+msgstr "Support"
+
+#: inc/views.php:314
+msgid "Button Style"
+msgstr "Button-Stil"
+
+#: inc/views.php:296
+msgid "Center No Text"
+msgstr "Zentriert ohne Text"
+
+#: inc/views.php:300
+msgid "Both Side"
+msgstr "Beidseitig"
+
+#: inc/views.php:304
+msgid "Both Side No Text"
+msgstr "Beidseitig kein Text"
+
+#: inc/views.php:318
+msgid "The styling for all buttons. Select one of them to using."
+msgstr "Das Styling für alle Buttons. Eines auswählen."
+
+#: inc/views.php:608
+msgid "Or send us message from "
+msgstr "Oder sende uns eine Nachricht von"
+
+#: inc/views.php:621
+msgid "Step #1: Select type videos you want to inserts"
+msgstr "Schritt #1: Video-Typ auswählen, den du einfügen wilst"
+
+#: inc/views.php:481
+msgid "Follow %s to get your own YouTube API key"
+msgstr "Folge %s, um deinen eigenen YouTube-API-Schlüssel zu erhalten"
+
+#: inc/views.php:221
+msgid "Enable information like the video title and uploader before the video starts playing."
+msgstr "Informationen wie Video-Titel und Uploader aktivieren, bevor das Video abgespielt wird."
+
+#: inc/views.php:186
+msgid "Auto Next Video"
+msgstr "Auto-nächstes-Video"
+
+#: inc/views.php:178
+msgid "Auto play"
+msgstr "Auto-Play"
+
+#: inc/views.php:87
+msgid "Videos Title?"
+msgstr "Videos-Titel?"
+
+#: inc/views.php:90
+msgid "Display video title on listing."
+msgstr "Video-Titel in der Liste anzeigen."
+
+#: inc/views.php:95
+msgid "Videos Description?"
+msgstr "Video-Beschreibung?"
+
+#: inc/views.php:98
+msgid "Display video description on listing."
+msgstr "Video-Beschreibung in der Liste anzeigen."
+
+#: inc/views.php:103
+msgid "Video Thumbnail Ratio"
+msgstr "Video-Vorschaubild-Verhältnis"
+
+#: inc/views.php:141
+msgid "The default width of player. Set 0 to use full container width player. Default : 600(px)"
+msgstr "Die Standardbreite des Players. Auf 0 setzen für volle Breite des Video-Containers. Standard: 600(px)"
+
+#: inc/views.php:75
+msgid "Pagination type"
+msgstr "Seitennummerierung-Typ"
+
+#: inc/views.php:70
+msgid "The pagination for reaching more videos on list."
+msgstr "Die Seitennummerierung, um weitere Videos in der Liste zu erreichen."
+
+#: inc/views.php:67
+msgid "Pagination?"
+msgstr "Seitennummerierung?"
+
+#: inc/views.php:59
+msgid "Videos per page"
+msgstr "Videos pro Seite"
+
+#: inc/views.php:62
+msgid "The limit number videos per page."
+msgstr "Die Maximalzahl von Videos pro Seite."
+
+#: inc/views.php:46
+msgid "The number columns of videos on Grid and Mix layout mode."
+msgstr "Die Anzahl Spalten von Videos im Raster und Mix-Layout-Modus."
+
+#: inc/fields.php:234 templates/pagination.php:5
+msgid "Next"
+msgstr "Nächstes"
+
+#: inc/fields.php:233 templates/pagination.php:4
+msgid "Prev"
+msgstr "Voriges"
+
+#: yotuwp.php:1247
+msgid "Resource not found, please inform administrator about issues."
+msgstr "Resource nicht gefunden. Bitte informiere den Administrator der Website darüber."
+
+#: yotuwp.php:1246
+msgid "Resource not found, please ensure you has correct information."
+msgstr "Resource nicht gefunden. Bitte sicherstellen, dass du korrekte Informationen hast."
+
+#: yotuwp.php:1245
+msgid "Forbidden: You do not have permission to access resource on this server."
+msgstr "Verboten: Du hast keine Berechtigung, auf diese Ressource auf diesem Server zuzugreifen."
+
+#: inc/views.php:1004
+msgid "YotuWP Shortcode Generate"
+msgstr "YotuWP-Shortcode-Generator"
+
+#: inc/views.php:732
+msgid "Please enter your Youtube API key from <a href=\"%s#api\">setting page</a> to use this feature."
+msgstr "Bitte deinen Youtube-API-Schlüssel von der <a href=\"%s#api\">Einstellungs-Seite</a> eingeben, um diese Funktion zu nutzen."
+
+#: inc/views.php:162
+msgid "Playing Description"
+msgstr "Beschreibung des abgespielten Videos"
+
+#: inc/views.php:154
+msgid "Playing Title"
+msgstr "Titel des abgespielten Videos"
+
+#: inc/views.php:165
+msgid "Show description playing video at bottom of player. Default disabled."
+msgstr "Beschreibung des abgespielten Videos unten im Player anzeigen. Standard ist deaktiviert."
+
+#: inc/views.php:157
+msgid "Show title playing video on top of player. Default disabled."
+msgstr "Titel des abgespielten Videos oben im Player anzeigen. Standard ist deaktiviert."
+
+#: inc/views.php:147
+msgid "Scrolling Offset"
+msgstr "Scrolling-Versatz"
+
+#: inc/views.php:189
+msgid "Enable play next video in list automatically after previous one end."
+msgstr "Automatisches Abspielen des nächsten Videos der Liste nach dem Ende des vorherigen aktivieren."
+
+#: inc/views.php:286
+msgid "Pager Layout"
+msgstr "Seitenlayout"
+
+#: inc/views.php:288
+msgid "The layout for pager. Select one of them to use."
+msgstr "Das Layout für Seiten. Eine auswählen."
+
+#: inc/views.php:213
+msgid "Display your brand logo from displaying in the control bar. This option will remove YouTube logo as well."
+msgstr "Dein Brand-Logo in der Steuerleiste anzeigen. Diese Option wird außerdem das YouTube-Logo entfernen."
+
+#: inc/views.php:513
+msgid "The cache to reduce time for loading videos. Give best experience to your readers."
+msgstr "Der Cache zur Verringerung der Ladezeit von Videos. Gib deinen Besuchern die beste Erfahrung."
+
+#: inc/views.php:522
+msgid "The time your cache removed after created to ensure your videos are fresh."
+msgstr "Die Ablaufzeit deines Caches, damit deine Videos aktuell sind."
+
+#: inc/views.php:605
+msgid "For futher question and suggestion, please open theard on"
+msgstr "Für weitere Fragen und Vorschläge bitte einen Thread eröffnen auf"
+
+#: inc/views.php:226
+msgid "Modal Thumbnails"
+msgstr "Modale Vorschaubilder"
+
+#: inc/views.php:229
+msgid "Display list of videos on Modal popup player."
+msgstr "Videoliste auf modalem Pop-up-Player anzeigen."
+
+#: inc/views.php:658
+msgid "Please enter username you want to get videos. Then press Verify button to checking data."
+msgstr "Bitte Benutzernamen als Videoquelle angeben. Dann den Prüfen-Button klicken, um die Daten zu prüfen."
+
+#: inc/views.php:651
+msgid "Please enter channel URL for getting info. Then press Verify button to checking data."
+msgstr "Bitte Channel-URL als Informationsquelle angeben. Dann den Prüfen-Button klicken, um die Daten zu prüfen."
+
+#: inc/views.php:644
+msgid "Please enter playlist/list URL for getting info. Then press Verify button to checking data."
+msgstr "Bitte Playlist/Listen-URL als Informationsquelle angeben. Dann den Prüfen-Button klicken, um die Daten zu prüfen."
+
+#: inc/views.php:205
+msgid "In the case of a single video player, enable this for the player to play the initial video again and again."
+msgstr "Im Falle eines einzelnen Video-Players, dies aktivieren, um das Startvideo wieder und wieder abzuspielen."
+
+#: inc/views.php:667
+msgid "Enter your video URL into text box below. Each video filled into each line. Then press Verify button to checking data."
+msgstr "Eine Video-URL in das Textfeld unten eingeben. Ein Video pro Zeile. Dann den Prüfen-Button klicken, um die Daten zu prüfen."
+
+#: inc/views.php:676
+msgid "Enter your videos URL into text box below. Each video filled into each line. Then press Verify button to checking data."
+msgstr "Video-URLs in das Textfeld unten eingeben. Ein Video pro Zeile. Dann den Prüfen-Button klicken, um die Daten zu prüfen."
+
+#: inc/views.php:685
+msgid "Enter your keyword into text box below to listing all videos with that keyword."
+msgstr "Gib dein Schlüsselwort in das Textfeld unten ein, um alle Videos mit diesem Schlüsselwort aufzulisten."
+
+#: inc/views.php:750
+msgid "YotuWP warning: API Key was removed, please contact to your admin about this issues."
+msgstr "YotuWP-Warnung: API-Schlüssel wurde entfernt. Bitte informiere den Administrator der Website darüber."
+
+#: inc/views.php:181
+msgid "This parameter specifies whether the initial video will automatically start to play when the player loads."
+msgstr "Dieser Parameter legt fest, ob das Startvideo automatisch startet, nachdem der Player geladen wurde."
+
+#: inc/views.php:1005
+msgid "This feature helps you generate YotuWP shortcode to adding to any page builder, product description or widget."
+msgstr "Diese Funktion hilft dir, YotuWP-Shortcodes zu erstellen, um diese jedwedem Page Builder, Produktbeschreibung oder Widget hinzuzufügen."
+
+#: inc/views.php:173
+msgid "This parameter indicates whether the video player controls are displayed"
+msgstr "Dieser Parameter gibt an, ob die Steuerelemente des Players angezeigt werden"
+
+#: inc/views.php:197
+msgid "This parameter indicates whether the player should show related videos when playback of the initial video ends."
+msgstr "Dieser Parameter gibt an, ob nach dem Abspielen des Startvideos verwandte Videos im Player angezeigt werden."
+
+#: yotuwp.php:1249
+msgid "YotuWP: An issue happend when getting the videos, please check your connection and refresh page again."
+msgstr "YotuWP: Beim Abrufen der Videos ist ein Problem aufgetreten. Bitte prüfe deine Verbindung und lade die Seite erneut."
+
+#: inc/views.php:861
+msgid "Thank you for activation YotuWP! Set your API key to start using. <a href=\"https://www.yotuwp.com/document/?utm_source=clientsite&amp;utm_medium=docs&amp;utm_campaign=doc\" target=\"_blank\">Read more</a>"
+msgstr "Danke für die Aktivierung von YotuWP! Gib deinen API-Schlüssel ein, um loszulegen. <a href=\"https://www.yotuwp.com/document/?utm_source=clientsite&amp;utm_medium=docs&amp;utm_campaign=doc\" target=\"_blank\">Weiterlesen</a>"
+
+#: inc/views.php:752
+msgid "YotuWP: An issue happend when getting the videos, please check your connection and refresh page again ."
+msgstr "YotuWP: Beim Abrufen der Videos ist ein Problem aufgetreten. Bitte prüfe deine Verbindung und lade die Seite erneut."
+
+#: yotuwp.php:1145
+msgid "Once a Week"
+msgstr "Wöchentlich"
+
+#: yotuwp.php:1155
+msgid "Once a Month"
+msgstr "Monatlich"
+
+#: yotuwp.php:1135
+msgid "Once a Day"
+msgstr "Täglich"

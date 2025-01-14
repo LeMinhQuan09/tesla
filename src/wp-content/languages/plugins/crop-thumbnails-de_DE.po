@@ -1,0 +1,280 @@
+# Translation of Plugins - Crop-Thumbnails - Stable (latest release) in German
+# This file is distributed under the same license as the Plugins - Crop-Thumbnails - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-10-23 06:59:16+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - Crop-Thumbnails - Stable (latest release)\n"
+
+#: functions/rest.settings.php:99
+msgid "Let user decide (default)"
+msgstr "Den Benutzer entscheiden lassen."
+
+#: functions/rest.settings.php:97
+msgid "You may specify that users do not have a selection option for “Grouping with the same aspect ratio”. Select the type of grouping that should apply to all users here."
+msgstr "Sie können festlegen, dass die Benutzer keine Auswahlmöglichkeit für „Gruppierung mit gleichem Seitenverhältnis“ haben. Wählen Sie hier die Art der Gruppierung, die für alle Benutzer gelten soll."
+
+#: functions/rest.settings.php:96
+msgid "Grouping with same aspect ration"
+msgstr "Gruppieren bei selben Seitenverhältnis"
+
+#: functions/rest.settings.php:91
+msgid "User Settings"
+msgstr "Benutzer Einstellungen"
+
+#: functions/editor.php:81
+msgid "An unknown error occured."
+msgstr "Ein unbekannter Fehler ist aufgetreten."
+
+#: functions/rest.settings.php:114
+msgid "Are you sure, you want to reset all plugin settings?"
+msgstr "Sind Sie sicher, dass Sie alle Plugin-Einstellungen zurücksetzen wollen?"
+
+#: functions/rest.settings.php:113
+msgid "Reset all plugin settings"
+msgstr "alle Plugin-Einstellungen zurücksetzen"
+
+#: functions/rest.settings.php:112
+msgid "Include plugins javascript on all admin pages (normally not needed, but usefull if you want to add the functionality also i.e. on categories)."
+msgstr "Bindet den Javascript-Code des Plugins auf allen Backend-Seiten ein (normalerweise nicht erforderlich, aber nützlich, wenn Sie die Funktionalität mittels Filtern auch z.B. auf Kategorien hinzufügen wollen)."
+
+#: functions/rest.settings.php:87
+msgid "Successful saved"
+msgstr "Erfolgreich gespeichert."
+
+#: functions/editor.php:72
+msgid "use large handles"
+msgstr "große Kontrollflächen verwenden"
+
+#: functions/editor.php:61
+msgid "Choose an image size."
+msgstr "Wählen Sie eine Bildgröße aus."
+
+#: functions/editor.php:83
+msgid "Selected image sizes"
+msgstr "Ausgewählte Bildgrößen"
+
+#: functions/editor.php:82
+msgid "No image sizes for cropping available."
+msgstr "Keine Bildgrößen für den Bild-Zuschnitt verfügbar."
+
+#: functions/editor.php:70 functions/rest.settings.php:101
+msgid "Group together"
+msgstr "gruppieren"
+
+#: functions/editor.php:69 functions/rest.settings.php:100
+msgid "Select together"
+msgstr "gemeinsam auswählen"
+
+#: functions/editor.php:68
+msgid "Do nothing"
+msgstr "nichts tun"
+
+#: functions/editor.php:67 functions/rest.settings.php:98
+msgid "Images with same ratio"
+msgstr "Bilder mit gleichem Seitenverhältnis"
+
+#: functions/rest.settings.php:95
+msgid "When active, only users who are able to edit files can crop thumbnails. Otherwise (default), any user who can upload files can also crop thumbnails."
+msgstr "Wenn aktiv, können nur Benutzer, die in der Lage sind, Dateien zu bearbeiten, Miniaturansichten zuschneiden. Ansonsten (Standard) kann jeder Benutzer, der Dateien hochladen kann, auch Miniaturansichten zuschneiden."
+
+#: functions/rest.settings.php:94
+msgid "User Permission"
+msgstr "Benutzerberechtigung"
+
+#: functions/editor.php:80 functions/save.php:373
+msgid "You are not permitted to crop the thumbnails."
+msgstr "Es ist dir nicht gestattet, die Miniaturansichten zuzuschneiden."
+
+#: functions/rest.settings.php:107
+msgid "Hide Crop-Thumbnails button below the featured image?"
+msgstr "Crop-Thumbnail-Button unter dem Beitragsbild ausblenden?"
+
+#: functions/rest.settings.php:106
+msgid "Choose the image sizes you do not want to show, if the user uses the button below the featured image box."
+msgstr "Wählen Sie die Bildgrößen, die Sie nicht anzeigen möchten, wenn der Benutzer den Button unter dem Beitragsbild verwendet."
+
+#: functions/editor.php:77
+msgid "Not yet cropped by WordPress."
+msgstr "Wurde bisher nicht von WordPress zugeschnitten."
+
+#: functions/editor.php:79
+msgid "The plugin can not correctly connect to the server."
+msgstr "Fehler beim Verbindungsaufbau zum Server."
+
+#. Description of the plugin
+#: crop-thumbnails.php
+msgid "The easy way to adjust your cropped image sizes."
+msgstr "Auf einfache Art die zugeschnittenen Bildgrößen bearbeiten."
+
+#: functions/editor.php:78
+msgid "This image has an image orientation value in its exif-metadata. Be aware that this may result in rotatated or mirrored images on safari ipad / iphone."
+msgstr "Dieses Bild nutzt eine Bild-Rotation in seinen EXIF-Metadaten. Beachten Sie, dass das zu gedrehten oder gespiegelten Bildern beim Safari-Browser (IPad, IPhone) führen kann."
+
+#: functions/editor.php:64
+msgid "Step 2: Change the selection of the image above."
+msgstr "Schritt 2: Ändern Sie den Auswahlrahmen im obigen Bild."
+
+#. Author URI of the plugin
+#: crop-thumbnails.php
+msgid "https://www.totalmedial.de"
+msgstr "https://www.totalmedial.de"
+
+#. Author of the plugin
+#: crop-thumbnails.php
+msgid "Volkmar Kantor"
+msgstr "Volkmar Kantor"
+
+#. Plugin URI of the plugin
+#: crop-thumbnails.php
+msgid "https://wordpress.org/extend/plugins/crop-thumbnails/"
+msgstr "https://wordpress.org/extend/plugins/crop-thumbnails/"
+
+#: functions/rest.settings.php:105
+msgid "Crop-Thumbnails will only show cropped images. Sizes with no crop will always be hidden."
+msgstr "Crop Thumbnails wird nur Bilder anzeigen die einen Zuschnitt besitzen. Bildgrößen ohne Zuschnitt werden immer ausgeblendet."
+
+#: functions/rest.settings.php:104
+msgid "Crop-Thumbnails is designed to make cropping images easy. For some post types, not all crop sizes are needed, but the plugin will automatically create all the crop sizes. Here you can select which crop sizes are available in the cropping interface for each post type."
+msgstr "Crop Thumbnails wurde erstellt, um das Zuschneiden von Bildern für den Benutzer zu erleichtern. Oft muss der Nutzer nur eine Bildgröße zuschneiden, abhängig vom Typ des Eintrags. Das System (WordPress) wird aber immer alle Größen erstellen. Hier können Sie auswählen, für welche Eintragstypen welche Bildgrößen in der Plugin-Oberfläche angezeigt werden sollen."
+
+#: functions/rest.settings.php:111
+msgid "Enable Data-Debug."
+msgstr "Daten-Debug einschalten"
+
+#: functions/rest.settings.php:110
+msgid "Enable JS-Debug."
+msgstr "JS-Debug einschalten"
+
+#: functions/rest.settings.php:90
+msgid "Developer Settings"
+msgstr "Enwickler-Einstellungen"
+
+#: functions/rest.settings.php:89
+msgid "Plugin Test"
+msgstr "Plugin Test"
+
+#: functions/rest.settings.php:88
+msgid "Sizes and Post Types"
+msgstr "Größen und Eintragstypen"
+
+#: functions/rest.settings.php:118
+msgid "You can support the plugin author (and let him know you love this plugin) by donating via Paypal. Thanks a lot!"
+msgstr "Sie können den Entwickler unterstützen (und ihn so wissen lassen, dass sie dieses Plugin lieben), indem sie ihm eine Paypal-Spende zukommen lassen. Vielen Dank!"
+
+#: functions/rest.settings.php:117
+msgid "Support the plugin author"
+msgstr "Unterstützen Sie den Plugin Entwickler"
+
+#: functions/rest.settings.php:86
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: functions/settingsscreen.php:37
+msgid "Crop Post Thumbnail Page"
+msgstr "Crop-Post-Thumbnail Seite"
+
+#: functions/settingsscreen.php:30 functions/settingsscreen.php:43
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: functions/save.php:61
+msgid "ERROR: Can't find original image metadata!"
+msgstr "Fehler: Konnte Original-Bild-Metadaten nicht finden!"
+
+#: functions/save.php:55
+msgid "ERROR: Can't find original image file!"
+msgstr "Fehler: Konnte die Original-Bilddatei nicht finden!"
+
+#: functions/save.php:394
+msgid "ERROR: Can't find original image in database!"
+msgstr "Fehler: Konnte die Original Bild nicht in der Datenbank finden!"
+
+#: functions/save.php:362 functions/save.php:369 functions/save.php:377
+msgid "ERROR: Submitted data is incomplete."
+msgstr "Fehler: Übermittelte Daten sind nicht vollständig."
+
+#: functions/save.php:123
+msgid "Can't delete temporary file."
+msgstr "Löschen der temporären Datei fehlgeschlagen."
+
+#: functions/save.php:119
+msgid "Can't copy temporary file to media library."
+msgstr "Kopieren vom temporären Verzeichnis in die Mediathek fehlgeschlagen."
+
+#: functions/save.php:111
+msgid "Can't generate filesize '%s'."
+msgstr "Die Bildgröße '%s' konnte nicht generiert werden."
+
+#: functions/editor.php:74
+msgid "Ratio:"
+msgstr "Seitenverhältnis:"
+
+#: functions/editor.php:73
+msgid "Dimensions:"
+msgstr "Größe:"
+
+#: functions/editor.php:76
+msgid "Original image size too small for good crop quality!"
+msgstr "Original-Bild ist zu klein für guten Bildzuschnitt!"
+
+#: functions/editor.php:75
+msgid "cropped"
+msgstr "zugeschnitten"
+
+#: functions/editor.php:71
+msgid "deselect all"
+msgstr "nichts auswählen"
+
+#: functions/editor.php:65
+msgid "Step 3: Click on \"Save Crop\"."
+msgstr "Schritt 3: Klicken Sie auf \"Zuschnitt übernehmen\"."
+
+#: functions/editor.php:63
+msgid "Step 1: Choose an image-size from the list."
+msgstr "Schritt 1: Wählen Sie eine Bildgröße aus der Liste."
+
+#: functions/editor.php:62
+msgid "Quick Instructions"
+msgstr "Schnell-Anleitung"
+
+#: functions/editor.php:66
+msgid "Save Crop"
+msgstr "Zuschnitt übernehmen"
+
+#: functions/editor.php:60
+msgid "pixel"
+msgstr "Pixel"
+
+#: functions/editor.php:59
+msgid "Raw"
+msgstr "Original-Bild"
+
+#: functions/editor.php:58
+msgid "Please wait until the images are cropped."
+msgstr "Bitte warten Sie bis die Bilder zugeschnitten wurden."
+
+#: functions/editor.php:56
+msgid "Warning: the original image is too small to be cropped in good quality with this thumbnail size."
+msgstr "Warnung: das Original-Bild ist zu klein um es für diese Thumbnail-Größe in guter Qualität zuzuschneiden."
+
+#: functions/editor.php:57
+msgid "Cropping is disabled for this post-type."
+msgstr "Das Zuschneiden ist für diesen Eintragstyp deaktiviert."
+
+#. Plugin Name of the plugin
+#: crop-thumbnails.php
+msgid "Crop Thumbnails"
+msgstr "Crop Thumbnails"
+
+#: functions/backendpreparer.php:118 functions/backendpreparer.php:119
+#: functions/backendpreparer.php:172 functions/backendpreparer.php:173
+#: functions/backendpreparer.php:219 functions/backendpreparer.php:281
+#: functions/backendpreparer.php:282
+msgid "Crop Featured Image"
+msgstr "Artikelbild zuschneiden"

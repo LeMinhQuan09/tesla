@@ -1,0 +1,1016 @@
+/*======= HD CSS =======*/
+/*== CSS STYLE ALL  ==*/
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('../fonts/svn-gotham/SVN-Gotham.woff2') format('woff2'),
+        url('../fonts/svn-gotham/SVN-Gotham.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SVN-GothamBook';
+    src: url('../fonts/svn-gotham/SVN-GothamBook.woff2') format('woff2'),
+        url('../fonts/svn-gotham/SVN-GothamBook.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+.container-1570 {
+	max-width: 1570px !important;
+}
+.heading-title {
+	font-size: 33px;
+	/* font-weight: 800; */
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	font-family: "SVN-Gotham";
+	line-height: 42px;
+}
+.heading-group {
+	margin-bottom: 60px;
+}
+.heading-group .heading-title {
+	margin-bottom: 0;
+}
+.blurred-text {
+	font-size: 100px;
+	font-family: sans-serif;
+	font-weight: 800;
+	opacity: .1;
+	text-transform: uppercase;
+	line-height: 95px;
+	color: transparent;
+    -webkit-text-stroke: 3px var(--cl-main);
+	position: absolute;
+    top: 50%;
+    left: -10px;
+    transform: translateY(-50%);
+	z-index: -1;
+	width: 100%;
+}
+.p-absolute-full {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.text-justify {
+    text-align: justify;
+}
+.flex-direction-column {
+	flex-direction: column;
+}
+.flex-direction-row {
+	flex-direction: row;
+}
+.ml-auto {
+	margin-left: auto;
+}
+.mr-auto {
+	margin-right: auto;
+}
+.ml-12 {
+	margin-left: 12px;
+}
+.mr-12 {
+	margin-right: 12px;
+}
+.line-clamp-2 {
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+.line-clamp-3 {
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+.e-btn, .w-btn {
+	display: inline-block;
+	height: 42px;
+	line-height: 40px;
+	text-align: center;
+	padding: 0 16px;
+	background: var(--cl-sub);
+	border-radius: 7px;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700;
+}
+.e-btn > span {
+	position: relative;
+	color: #fff;
+	padding-left: 30px;
+	white-space: nowrap;
+}
+.w-btn {
+	background: #fff;
+	color: var(--cl-main);
+	border: 1px solid var(--cl-main);
+}
+.w-btn img {
+	width: 18px;
+	height: 18px;
+	margin-right: 5px;
+}
+.btn-view {
+	height: 40px;
+	font-size: 14px;
+	width: fit-content;
+	border-radius: 7px;
+	padding: 0 40px;
+	background-color: var(--cl-sub);
+	color: #FFFFFF;
+}
+.btn-view::after {
+	content: "\f101";
+	font-family: "Font Awesome 5 Pro";
+	font-size: 14px;
+	line-height: 30px;
+	padding-left: 5px;
+}
+.btn-view:hover {
+	background-color: var(--cl-third);
+	color: #fff;
+}
+.btn-outline:hover {
+	background-color: var(--cl-third);
+	color: #FFFFFF;
+    border-color: var(--cl-third);
+}
+.btn-outline, .btn-light-orange {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 14px;
+	width: fit-content;
+	border-radius: 7px;
+	padding: 0 40px;
+	height: 40px;
+    color: var(--cl-main);
+    background-color: transparent;
+    border: 1px solid var(--cl-main);
+}
+.btn-outline-white {
+	color: #fff;
+	border-color: #fff;
+}
+.btn-light-orange {
+	background-color: var(--cl-third);
+	color: #fff;
+	border-color: var(--cl-third);
+}
+.btn-light-orange:hover {
+	background-color: #fff;
+	color: var(--cl-main);
+	border-color: #fff;
+}
+.btn-outline-blue:hover {
+	border-color: var(--cl-main);
+}
+.custom-slider .slick-arrow {
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid var(--cl-main);
+}
+.custom-slider .slick-arrow:hover {
+	background-color: var(--cl-main);
+}
+.custom-slider .slick-arrow::before {
+    color: var(--cl-main);
+	opacity: 1;
+}
+.custom-slider .slick-arrow:hover::before {
+	color: #fff;
+}
+.custom-slider .slick-prev {
+    left: -10px;
+}
+.custom-slider .slick-next {
+    right: -10px;
+}
+.slick-arrow::before {
+    color: var(--cl-main);
+}
+.slick-dots {
+	bottom: -40px;
+}
+.slick-dots li, .slick-dots li button,
+.slick-dots li button:before {
+	width: 10px;
+	height: 10px;
+}
+.slick-dots li button {
+	padding: 0;
+}
+.slick-dots li button:before {
+	font-size: 10px;
+	line-height: 10px;
+}
+.slick-dots li button:before {
+	color: var(--cl-main);
+}
+.slick-dots li.slick-active button:before {
+	opacity: 1;
+	color: var(--cl-main);
+}
+.bg-gray {
+	background-color: #F5F5F5;
+}
+/*== END CSS STYLE ALL ==*/
+/*== CSS HERO BANNER ==*/
+.hero-banner__bg {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.hero-banner__bg::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000000B8;
+}
+.hero-banner__title {
+	text-transform: uppercase;
+	font-size: 36px;
+}
+.hero-banner__content .rank-math-breadcrumb p {
+	margin-bottom: 0;
+	font-size: 20px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.hero-banner__content .rank-math-breadcrumb .last {
+	font-weight: 700;
+}
+/*== END CSS HERO BANNER ==*/
+/*== SIDEBAR BLOG ==*/
+.sidebar__form-wrapper {
+	padding: 15px;
+	border-radius: 15px;
+	border: 3px solid var(--cl-main);
+	color: var(--cl-main);
+	font-weight: 400;
+}
+.blog__sidebar {
+	position: sticky;
+    top: 150px;
+}
+.sidebar__form-wrapper .wpforms-container-full {
+	margin-top: 0;
+}
+.sidebar__form-header .title {
+	font-weight: 700;
+	color: var(--cl-main);
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+.sidear__form-body {
+	font-size: 13px !important;
+}
+.sidear__form-body label {
+	font-size: 15px !important;
+}
+.sidear__form-body .wpforms-field-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+.sidear__form-body .wpforms-field {
+	width: 100% !important;
+}
+.sidear__form-body select, .sidear__form-body input {
+	font-size: 14px !important;
+}
+.sidear__form-body .form-column input {
+	width: 100%;
+}
+.sidear__form-body .form-column {
+	width: 50% !important;
+	padding-right: 10px !important;
+}
+.sidear__form-body .form-name {
+	padding-right: 0 !important;
+}
+.sidear__form-body .form-radio .wpforms-field-label {
+	text-align: justify;
+	font-size: 14px !important;
+	font-weight: 500 !important;
+}
+.sidear__form-body button[type=submit] {
+    font-weight: 700;
+    padding: 5px 20px !important;
+	border-radius: 8px !important;
+	background-color: var(--cl-sub) !important;
+	font-size: 14px !important;
+	color: #fff !important;
+	border: 1px solid #fff !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	display: flex !important;
+	text-transform: uppercase !important;
+}
+.sidear__form-body button[type=submit]:hover {
+	background-color: var(--cl-third) !important;
+}
+/*== END SIDEBAR BLOG ==*/
+/*== RELATED POSTS ==*/
+.related-posts .title {
+	color: var(--cl-main);
+	font-weight: 700;
+	font-size: 32px;
+	padding: 0 12px;
+}
+.related-posts .article-list {
+	margin: 0;
+}
+.related-posts .article-list .item {
+	background-color: #F2F4F7;
+	border-radius: 10px;
+}
+.related-posts .article-list .content {
+	width: calc(100% - 290px);
+}
+.related-posts .thumbnail {
+	width: 290px;
+}
+.related-posts .thumbnail img {
+	border-radius: 10px;
+}
+.related-posts .post-day {
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: normal;
+}
+.related-posts .blog-cats a {
+    border-radius: 12px;
+    display: inline-block;
+    line-height: 24px;
+    padding: 2px 12px;
+    color: #fff;
+	font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+	background-color: var(--cl-main);
+}
+.related-posts .blog-cats a:nth-child(2) {
+	background-color: var(--cl-sub);
+}
+.related-posts .blog-cats a:nth-child(3) {
+	background-color: var(--cl-third);
+}
+.related-posts .rc__title a {
+	color: #000;
+	font-weight: 700;
+	font-size: 18px;
+}
+.related-posts .rc__title a:hover {
+	color: var(--cl-main);
+}
+/*== END RELATED POSTS ==*/
+/*== TEMPLATE PUBLIC ==*/
+.section-public-template .title {
+	margin-bottom: 15px;
+}
+.section-public-template .wrapper {
+	width: 55%;
+}
+.section-public-template .wrapper .item {
+	margin-bottom: 15px;
+	border: 1px solid #f2f2f2;
+    border-radius: 8px;
+	padding: 16px;
+}
+.section-public-template .wrapper .item:last-child {
+	margin-bottom: 0;
+}
+.section-public-template .wrapper .item a {
+	color: #2E91FA;
+	font-weight: 700;
+}
+.section-public-template .wrapper .item a i {
+	padding-right: 5px;
+}
+/*== END TEMPLATE PUBLIC ==*/
+/*== TEMPLATE CALENDAR ==*/
+.iframe-calendar iframe {
+	border-radius: 20px;
+}
+/*== END TEMPLATE CALENDAR ==*/
+/*== TEMPLATE IB FAQ ==*/
+.page-template-template-ib-faq main .container {
+	max-width: 1100px !important;
+}
+.page-template-template-ib-faq .accordion-button {
+	font-weight: 600;
+	color: var(--cl-main) !important;
+}
+.page-template-template-ib-faq .accordion-item:first-of-type .accordion-button,
+#accordion-fees .accordion-item:first-of-type .accordion-button {
+	border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.page-template-template-ib-faq .accordion-button h2 {
+	margin-bottom: 0;
+}
+.page-template-template-ib-faq .accordion-button::after,
+#accordion-fees .accordion-button::after {
+	content: none;
+}
+.page-template-template-ib-faq .accordion-button::before,
+#accordion-fees .accordion-button::before {
+	background-image: none;
+	/* content: '\f067'; */
+	font-family: 'Font Awesome 5 Pro';
+	font-weight: 900;
+	font-size: 22px;
+	transform: rotate(0);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--cl-sub);
+	margin-right: 20px;
+}
+.page-template-template-ib-faq button[aria-expanded="false"]::before,
+#accordion-fees button[aria-expanded="false"]::before {
+	content: '\f067';
+}
+.page-template-template-ib-faq button[aria-expanded="true"]::before,
+#accordion-fees button[aria-expanded="true"]::before {
+	content: '\f068';
+	opacity: .8;
+}
+/*== END TEMPLATE IB FAQ ==*/
+/*== TEMPLATE CAMPUS ==*/
+/* CAMPUS BK */
+.page-template-template-campus-tour-bk .custom-title span {
+    font-size: 38px;
+}
+.page-template-template-campus-tour-bk .slides-campus .elementor-swiper-button {
+    width: 48px;
+    height: 48px;
+    background-color: var(--cl-main);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page-template-template-campus-tour-bk .slides-campus .elementor-swiper-button-prev {
+    left: -24px !important;
+}
+.page-template-template-campus-tour-bk .slides-campus .elementor-swiper-button-next {
+    right: -24px !important;
+}
+.form-campus .wpforms-field {
+    padding: 0 !important;
+    margin-bottom: 16px !important;
+    position: relative !important;
+}
+.form-campus input::placeholder {
+	font-size: 0;
+}
+.form-campus .wpforms-field-label {
+    position: absolute !important;
+    top: 16px;
+    left: 0;
+    padding-left: 24px !important;
+    margin: 0 !important;
+    font-size: 16px !important;
+    transition: all .2s ease;
+    font-weight: 400 !important;
+    line-height: normal !important;
+}
+.form-campus .wpforms-field-label.focus {
+    font-size: 10px !important;
+    top: 8px !important;
+}
+.form-campus input {
+    padding: 16px 24px 0 !important;
+}
+.form-campus select {
+    padding: 12px 24px !important;
+}
+.form-campus input, .form-campus select, .form-campus textarea {
+    height: 54px !important;
+    border-radius: 4px !important;
+    background: #f5f5f587 !important;
+    /* border: 1px solid #f5f5f587 !important; */
+}
+.form-campus .wpforms-field-select .wpforms-field-label {
+    display: none !important;
+}
+.form-campus textarea {
+    padding: 23px 24px 24px !important;
+    height: 150px !important;
+}
+.form-campus .wpforms-submit {
+    font-weight: 700;
+	display: flex !important;
+	margin: 0 auto !important;
+	height: 42px !important;
+	line-height: normal;
+	align-items: center;
+}
+/* END CAMPUS BK */
+/* CAMPUS NEW */
+.campus-tour-gallery .gallery-header {
+	text-align: center;
+	max-width: 780px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.page-template-template-campus-tour-new .title {
+	font-size: 46px;
+	margin-bottom: 30px;
+	color: var(--cl-main);
+}
+.campus-tour-gallery .gallery-row {
+	align-items: center;
+}
+.campus-tour-gallery .gallery-row .item.is-blur {
+	opacity: .4;
+	transition: opacity 0.3s ease;
+}
+.wf-field-item {
+	background-color: red;
+}
+.campus-tour-gallery .gallery-row .item.is-hover {
+	opacity: 1 !important;
+    z-index: 1;
+    transition: opacity 0.3s ease;
+}
+.campus-tour-gallery .gallery-row img {
+	border-radius: 6px;
+}
+.gallery-row .gallery-center {
+	gap: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+.gallery-row .gallery-center:first-child {
+	align-items: flex-end;
+}
+.gallery-row .gallery-center:last-child {
+	margin-bottom: 0;
+	align-items: flex-start;
+}
+.campus-tour-form .wrapper {
+	padding-top: 80px;
+	max-width: 900px !important;
+	margin: 0 auto;
+}
+.campus-tour-form .container {
+	border-top: 1px dashed #000;
+}
+/* END CAMPUS NEW */
+/*== END TEMPLATE CAMPUS ==*/
+/*== TEMPLATE VIDEOS ==*/
+.popup-video .modal-dialog {
+	max-width: 900px;
+}
+.popup-video .modal-content {
+	padding: 10px;
+	position: relative;
+}
+.popup-video .modal-body {
+    position: relative;
+	padding-bottom: 56.25%;
+}
+.popup-video iframe {
+    width: 100%;
+	height: 100%;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	position: absolute;
+	border-radius: .3em;
+}
+.popup-video .modal-button {
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	background-color: #FFFFFF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+.popup-video .modal-button .btn-close {
+	width: .8em;
+	height: .8em;
+	padding: 0;
+}
+/*== END TEMPLATE VIDEOS ==*/
+/*== TEMPLATE SCHOLARSHIPS ==*/
+.page-template-template-scholarships .wrapper {
+	padding: 20px 10px;
+	/* background-color: #F5F5F5; */
+}
+.btn-file {
+	text-align: center;
+	margin-top: 30px;
+}
+.scholarships__sidebar {
+	position: sticky;
+    top: 150px;
+	padding: 20px 8px;
+	background-color: var(--cl-main);
+	color: #fff;
+}
+.scholarships__sidebar .title_widget {
+	font-size: 20px;
+	text-align: center;
+	color: #fff;
+}
+.scholarships__sidebar label {
+	font-size: 15px !important;
+}
+.scholarships__sidebar .wpforms-submit.e-btn {
+	display: flex !important;
+	margin: 0 auto;
+	height: 38px !important;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #fff !important;
+	border-radius: 8px !important;
+}
+.scholarships__sidebar .wpforms-submit.e-btn:hover {
+	background-color: var(--cl-third) !important;
+}
+.scholarships__sidebar label.wpforms-error {
+	color: #ffd915 !important;
+}
+/*== END TEMPLATE SCHOLARSHIPS ==*/
+/*== TEMPLATE PAGE CONTACT US ==*/
+.page-template-template-contact .sec-contact .container {
+	max-width: 1200px !important;
+}
+.page-template-template-contact .sec-contact .box {
+	box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+	border-radius: 60px;
+	background-color: #ffffff;
+	overflow: hidden;
+	align-items: center;
+	margin-bottom: 90px;
+}
+.page-template-template-contact .col-left .title {
+	font-size: 28px;
+	text-transform: uppercase;
+	color: var(--cl-main);
+	font-weight: 700;
+}
+.page-template-template-contact .col-left form {
+	padding: 0;
+}
+.page-template-template-contact .col-left div.wpforms-container-full {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.page-template-template-contact .col-left form label.wpforms-field-label {
+	font-size: 16px !important;
+	margin-bottom: 0 !important;
+}
+.page-template-template-contact .col-left form input::placeholder {
+	font-size: 13px !important;
+	color: #A4A4A4;
+}
+.page-template-template-contact .col-left form input,
+.page-template-template-contact .col-left form select {
+	border: none !important;
+	border-bottom: 1px solid #7A7A7A !important;
+	padding-left: 0 !important;
+	font-size: 14px !important;
+}
+.page-template-template-contact div.wpforms-container-full .wpforms-form .wpforms-field {
+	padding: 5px 0;
+}
+.page-template-template-contact .wpforms-error {
+	font-size: 13px !important;
+	margin-bottom: 0 !important;
+    line-height: normal !important
+}
+.page-template-template-contact .col-left button[type="submit"] {
+	height: 38px !important;
+    border-radius: 8px !important;
+    border: 1px solid #fff !important;
+    font-size: 14px !important;
+    text-transform: uppercase !important;
+    font-weight: 700;
+	display: flex !important;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+.page-template-template-contact .col-right {
+	padding: 0;
+}
+.page-template-template-contact .col-right .content {
+	padding: 70px 50px 100px;
+	background-color: var(--cl-main);
+	color: #fff;
+}
+.page-template-template-contact .col-right .content > * {
+	font-size: 16px;
+}
+.page-template-template-contact .col-right .title {
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+}
+.page-template-template-contact .list-inf .item {
+	margin-bottom: 20px;
+}
+.page-template-template-contact .list-inf .item:last-child {
+	margin-bottom: 0;
+}
+.page-template-template-contact .list-inf .sub {
+	display: block;
+	font-weight: 700;
+}
+.page-template-template-contact .list-inf a {
+	font-size: 14px !important;
+}
+/*== END TEMPLATE PAGE CONTACT US ==*/
+/*== TEMPLATE PAGE LIKE A POST ==*/
+.page #toc_container {
+	display: none;
+}
+.page-template-template-like-post .col-toc {
+	background-color: #F9F9F9;
+}
+.page-template-template-like-post .col-toc #toc_container {
+	position: sticky;
+	top: 180px;
+	margin: 0;
+	display: block;
+	background: transparent;
+    border: none;
+    padding: 0;
+}
+.page-template-template-like-post .col-toc #toc_container .toc_list {
+	font-size: 14px;
+}
+.page-template-template-like-post .col-toc #toc_container li {
+	line-height: 1.7;
+	border-bottom: 1px solid #DEDEDE;
+}
+.col-toc #toc_container li:last-child {
+	border-bottom: none;
+}
+.col-toc #toc_container li a {
+	font-size: 18px;
+	text-transform: uppercase;
+	padding: 12px 0;
+	display: inline-block;
+	font-family: 'SVN-Gotham';
+}
+.page-template-template-like-post .col-toc #toc_container .toc_number::after {
+    content: ".";
+    margin-right: 5px;
+}
+.col-toc .toc_title {
+	text-align: left !important;
+	font-size: 20px;
+    line-height: 1.5;
+    color: var(--cl-main) !important;
+    margin-bottom: 0 !important;
+    text-transform: uppercase;
+	font-family: 'SVN-Gotham';
+	font-weight: 700;
+}
+.col-toc .toc_list ul li {
+	border-top: 1px solid #DEDEDE;
+	border-bottom: none !important;
+}
+.col-toc .toc_toggle, .col-toc span.toc_number {
+	display: none;
+}
+.page-template-template-like-post #toc_container a.active,
+.page-template-template-like-post #toc_container a:hover {
+	color: var(--cl-sub) !important;
+}
+@media (min-width: 1200px){
+	.page-template-template-like-post .col-toc {
+		width: 350px;
+		padding: 50px 3% 100px 3%;
+	}
+	.page-template-template-like-post .content-post {
+		width: calc(100% - 350px);
+		padding: 0 5% 150px 5%;
+	}
+}
+@media (min-width: 1400px){
+	.page-template-template-like-post .col-toc {
+		width: 450px;
+	}
+	.page-template-template-like-post .content-post {
+		width: calc(100% - 450px);
+	}
+}
+/*== END TEMPLATE PAGE LIKE A POST ==*/
+/*== TEMPLATE PAGE SCHOOL FEES - TABLE ==*/
+#accordion-fees .accordion-button {
+	background-color: var(--cl-main) !important;
+	color: #FFFFFF !important;
+	font-weight: 600;
+}
+#accordion-fees .accordion-item {
+	border: 1px solid #d5d8dc;
+}
+#accordion-fees .accordion-button::before {
+	color: #FFFFFF;
+}
+.section-school-fees .wrapper .box:last-child {
+	margin-bottom: 0;
+}
+.section-school-fees table {
+	width: 100% !important;
+	/* height: 100% !important; */
+	display: table;
+}
+.section-school-fees table {
+	font-size: initial;
+	margin-bottom: 15px;
+}
+.section-school-fees .col-table p {
+	font-size: initial;
+}
+.section-school-fees .accordion-body, .section-school-fees .col-table p,
+.section-school-fees .accordion-body li {
+	line-height: 24px;
+}
+.section-school-fees table, .section-school-fees th, .section-school-fees td {
+	border: 1px solid var(--cl-main);
+	line-height: normal;
+}
+.section-school-fees td {
+	padding: 10px 5px;
+}
+.section-school-fees table thead * {
+	background-color: var(--cl-main);
+	color: #fff !important;
+}
+.section-school-fees table tfoot {
+	background-color: #8db4e2;
+	font-weight: 700;
+}
+.section-school-fees table thead td, .section-school-fees table thead th {
+	border: 1px solid #fff;
+}
+.section-school-fees .col-table tbody, .section-school-fees .col-table thead {
+	font-size: 15px;
+}
+.section-school-fees .btn-fee {
+	background-color: var(--cl-main);
+	color: #fff;
+	padding: 15px 20px;
+    width: 100%;
+    display: block;
+}
+.section-school-fees .accordion-body ul {
+	padding-left: 20px;
+	margin: 15px 0;
+}
+.section-school-fees .accordion-body ul > li {
+	padding-left: 15px;
+	position: relative;
+	margin-bottom: 10px;
+}
+.section-school-fees .accordion-body ul > li:last-child {
+	margin-bottom: 0;
+}
+.section-school-fees .accordion-body ul > li::before {
+	content: '+';
+	position: absolute;
+	top: -1px;
+	left: 0;
+}
+/* .section-school-fees .col-table .note-table {
+	font-style: italic;
+}
+.section-school-fees .col-table .note-table p {
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: 500;
+	color: #974706;
+} */
+/*== END TEMPLATE PAGE SCHOOL FEES - TABLE ==*/
+/* RESPONSIVE */
+@media (max-width: 768px){
+	/*== TEMPLATE VIDEO */
+	.tesla-video .list-arts .thumb:after {
+		top: 20% !important;
+	}
+	.tesla-video .list-arts .slick-prev {
+		left: 42%;
+        top: -10px;
+		transform: translateX(23%);
+	}
+	.tesla-video .list-arts .slick-next {
+		right: 42%;
+        top: -10px;
+		transform: translateX(-23%);
+	}
+	/*== END TEMPLATE VIDEO ==*/
+}
+@media (max-width: 640px){
+	/*== CSS ALL ==*/
+	.section-title {
+		font-size: 22px;
+	}
+	/*== END CSS ALL ==*/
+	/*== TEMPLATE CAMPUS ==*/
+	.page-template-template-campus-tour-new .title {
+		font-size: 30px;
+		margin-bottom: 20px;
+	}
+	.campus-tour-form .container {
+		border-top: none;
+	}
+	.campus-tour-form .wrapper {
+		border-top: 1px dashed #000;
+	}
+	.campus-tour-form .form-campus form {
+		padding: 0;
+	}
+    .page-template-template-campus-tour-bk .slides-campus .swiper-slide {
+        width: 95% !important;
+    }
+    .page-template-template-campus-tour-bk .custom-title span {
+        font-size: 24px;
+    }
+    .page-template-template-campus-tour-bk .slides-campus .elementor-swiper-button {
+        display: none;
+    }
+	/*== END TEMPLATE CAMPUS ==*/
+	/*== TEMPLATE PUBLIC ==*/
+	.section-public-template .wrapper {
+		width: 100%;
+	}
+	.section-public-template .wrapper .item {
+		flex-wrap: wrap;
+	}
+	.section-public-template .title-file {
+		margin-bottom: 7px;
+	}
+	/*== END TEMPLATE PUBLIC ==*/
+	/*== TEMPLATE SCHOLARSHIPS ==*/
+	.page-template-template-scholarships .btn-file {
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
+	.page-template-template-scholarships .wrapper {
+		padding: 0;
+	}
+	.scholarships__sidebar {
+		padding: 20px 0;
+	}
+	/*== END TEMPLATE SCHOLARSHIPS ==*/
+	/*== TEMPLATE YEARBOOK ==*/
+	.teacher__title a:hover {
+		color: var(--cl-main);
+	}
+	/*== END TEMPLATE YEARBOOK ==*/
+	/*== TEMPLATE VIDEO */
+	.tesla-video .list-arts .thumb:after {
+		top: 20% !important;
+	}
+	/*== END TEMPLATE VIDEO ==*/
+	/*== TEMPLATE PUBLICATIONS ==*/
+	.teacher__title {
+		font-size: 17px;
+	}
+	.teacher__content {
+		padding-top: 10px;
+	}
+	/*== END TEMPLATE PUBLICATIONS ==*/
+	/* TEMPLATE SCHOOL FEE */
+	.section-school-fees .main-table {
+		overflow-x: scroll;
+	}
+	/* END TEMPLATE SCHOOL FEE */
+}
+@media (max-width: 425px){
+	/*== TEMPLATE VIDEO */
+	.tesla-video .list-arts .slick-prev {
+		left: 40%;
+	}
+	.tesla-video .list-arts .slick-next {
+		right: 40%;
+	}
+	/*== END TEMPLATE VIDEO ==*/
+}

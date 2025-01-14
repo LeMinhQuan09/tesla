@@ -1,0 +1,468 @@
+# Translation of Plugins - Table of Contents Plus - Stable (latest release) in English (UK)
+# This file is distributed under the same license as the Plugins - Table of Contents Plus - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-04-29 18:42:01+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: en_GB\n"
+"Project-Id-Version: Plugins - Table of Contents Plus - Stable (latest release)\n"
+
+#. Author URI of the plugin
+msgid "http://dublue.com/"
+msgstr "http://dublue.com/"
+
+#. Author of the plugin
+msgid "Michael Tran"
+msgstr "Michael Tran"
+
+#. Description of the plugin
+msgid "A powerful yet user friendly plugin that automatically creates a table of contents. Can also output a sitemap listing all pages and categories."
+msgstr "A powerful yet user friendly plugin that automatically creates a table of contents. Can also output a sitemap listing all pages and categories."
+
+#. Plugin Name of the plugin
+msgid "Table of Contents Plus"
+msgstr "Table of Contents Plus"
+
+#: class-toc-plus.php:1719
+msgid "For the following content types:"
+msgstr "For the following content types:"
+
+#: class-toc-plus.php:1715
+msgid "Show the table of contents only in the sidebar"
+msgstr "Show the table of contents only in the sidebar"
+
+#: class-toc-plus.php:1611
+msgid "Display the table of contents in the sidebar with this widget"
+msgstr "Display the table of contents in the sidebar with this widget"
+
+#: class-toc-plus.php:1080
+msgid "Update Options"
+msgstr "Update Options"
+
+#: class-toc-plus.php:1071
+msgid "Uses h6 to display %s on a page listing excluding pages with IDs 1 and 15"
+msgstr "Uses h6 to display %s on a page listing excluding pages with IDs 1 and 15"
+
+#: class-toc-plus.php:1070
+msgid "hides the heading from a category listing"
+msgstr "hides the heading from a category listing"
+
+#: class-toc-plus.php:1068
+msgid "Examples"
+msgstr "Examples"
+
+#: class-toc-plus.php:1067
+msgid "lets you print out a listing of only pages. Similarly %s can be used to print out a category listing. They both can accept a number of attributes so visit the help tab for more information."
+msgstr "lets you print out a listing of only pages. Similarly %s can be used to print out a category listing. They both can accept a number of attributes so visit the help tab for more information."
+
+#: class-toc-plus.php:1065
+msgid "Advanced usage"
+msgstr "Advanced usage"
+
+#: class-toc-plus.php:1059
+msgid "Eg: Categories, Category List"
+msgstr "Eg: Categories, Category List"
+
+#: class-toc-plus.php:1057
+msgid "Categories label"
+msgstr "Categories label"
+
+#: class-toc-plus.php:1053
+msgid "Eg: Pages, Page List"
+msgstr "Eg: Pages, Page List"
+
+#: class-toc-plus.php:1051
+msgid "Pages label"
+msgstr "Pages label"
+
+#. translators: the full line is supposed to read - Use [h1-h6 drop down list]
+#. to print out the titles
+#: class-toc-plus.php:1047
+msgid "to print out the titles"
+msgstr "to print out the titles"
+
+#. translators: the full line is supposed to read - Use [1-6 drop down list] to
+#. print out the titles
+#: class-toc-plus.php:1034
+msgid "Use"
+msgstr "Use"
+
+#: class-toc-plus.php:1031
+msgid "Heading type"
+msgstr "Heading type"
+
+#: class-toc-plus.php:1027
+msgid "Show category listing"
+msgstr "Show category listing"
+
+#: class-toc-plus.php:1023
+msgid "Show page listing"
+msgstr "Show page listing"
+
+#: class-toc-plus.php:1019
+msgid "At its simplest, placing %s into a page will automatically create a sitemap of all pages and categories. This also works in a text widget."
+msgstr "At its simplest, placing %s into a page will automatically create a sitemap of all pages and categories. This also works in a text widget."
+
+#: class-toc-plus.php:1011
+msgid "If you would like to fully customise the position of the table of contents, you can use the %s shortcode by placing it at the desired position of your post, page or custom post type. This method allows you to generate the table of contents despite having auto insertion disabled for its content type. Please visit the help tab for further information about this shortcode."
+msgstr "If you would like to fully customise the position of the table of contents, you can use the %s shortcode by placing it at the desired position of your post, page or custom post type. This method allows you to generate the table of contents despite having auto insertion disabled for its content type. Please visit the help tab for further information about this shortcode."
+
+#. translators: advanced usage
+#: class-toc-plus.php:1010
+msgid "Usage"
+msgstr "Usage"
+
+#. translators: example anchor prefixes when no ascii characters match
+#: class-toc-plus.php:1002
+msgid "Eg: i, toc_index, index, _"
+msgstr "Eg: i, toc_index, index, _"
+
+#: class-toc-plus.php:999
+msgid "This option normally applies to content written in character sets other than ASCII."
+msgstr "This option normally applies to content written in character sets other than ASCII."
+
+#: class-toc-plus.php:998
+msgid "Anchor targets are restricted to alphanumeric characters as per HTML specification (see readme for more detail). The default anchor prefix will be used when no characters qualify. When left blank, a number will be used instead."
+msgstr "Anchor targets are restricted to alphanumeric characters as per HTML specification (see readme for more detail). The default anchor prefix will be used when no characters qualify. When left blank, a number will be used instead."
+
+#: class-toc-plus.php:995
+msgid "Default anchor prefix"
+msgstr "Default anchor prefix"
+
+#. translators: example URL path restriction
+#: class-toc-plus.php:991
+msgid "Eg: /wiki/, /corporate/annual-reports/"
+msgstr "Eg: /wiki/, /corporate/annual-reports/"
+
+#: class-toc-plus.php:988
+msgid "Restrict generation of the table of contents to pages that match the required path. This path is from the root of your site and always begins with a forward slash."
+msgstr "Restrict generation of the table of contents to pages that match the required path. This path is from the root of your site and always begins with a forward slash."
+
+#: class-toc-plus.php:985
+msgid "Restrict path"
+msgstr "Restrict path"
+
+#: class-toc-plus.php:981
+msgid "If you have a consistent menu across the top of your site, you can adjust the top offset to stop the headings from appearing underneath the top menu. A setting of 30 accommodates the WordPress admin bar. This setting appears after you have enabled smooth scrolling from above."
+msgstr "If you have a consistent menu across the top of your site, you can adjust the top offset to stop the headings from appearing underneath the top menu. A setting of 30 accommodates the WordPress Toolbar. This setting appears after you have enabled smooth scrolling from above."
+
+#: class-toc-plus.php:978
+msgid "Smooth scroll top offset"
+msgstr "Smooth scroll top offset"
+
+#: class-toc-plus.php:973
+msgid "<code>Apple Tree|Oranges|Yellow Bananas</code> ignore headings that are exactly \"Apple Tree\", \"Oranges\" or \"Yellow Bananas\""
+msgstr "<code>Apple Tree|Oranges|Yellow Bananas</code> ignore headings that are exactly \"Apple Tree\", \"Oranges\" or \"Yellow Bananas\""
+
+#: class-toc-plus.php:972
+msgid "<code>*Fruit Diet*</code> ignore headings with \"Fruit Diet\" somewhere in the heading"
+msgstr "<code>*Fruit Diet*</code> ignore headings with \"Fruit Diet\" somewhere in the heading"
+
+#: class-toc-plus.php:971
+msgid "<code>Fruit*</code> ignore headings starting with \"Fruit\""
+msgstr "<code>Fruit*</code> ignore headings starting with \"Fruit\""
+
+#: class-toc-plus.php:969
+msgid "Specify headings to be excluded from appearing in the table of contents.  Separate multiple headings with a pipe <code>|</code>.  Use an asterisk <code>*</code> as a wildcard to match other text.  Note that this is not case sensitive. Some examples:"
+msgstr "Specify headings to be excluded from appearing in the table of contents.  Separate multiple headings with a pipe <code>|</code>.  Use an asterisk <code>*</code> as a wildcard to match other text.  Note that this is not case sensitive. Some examples:"
+
+#: class-toc-plus.php:966
+msgid "Exclude headings"
+msgstr "Exclude headings"
+
+#: class-toc-plus.php:960
+msgid "heading "
+msgstr "heading "
+
+#: class-toc-plus.php:952
+msgid "Include the following heading levels. Deselecting a heading will exclude it."
+msgstr "Include the following heading levels. Deselecting a heading will exclude it."
+
+#: class-toc-plus.php:950
+msgid "Heading levels"
+msgstr "Heading levels"
+
+#: class-toc-plus.php:947
+msgid "If your theme includes background images for unordered list elements, enable this to support them"
+msgstr "If your theme includes background images for unordered list elements, enable this to support them"
+
+#: class-toc-plus.php:946
+msgid "Preserve theme bullets"
+msgstr "Preserve theme bullets"
+
+#: class-toc-plus.php:943
+msgid "Prevent the loading of this plugin's CSS styles. When selected, the appearance options from above will also be ignored."
+msgstr "Prevent the loading of this plugin's CSS styles. When selected, the appearance options from above will also be ignored."
+
+#: class-toc-plus.php:942
+msgid "Exclude CSS file"
+msgstr "Exclude CSS file"
+
+#: class-toc-plus.php:939
+msgid "Show the table of contents for qualifying items on the homepage"
+msgstr "Show the table of contents for qualifying items on the homepage"
+
+#: class-toc-plus.php:938
+msgid "Include homepage"
+msgstr "Include homepage"
+
+#: class-toc-plus.php:935
+msgid "Use - rather than _ in anchors"
+msgstr "Use - rather than _ in anchors"
+
+#: class-toc-plus.php:934
+msgid "Hyphenate"
+msgstr "Hyphenate"
+
+#: class-toc-plus.php:931
+msgid "Ensure anchors are in lowercase"
+msgstr "Ensure anchors are in lowercase"
+
+#: class-toc-plus.php:930
+msgid "Lowercase"
+msgstr "Lowercase"
+
+#: class-toc-plus.php:926
+msgid "Power options"
+msgstr "Power options"
+
+#: class-toc-plus.php:924 class-toc-plus.php:1065
+msgid "show"
+msgstr "show"
+
+#: class-toc-plus.php:924
+msgid "Advanced"
+msgstr "Advanced"
+
+#: class-toc-plus.php:917
+msgid "Leaving the value as %s will inherit your theme's styles"
+msgstr "Leaving the value as %s will inherit your theme's styles"
+
+#: class-toc-plus.php:910
+msgid "Links (visited)"
+msgstr "Links (visited)"
+
+#: class-toc-plus.php:906
+msgid "Links (hover)"
+msgstr "Links (hover)"
+
+#: class-toc-plus.php:902
+msgid "Links"
+msgstr "Links"
+
+#: class-toc-plus.php:898 class-toc-plus.php:1709
+msgid "Title"
+msgstr "Title"
+
+#: class-toc-plus.php:894
+msgid "Border"
+msgstr "Border"
+
+#: class-toc-plus.php:890
+msgid "Background"
+msgstr "Background"
+
+#: class-toc-plus.php:880
+msgid "Custom"
+msgstr "Custom"
+
+#: class-toc-plus.php:875
+msgid "Transparent"
+msgstr "Transparent"
+
+#: class-toc-plus.php:870
+msgid "Black"
+msgstr "Black"
+
+#: class-toc-plus.php:865
+msgid "White"
+msgstr "White"
+
+#: class-toc-plus.php:860
+msgid "Light blue"
+msgstr "Light blue"
+
+#: class-toc-plus.php:855
+msgid "Grey (default)"
+msgstr "Grey (default)"
+
+#. translators: appearance / colour / look and feel options
+#: class-toc-plus.php:852
+msgid "Presentation"
+msgstr "Presentation"
+
+#: class-toc-plus.php:839
+msgid "Font size"
+msgstr "Font size"
+
+#: class-toc-plus.php:834
+msgid "Right"
+msgstr "Right"
+
+#: class-toc-plus.php:833
+msgid "Left"
+msgstr "Left"
+
+#: class-toc-plus.php:832
+msgid "None (default)"
+msgstr "None (default)"
+
+#: class-toc-plus.php:829
+msgid "Wrapping"
+msgstr "Wrapping"
+
+#. translators: ignore %s as it's some HTML label tags
+#: class-toc-plus.php:818
+msgid "Please enter a number and %s select its units, eg: 100px, 10em"
+msgstr "Please enter a number and %s select its units, eg: 100px, 10em"
+
+#: class-toc-plus.php:812
+msgid "User defined"
+msgstr "User defined"
+
+#. translators: other width
+#: class-toc-plus.php:811
+msgid "Other"
+msgstr "Other"
+
+#: class-toc-plus.php:801
+msgid "Auto (default)"
+msgstr "Auto (default)"
+
+#: class-toc-plus.php:800
+msgid "Relative"
+msgstr "Relative"
+
+#: class-toc-plus.php:789
+msgid "Fixed width"
+msgstr "Fixed width"
+
+#: class-toc-plus.php:786
+msgid "Width"
+msgstr "Width"
+
+#: class-toc-plus.php:782
+msgid "Appearance"
+msgstr "Appearance"
+
+#: class-toc-plus.php:777
+msgid "Scroll rather than jump to the anchor link"
+msgstr "Scroll rather than jump to the anchor link"
+
+#: class-toc-plus.php:776
+msgid "Enable smooth scroll effect"
+msgstr "Enable smooth scroll effect"
+
+#: class-toc-plus.php:772
+msgid "Number list items"
+msgstr "Number list items"
+
+#: class-toc-plus.php:768
+msgid "Show hierarchy"
+msgstr "Show hierarchy"
+
+#: class-toc-plus.php:762
+msgid "Hide the table of contents initially"
+msgstr "Hide the table of contents initially"
+
+#. translators: example text to display when you want to collapse the table of
+#. contents
+#: class-toc-plus.php:758
+msgid "Eg: hide"
+msgstr "Eg: hide"
+
+#: class-toc-plus.php:754
+msgid "Hide text"
+msgstr "Hide text"
+
+#. translators: example text to display when you want to expand the table of
+#. contents
+#: class-toc-plus.php:751
+msgid "Eg: show"
+msgstr "Eg: show"
+
+#: class-toc-plus.php:747
+msgid "Show text"
+msgstr "Show text"
+
+#: class-toc-plus.php:742
+msgid "Allow the user to toggle the visibility of the table of contents"
+msgstr "Allow the user to toggle the visibility of the table of contents"
+
+#: class-toc-plus.php:740
+msgid "Eg: Contents, Table of Contents, Page Contents"
+msgstr "Eg: Contents, Table of Contents, Page Contents"
+
+#: class-toc-plus.php:737
+msgid "Show title on top of the table of contents"
+msgstr "Show title on top of the table of contents"
+
+#. translators: this is the title of the table of contents
+#: class-toc-plus.php:735
+msgid "Heading text"
+msgstr "Heading text"
+
+#: class-toc-plus.php:720
+msgid "Auto insert for the following content types"
+msgstr "Auto insert for the following content types"
+
+#. translators: text follows drop down list of numbers
+#: class-toc-plus.php:716
+msgid "or more headings are present"
+msgstr "or more headings are present"
+
+#: class-toc-plus.php:704
+msgid "Show when"
+msgstr "Show when"
+
+#: class-toc-plus.php:699
+msgid "Bottom"
+msgstr "Bottom"
+
+#: class-toc-plus.php:698
+msgid "Top"
+msgstr "Top"
+
+#: class-toc-plus.php:697
+msgid "After first heading"
+msgstr "After first heading"
+
+#: class-toc-plus.php:696
+msgid "Before first heading (default)"
+msgstr "Before first heading (default)"
+
+#: class-toc-plus.php:693
+msgid "Position"
+msgstr "Position"
+
+#: class-toc-plus.php:685
+msgid "Help"
+msgstr "Help"
+
+#: class-toc-plus.php:684
+msgid "Sitemap"
+msgstr "Sitemap"
+
+#: class-toc-plus.php:683
+msgid "Main Options"
+msgstr "Main Options"
+
+#: class-toc-plus.php:670
+msgid "Save failed."
+msgstr "Save failed."
+
+#: class-toc-plus.php:668
+msgid "Options saved."
+msgstr "Options saved."
+
+#: class-toc-plus.php:489 class-toc-plus.php:490
+msgid "TOC"
+msgstr "TOC"
+
+#: class-toc-plus.php:173
+msgid "Settings"
+msgstr "Settings"
