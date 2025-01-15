@@ -14,6 +14,7 @@ get_header(); ?>
         get_template_part('template-parts/page-aboutus/scleader-page');
         get_template_part('template-parts/page-aboutus/scvision-page');
         get_template_part('template-parts/page-aboutus/sccoreval-page');
+        get_template_part('template-parts/page-aboutus/scwhychoose-page');
     ?>
 </main>
 <?php get_footer(); ?>

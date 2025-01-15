@@ -5,9 +5,23 @@
 ?>
 <section class="about__value pt-40 pb-40">
     <div class="container">
+    <div class="about__value-top mb-40">
+        <?php if($title_core && $blurred_core){ echo '<div class="heading-group p-relative mb-0">'; }
+        if($title_core){
+            echo '<h2 class="heading-title text-center p-relative">'. $title_core .'</h2>';
+        }
+        if($blurred_core){
+            echo '<span class="blurred-text text-center">'. $blurred_core .'</span>';
+        }
+        if($title_core && $blurred_core){ echo '</div>'; }
+        if($short_core){
+            echo '<p class="desc mb-0 text-center">'. $short_core .'</p>';
+        } ?>
+
+    </div>
         
         <?php if($lists_core_value){
-            echo '<ul class="d-flex about__value-list">';
+            echo '<ul class="d-grid about__value-list">';
             foreach($lists_core_value as $val){ ?>
                 <li class="item p-relative">
                     <div class="icon">
