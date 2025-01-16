@@ -5,9 +5,9 @@
 
 # Node artifact files
 node_modules/
-src/wp-content/uploads/
-src/wp-content/ai1wm-backups/tesla.edu.vn-20231228-122338-afx2il.wpress
-src/wp-content/ai1wm-backups/tesla.edu.vn-20240502-093459-zn99g3.wpress
+wp-content/uploads/
+wp-content/ai1wm-backups/tesla.edu.vn-20231228-122338-afx2il.wpress
+wp-content/ai1wm-backups/tesla.edu.vn-20240502-093459-zn99g3.wpress
 
 # Compiled Java class files
 *.class
