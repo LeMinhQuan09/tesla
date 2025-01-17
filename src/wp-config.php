@@ -20,9 +20,9 @@
 // ** MySQL settings - You can get this info from your web host ** //
 
 /** The name of the database for WordPress */
-const DB_NAME     = 'teslanew';
+const DB_NAME     = 'tesla';
 const DB_USER     = 'root';
-const DB_PASSWORD = '';
+const DB_PASSWORD = 'root';
 const DB_HOST     = 'localhost';
 const DB_CHARSET  = 'utf8mb4';
 const DB_COLLATE  = '';
@@ -68,8 +68,8 @@ $table_prefix = 'tl_';
  *
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
-const WP_DEBUG         = false;
-const WP_DEBUG_LOG     = false;
+const WP_DEBUG         = true;
+const WP_DEBUG_LOG     = true;
 const WP_DEBUG_DISPLAY = false;
 
 /* Add any custom values between this line and the "stop editing" line. */
@@ -99,7 +99,7 @@ const DISALLOW_FILE_EDIT = true;
 const DISALLOW_FILE_MODS = false;
 
 /** SSL */
-const FORCE_SSL_ADMIN = false;
+const FORCE_SSL_ADMIN = true;
 
 /** Increase post-revisions */
 const WP_POST_REVISIONS = 2;

@@ -1018,6 +1018,7 @@ function rank_seo_robots_modify_search( $robots ) {
     return $robots;
   }
 }
+
 // add css
 function custom_theme_style(){
 	wp_register_style( $handle = 'header', $src = get_template_directory_uri().'/assets/css/header.css', $deps = array(), $ver = false, $media = 'all' );
@@ -1059,3 +1060,7 @@ function pll_language_switcher_shortcode($atts) {
     return '';
 }
 add_shortcode('language_switcher', 'pll_language_switcher_shortcode');
+
+// Load Helper
+require_once __DIR__ . '/inc/Helper.php';
+require_once __DIR__ . '/inc/custom.php';
