@@ -1018,6 +1018,7 @@ function rank_seo_robots_modify_search( $robots ) {
     return $robots;
   }
 }
+
 // add css
 function custom_theme_style(){
 	wp_register_style( $handle = 'header', $src = get_template_directory_uri().'/assets/css/header.css', $deps = array(), $ver = false, $media = 'all' );
@@ -1077,3 +1078,7 @@ function add_arrow_to_parent_menu_items($items) {
 	return $items;
 }
 add_filter('wp_nav_menu_objects', 'add_arrow_to_parent_menu_items');
+
+// Load Helper
+require_once __DIR__ . '/inc/Helper.php';
+require_once __DIR__ . '/inc/custom.php';
