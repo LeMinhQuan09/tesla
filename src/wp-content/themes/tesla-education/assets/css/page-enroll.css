@@ -1,0 +1,143 @@
+/*== SECTION 1 - ADMISSION  */
+.enroll__admission-content, 
+.enroll__admission-additional {
+    padding: 70px 30px 40px 30px;
+    border: 1px solid #C9C9C9;
+    border-radius: 25px;
+}
+/*== END SECTION 1 - ADMISSION  */
+/*== SECTION 2 - PROCESS  */
+.enroll__process-wrapper:last-child {
+    padding-bottom: 50px;
+}
+.enroll__process-wrapper .bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.enroll__process-wrapper:nth-child(odd) .bg {
+    background-color: #E7E7E7;
+}
+.enroll__process-wrapper .bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.enroll__process-wrapper:nth-child(odd) .bg img {
+    mix-blend-mode: luminosity;
+}
+.enroll__process-wrapper .container {
+    position: relative;
+    z-index: 2;
+}
+.enroll__process-step .heading-group {
+    margin-bottom: 30px;
+}
+.enroll__process-wrapper .accordion-item {
+    border: 1px solid #DCDCDC;
+    border-radius: 4px;
+}
+.enroll__process-wrapper .accordion-item:last-child,
+.learning__accordion-main .accordion-item:last-child {
+    margin-bottom: 0;
+}
+.enroll__process-wrapper .accordion-item:first-of-type .accordion-button,
+.enroll__process-wrapper .accordion-button {
+    border-radius: 4px;
+}
+.enroll__process-wrapper .accordion-button {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--cl-main) !important;
+    background-color: #fff !important;
+}
+.enroll__process-wrapper .accordion-collapse {
+    background-color: #fff;
+}
+.enroll__process-wrapper button[aria-expanded="true"] {
+    background-color: var(--cl-main) !important;
+    color: #fff !important;
+}
+.enroll__process-wrapper button[aria-expanded="true"]::after,
+.learning__accordion-main button[aria-expanded="true"]::after {
+    content: '\f068';
+}
+.enroll__process-wrapper button[aria-expanded="false"]::after,
+.learning__accordion-main button[aria-expanded="false"]::after {
+    content: '\f067';
+    color: #1E3341;
+}
+.enroll__process-wrapper .accordion-button::after,
+.learning__accordion-main .accordion-button::after {
+    background-image: none;
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 500;
+    font-size: 20px;
+    transform: rotate(0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.enroll__process-wrapper:nth-child(even) .row {
+    flex-direction: row-reverse;
+}
+.enroll__process-wrapper:nth-child(even) .heading-group {
+    text-align: center;
+}
+.enroll__admission-additional {
+    background-color: #fff;
+}
+.enroll__admission-additional .accordion-button,
+.learning__accordion-main .accordion-button {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+.enroll__admission-additional .accordion-button::after,
+.learning__accordion-main .accordion-button::after {
+    margin-left: 0;
+    margin-right: 30px;
+}
+/*== END SECTION 2 - PROCESS  */
+
+@media (max-width: 769px){
+    .enroll__admission-content, .enroll__admission-additional {
+        padding-top: 50px;
+    }
+    .enroll__process-step {
+        padding-right: 12px;
+    }
+    .enroll__process-step .desc {
+        margin-bottom: 30px;
+    }
+    .enroll__process-wrapper:nth-child(even) .heading-group {
+        text-align: left;
+    }
+}
+
+@media (max-width: 641px){
+    .enroll__admission {
+        padding-top: 60px;
+    }
+    .enroll__process-wrapper:last-child .row:last-child,
+    .enroll__admission .row {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .enroll__admission-content, .enroll__admission-additional {
+        padding-top: 30px;
+        padding: 30px 15px 20px;
+    }
+    .enroll__process-wrapper {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .enroll__process-wrapper .accordion-button {
+        font-size: 20px;
+    }
+    .enroll__admission-additional .accordion-button::after, .learning__accordion-main .accordion-button::after {
+        margin-right: 15px;
+    }
+}

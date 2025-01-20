@@ -18,12 +18,12 @@
                     echo '</ul>';
                 } ?>
             </div>
-            <div class="col-xl-4 col-lg-4 col-sm-12 d-flex justify-content-center pt-30 home__whychoose-content">
+            <div class="col-xl-4 col-lg-4 col-sm-12 d-flex justify-content-center pt-10 home__whychoose-content">
                 <?php if($title_whychoose){
                     echo '<h2 class="heading-title">'. $title_whychoose .'</h2>';
                 }
                 if($des_whychoose){
-                    echo '<div class="desc">'. $des_whychoose .'</div>';
+                    echo '<div class="desc text-justify">'. $des_whychoose .'</div>';
                 }
                 if($lists_whychoose){
                     echo '<ul class="wrapper mt-30">';

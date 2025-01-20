@@ -413,75 +413,26 @@
 /* .home__video {
     background: #FFFADF;
 } */
-.home__video .thumb, .about__video .thumb {
-    cursor: pointer;
-}
-.home__video .icon-play, .about__video .icon-play {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 60px;
-    height: 60px;
-    background-color: #fff;
-    border-radius: 50%;
-    z-index: 1;
-    cursor: pointer;
-}
-.home__video .icon-play::before, .about__video .icon-play::before {
-    content: '';
-    position: absolute;
-    top: auto;
-    left: auto;
-    width: 72px;
-    height: 72px;
-    background: #FFFFFF85;
-    border-radius: 50%;
-    animation: pulse 1.5s infinite;
-    z-index: -1;
-}
-.home__video .icon-play img, .about__video .icon-play img {
-    width: 22px;
-    height: 22px;
-    transform: translateX(2px);
-    z-index: 2;
-}
 .home__video .img::before, .about__video .img::before {
-    content: '';
-    display: block;
-    padding-bottom: 62%;
+    padding-bottom: 62% !important;
 }
 .home__video-first .img::before, .about__video .img::before {
-    padding-bottom: 56.25%;
+    padding-bottom: 56.25% !important;
 }
 .home__video .img img {
-    object-fit: cover;
-    border-radius: 5px;
+    border-radius: 5px !important;
 }
 .home__video-second .icon-play {
-    width: 40px;
-    height: 40px;
+    width: 40px !important;
+    height: 40px !important;
 }
 .home__video-second .icon-play::before {
-    width: 52px;
-    height: 52px;
+    width: 52px !important;
+    height: 52px !important;
 }
 .home__video-second .icon-play img {
-    width: 16px;
-    height: 16px;
-}
-@keyframes pulse {
-    0% {
-        transform: scale(1);
-        opacity: 0.7;
-    }
-    50% {
-        transform: scale(1.2);
-        opacity: 0.3;
-    }
-    100% {
-        transform: scale(1.5);
-        opacity: 0;
-    }
+    width: 16px !important;
+    height: 16px !important;
 }
 .home__video-second .play-vid {
     gap: 15px;
@@ -652,3 +603,135 @@
     padding-top: 20px !important;
 }
 /*== SECTION 10 - FORM HOME ==*/
+
+/*== RESPONSIVE ==*/
+@media (max-width: 769px){
+    /*== HOME ABOUT ==*/
+    .home__about-content .heading-title {
+        font-size: 30px;
+    }
+    .home__about-content {
+        width: 100%;
+    }
+    .home__about-gallery {
+        margin-top: 20px;
+        width: 100%;
+    }
+    /*== END HOME ABOUT ==*/
+    /*== HOME - WHY TESLA  */
+    .home__whychoose-content {
+        padding-top: 40px;
+    }
+    .home__learning-box {
+        padding: 5px;
+    }
+    /*== END HOME - WHY TESLA ==*/
+    /*== HOME - LEARNING  ==*/
+    .home__learning-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    /*== END HOME - LEARNING  ==*/
+    /*== HOME - NEWS ==*/
+    .home__news-first {
+        gap: 15px;
+        margin-bottom: 15px;
+    }
+    /*== END HOME - NEWS ==*/
+    /*== HOME - VIDEO ==*/
+    .home__video-first {
+        margin-bottom: 10px;
+    }
+    .home__video-second {
+        padding-left: 0.75rem;
+    }
+    /*== END HOME - VIDEO ==*/
+    /*== HOME - TESTIMONIALS ==*/
+    .home__testimonials .slick-track {
+        padding-top: 120px;
+    }
+    /*== END HOME - TESTIMONIALS ==*/
+    /*== HOME - FORM ==*/
+    .home__form .col-img {
+        padding-left: 0;
+    }
+    .home__form .col-img img {
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 20px;
+    }
+    .home__form-content {
+        margin-top: -5px;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 20px;
+        background-color: #fff;
+    }
+    /*== HOME - FORM ==*/
+}
+
+@media (max-width: 641px){
+    .home__about-content .heading-title {
+        font-size: 24px;
+    }
+    .home__about-gallery .slick-list {
+        padding-right: 80px;
+    }
+    .home__about-gallery .slick-slider::before, .home__about-gallery .slick-slider::after {
+        width: 80px;
+        height: 20px;
+    }
+    .home__about-gallery .slick-prev:before, .home__about-gallery .slick-next:before {
+        font-size: 20px;
+    }
+    .home__about-gallery .slick-list::before {
+        width: 81px;
+    }
+    .home__about-gallery .slick-prev {
+        left: 5px;
+    }
+    .home__about-gallery .slick-next {
+        right: 5px;
+    }
+    .home__about-gallery {
+        padding-left: 12px;
+    }
+    .home__whychoose {
+        padding-bottom: 60px;
+    }
+    .home__whychoose-gallery {
+        padding-right: 12px;
+    }
+    .home__whychoose-content {
+        padding-top: 60px;
+    }
+    .home__core-col {
+        width: 50%;
+    }
+    .home__core-content .icon img {
+        width: 70px;
+        height: 70px;
+    }
+    .home__core-content .title {
+        font-size: 20px;
+    }
+    .home__core-content .item {
+        padding: 30px 15px;
+    }
+    .home__learning-box .title {
+        font-size: 22px;
+    }
+    .home__learning-box .box-content {
+        padding: 30px 15px;
+    }
+    .home__testimonials .box {
+        padding: 30px 20px;
+    }
+    .home__form-content {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 575px){
+    .home__about-content .heading-title {
+        font-size: 20px;
+    }
+}

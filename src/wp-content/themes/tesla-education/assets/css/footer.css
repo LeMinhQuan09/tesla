@@ -67,7 +67,7 @@ ul.social-list li img {
     justify-content: center;
     gap: 5px;
 }
-.fixed-contact ul li a {
+.fixed-contact ul li .item {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,10 +76,24 @@ ul.social-list li img {
     border: 1px solid #fff;
     width: 46px;
     height: 46px;
+    cursor: pointer;
 }
 .fixed-contact img {
     width: 55%;
 }
 .progress-wrap {
     bottom: 40px !important;
+}
+
+@media (max-width: 767px){
+    .footer__area .widget-title {
+        margin-bottom: 15px;
+    }
+    .footer__copyright p {
+        font-size: 14px;
+    }
+    .footer__copyright {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 }

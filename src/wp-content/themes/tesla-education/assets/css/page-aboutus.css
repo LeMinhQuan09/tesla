@@ -92,7 +92,6 @@
 }
 .about__glance-text .item:last-child {
     margin-bottom: 0;
-    padding-bottom: 0;
 }
 .about__glance-text .content .title {
     font-size: 16px;
@@ -270,3 +269,122 @@
     text-transform: uppercase;
 }
 /*== END SECTION 9 - WHY CHOOSE  ==*/
+
+@media (max-width: 769px){
+    .about__content .about__content-img {
+        width: 100%;
+        padding-left: 12px;
+    }
+    .about__content-img .short {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .about__content .about__content-text {
+        width: 100%;
+        padding-top: 60px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .about__message-text .blurred-text {
+        width: 100%;
+    }
+    .about__message-text {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .about__message-img, .about__glance-img {
+        padding-left: 12px;
+    }
+    .about__glance-img .short {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .about__leadership-wrapper {
+        flex-wrap: wrap;
+    }
+    .about__leadership-wrapper {
+        border: 1px solid #C5C5C5;
+        border-radius: 20px;
+    }
+    .about__leadership-avt {
+        width: 100%;
+        position: relative;
+        height: 450px;
+        padding-top: 15px;
+        border-radius: 0;
+        box-shadow: none;
+        border-radius: 20px;
+    }
+    .about__leadership-content {
+        width: 100%;
+        padding: 40px;
+        border: none;
+    }
+    .about__glance-text {
+        padding-top: 80px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .about__glance-text .blurred-text {
+        left: 0;
+    }
+    .about__vision {
+        padding-top: 60px;
+    }
+    .about__vision-main {
+        margin-top: 30px;
+        margin-left: 0;
+        width: 100%;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+    .about__vision .heading-group {
+        margin-bottom: 40px;
+    }
+    .about__vision-main .heading-group {
+        margin-bottom: 20px;
+    }
+    .about__vision-main .col-xl-5 {
+        padding: 40px 20px 20px 20px;
+    }
+    .about__vision-main .heading-group .blurred-text {
+        left: 0;
+    }
+    .about__vision-img, .about__mission-main .col-xl-7 {
+        padding-left: 0;
+    }
+    .about__vision-main img {
+        transform: scale(1.0);
+        border-bottom-right-radius: 25px;
+    }
+    .about__mission-main {
+        flex-direction: column-reverse;
+    }
+    .about__mission-main img {
+        border-bottom-left-radius: 25px;
+    }
+    .about__value-list, .about__whychoose-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .about__value-list .first_letter {
+        font-size: 120px;
+    }
+    .about__value-list .item, .about__whychoose-list .item {
+        padding: 25px 20px 20px;
+    }
+    .about__whychoose-top .desc {
+        width: 100%;
+    }
+}
+
+@media (max-width: 641px){
+    .about__value-list .item, .about__whychoose-list .item {
+        padding: 25px 15px 20px;
+    }
+}
+
+@media (max-width: 575px){
+    .about__content {
+        margin-top: 0;
+    }
+}

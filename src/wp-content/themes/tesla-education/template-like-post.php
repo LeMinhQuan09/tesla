@@ -35,7 +35,7 @@ get_header(); ?>
         </section>
         <?php endwhile; ?>
     <?php endif; ?>
-    <div class="container-fluid pl-0 pr-0">
+    <div class="container pl-0 pr-0">
         <div class="container-wrapper d-flex">
             <div class="col-toc">
                 <?php echo do_shortcode('[toc]'); ?>

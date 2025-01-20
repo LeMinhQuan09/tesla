@@ -533,9 +533,9 @@
 			slidesToScroll: 1,
 			responsive: [
 				{
-					breakpoint: 768,
+					breakpoint: 769,
 					settings: {
-						slidesToShow: 3,
+						slidesToShow: 1,
 						slidesToScroll: 1,
 					}
 				},
@@ -544,6 +544,7 @@
 					settings: {
 						slidesToShow: 1,
 						slidesToScroll: 1,
+						arrows: false,
 					}
 				}
 			]
@@ -562,10 +563,19 @@
 			slidesToScroll: 1,
 			responsive: [
 				{
+					breakpoint: 769,
+					settings: {
+						slidesToShow: 2,
+						slidesToScroll: 1,
+						arrows: false,
+					}
+				},
+				{
 					breakpoint: 641,
 					settings: {
 						slidesToShow: 2,
 						slidesToScroll: 1,
+						arrows: false,
 					}
 				}
 			]
@@ -591,5 +601,18 @@
 			document.getElementById("myFrame").src = "https://www.youtube.com/embed/" + videoID;
 			document.getElementById("frameHome").src = "https://www.youtube.com/embed/" + videoID;
 		});
-	
+		///////////////////////////////////////////////////
+		// 37. Menu Mobile
+		jQuery(document).ready(function () {
+			jQuery('.menu-arrow').on('click', function (e) {
+				e.preventDefault();
+				e.stopPropagation();
+				const subMenu = jQuery(this).closest('.menu-item-has-children').find('.sub-menu').first();
+				if (subMenu.length) {
+					jQuery(this).closest('.menu-item-has-children').toggleClass('active');
+					jQuery(subMenu).toggleClass('show');
+				}
+			});
+		});
+		
 	})(jQuery);
