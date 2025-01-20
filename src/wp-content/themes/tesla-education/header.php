@@ -114,7 +114,7 @@
 										</a>
 										<?php $contact_us = get_field('contact_us','option'); ?>
 										<a href="<?php echo $contact_us['book_a_tour_link']; ?>" class="e-btn">Book a Tour</a>
-										<a href="#" class="e-btn">Enquire Now</a>
+										<a href="#" class="e-btn" data-bs-toggle="modal" data-bs-target="#popupContact">Enquire Now</a>
 									<?php } ?>
 								</div>
 								<?php } ?>
@@ -188,7 +188,7 @@
 					</a>
 					<?php $contact_us = get_field('contact_us','option'); ?>
 					<a href="<?php echo $contact_us['book_a_tour_link']; ?>" class="e-btn">Book a Tour</a>
-					<a href="#" class="e-btn">Enquire Now</a>
+					<a href="#" class="e-btn" data-bs-toggle="modal" data-bs-target="#popupContact">Enquire Now</a>
 				<?php } ?>
 			</div>
             <style type="text/css">

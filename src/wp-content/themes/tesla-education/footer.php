@@ -286,6 +286,20 @@
 
         </div>
     </div>
+    <!-- Popup Contact us -->
+    <div class="modal popup-contact" id="popupContact">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <?php get_template_part('template-parts/partial/popup-contact', 'partial'); ?>
+                </div>
+                <div class="modal-button">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+            </div>
+
+        </div>
+    </div>
 </footer><!-- #site-footer -->
 <!-- footer area end --> 
 <!-- fixed contact -->
@@ -297,7 +311,7 @@
             </div>
         </li>
         <li>
-            <a href="#" class="item">
+            <a href="#" class="item" data-bs-toggle="modal" data-bs-target="#popupContact">
                 <img src="https://tesla.hdweb24h.com/wp-content/uploads/2025/01/icon-ques.png" alt="">
             </a>
         </li>
@@ -329,7 +343,7 @@
 <script src="<?php echo site_url(); ?>/wp-content/themes/tesla-education/assets/js/wow.min.js"></script> 
 <script src="<?php echo site_url(); ?>/wp-content/themes/tesla-education/assets/js/imagesloaded.pkgd.min.js"></script> 
 <script src="<?php echo site_url(); ?>/wp-content/themes/tesla-education/assets/dist/aos.js"></script>
-<script src="<?php echo site_url(); ?>/wp-content/themes/tesla-education/assets/js/js-cursor.js"></script>  
+<!-- <script src="<?php //echo site_url(); ?>/wp-content/themes/tesla-education/assets/js/js-cursor.js"></script>   -->
 <script src="<?php echo site_url(); ?>/wp-content/themes/tesla-education/assets/js/main.js"></script>  
 <script> 
     if($(window).width() > 1199){

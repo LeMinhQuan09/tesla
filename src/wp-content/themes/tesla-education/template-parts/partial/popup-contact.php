@@ -1,49 +1,20 @@
-<?php
-/**
- * Template Name: Template Contact
- */
-
-get_header();
-$current_lang = get_locale(); ?>
-<main>
-	<?php if( have_rows('banner_section') ): ?>
-	    <?php while( have_rows('banner_section') ): the_row(); 
-	        $background_image = get_sub_field('background_image');
-	        $title = get_sub_field('title');
-    ?>
-    <section class="page__title-area page__title-height page__title-overlay d-flex align-items-end" style="background-image:url(<?php echo $background_image; ?>);">
-		<div class="container">
-			<div class="row">
-				<div class="col-xxl-12">
-					<div class="page__title-wrapper mb-30 mb-40-mob">
-						<h1 class="page__title"><?php echo $title; ?></h1> 
+<div class="popup__contact">
+    <?php if( have_rows('popup_contact','option') ): ?>
+	    <?php 
+        while( have_rows('popup_contact','option') ): the_row(); 
+	        $title_left_contact = get_sub_field('title_left_contact');
+			$sl_form = get_sub_field('select_form_contact');
+	        $title_right_contact = get_sub_field('title_right_contact'); ?>
+            <div class="popup__contact-wrapper">
+				<div class="col-left">
+					<div class="content">
+						<p class="title"><?php echo $title_left_contact; ?></p>
+						<?php echo do_shortcode('[wpforms id="' . esc_attr($sl_form) . '"]'); ?>
 					</div>
 				</div>
-			</div>
-		</div>
-	</section>
-		<?php endwhile; ?>
-	<?php endif; ?>
-	<?php if( have_rows('content_section') ): ?>
-	    <?php while( have_rows('content_section') ): the_row(); 
-	        $title = get_sub_field('title');
-			$sl_form = get_sub_field('sl_form');
-	        $title_right = get_sub_field('title_right');
-    ?>
-	<section class="sec-contact mt-100 mt-30-mob mb-100 mb-30-mob">
-		<div class="container">
-			<div class="row box">
-				<div class="col-xxl-8 col-xl-8 col-lg-8 col-sm-12 col-left">
-					<div class="content pt-30 pb-30 pr-40 pl-60">
-						<h2 class="title"><?php echo $title; ?></h2>
-						<?php 
-						echo do_shortcode('[wpforms id="' . esc_attr($sl_form) . '"]');
-						//echo do_shortcode($form); ?>
-					</div>
-				</div>
-				<div class="col-xxl-4 col-xl-4 col-lg-4 col-sm-12 col-right">
+				<div class="col-right">
 					<div class="content term">
-						<p class="title mb-20"><?php echo $title_right; ?></p>
+						<p class="title"><?php echo $title_right_contact; ?></p>
 						<?php $contact_inf = get_field('contact_inf','option');
 						if($contact_inf){ ?>
 						<ul class="list-inf">
@@ -103,17 +74,6 @@ $current_lang = get_locale(); ?>
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
-	<?php endwhile; ?>
+    <?php endwhile; ?>
 	<?php endif; ?>
-	<?php $iframe_map = get_field('contact_inf','option');
-	if($contact_inf['iframe_map']){ ?>
-	<section class="sec-ggmap">
-		<?php echo $contact_inf['iframe_map']; ?>
-	</section>
-	<?php } ?>
-	
-</main>
-
-<?php get_footer(); ?>
+</div>
