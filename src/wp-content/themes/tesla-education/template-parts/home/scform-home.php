@@ -9,7 +9,7 @@
                     <img src="<?php echo $bg_form; ?>" alt="img">
                 <?php } ?>
             </div>
-            <div class="col-lg-5 col-sm-12 home__form-content pt-100 pb-80 pl-40 pr-40">
+            <div class="col-lg-5 col-sm-12 home__form-content pt-100 pb-80 pl-40 pr-40 pt-30-mob pb-30-mob">
                 <?php if($title_form){ echo '<h2 class="heading-title text-center">'. $title_form .'</h2>'; } ?>
                 <?php if($sl_form){
                     echo '<div class="form-contact">';

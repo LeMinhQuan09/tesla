@@ -68,114 +68,6 @@
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MFSLMBNQ"
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
-	<!-- cursor start -->
-	<div class="cursor-wrap">
-		<div class="cursor js-cursor">
-			<div class="circle js-cursor-init read_article_cursor active" style="transform: translate3d(322px, 484px, 0px);">
-				<div class="circle_wrap"></div>
-				<div class="scroll_circle">
-					<svg viewBox="0 0 124 125" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path id="scroll_circle_init" d="M123.5 62.5C123.5 96.7455 95.9617 124.5 62 124.5C28.0383 124.5 0.5 96.7455 0.5 62.5C0.5 28.2546 28.0383 0.5 62 0.5C95.9617 0.5 123.5 28.2546 123.5 62.5Z" stroke="white" style="stroke-dashoffset: -901.114; stroke-dasharray: none;"></path>
-					</svg>
-				</div>
-				<?php if(pll_current_language() == 'en'): ?>
-				<div class="circle_desc view_more_cursor"></div>
-				<div class="circle_desc open_cursor">
-					<div class="circle_desc_wrap">
-						<div class="text">Open</div>
-					</div>
-				</div>
-				<div class="circle_desc read_article_cursor"></div>
-				<div class="circle_desc view_cursor"></div>
-				<div class="circle_desc view_txt_cursor">
-					<div class="circle_desc_wrap">
-						<div class="text">View</div>
-					</div>
-				</div>
-				<div class="circle_desc download_cursor"></div>
-				<div class="circle_desc scroll_cursor_txt">
-					<div class="circle_desc_wrap">
-						<div class="text">Scroll</div>
-					</div>
-				</div>
-				<div class="circle_desc close_cursor">
-					<div class="circle_desc_wrap">
-						<div class="text">Close</div>
-					</div>
-				</div>
-				<div class="circle_desc home_cursor">
-					<div class="circle_desc_wrap">
-						<div class="text">Home</div>
-					</div>
-				</div>
-				<div class="circle_desc scroll_view_more_txt">
-					<div class="circle_desc_wrap">
-						<div class="text">View</div>
-						<div class="text">more</div>
-					</div>
-				</div>
-				<div class="circle_desc call_cursor">
-					<div class="circle_desc_wrap">
-						<div class="text">Call</div>
-					</div>
-				</div>
-				<div class="circle_desc messenger_cursor">
-					<div class="circle_desc_wrap">
-						<div class="text">Message</div>
-					</div>
-				</div>
-				<?php endif; ?>
-				<?php if(pll_current_language() == 'vi'): ?>
-				<div class="circle_desc view_more_cursor"></div>
-				<div class="circle_desc open_cursor">
-					<div class="circle_desc_wrap">
-						<div class="text">Mở</div>
-					</div>
-				</div>
-				<div class="circle_desc read_article_cursor"></div>
-				<div class="circle_desc view_cursor"></div>
-				<div class="circle_desc view_txt_cursor">
-					<div class="circle_desc_wrap">
-						<div class="text">Xem Thêm</div>
-					</div>
-				</div>
-				<div class="circle_desc download_cursor"></div>
-				<div class="circle_desc scroll_cursor_txt">
-					<div class="circle_desc_wrap">
-						<div class="text">Thanh Cuộn</div>
-					</div>
-				</div>
-				<div class="circle_desc close_cursor">
-					<div class="circle_desc_wrap">
-						<div class="text">Đóng</div>
-					</div>
-				</div>
-				<div class="circle_desc home_cursor">
-					<div class="circle_desc_wrap">
-						<div class="text">Trang Chủ</div>
-					</div>
-				</div>
-				<div class="circle_desc scroll_view_more_txt">
-					<div class="circle_desc_wrap">
-						<div class="text">Xem</div>
-						<div class="text">thêm</div>
-					</div>
-				</div>
-				<div class="circle_desc call_cursor">
-					<div class="circle_desc_wrap">
-						<div class="text">Gọi</div>
-					</div>
-				</div>
-				<div class="circle_desc messenger_cursor">
-					<div class="circle_desc_wrap">
-						<div class="text">Nhắn Tin</div>
-					</div>
-				</div>
-				<?php endif; ?>	
-			</div>
-		</div>
-	</div>
-	<!-- cursor end -->
 	<!-- back to top start -->
 	<div class="progress-wrap-box">
 		<i class="icon-explore"></i>
@@ -189,63 +81,6 @@
 
 	<!-- header area start -->
 	<header>
-		<style type="text/css">
-			/* .header__area.sticky .bg-sticky
-			{
-				background-image: url(<?php //the_field('menu_background', 'option'); ?>);
-				position: relative;
-			}
-			.header__area.sticky .bg-sticky:before
-			{
-				content: '';
-				position: absolute;
-				top: 0;
-				left: 0;
-				width: 100%;
-				height: 100%;
-				z-index: 0;
-				background: #1B1464;
-				background: radial-gradient(circle, rgb(27 20 100) 30%, rgb(27 20 100 / 34%) 100%);
-			}  */
-			.form-search label:after
-			{
-				
-				content: "";
-				background: url(<?php echo site_url(); ?>/wp-content/themes/tesla-education/assets/img/icon/ic-search.png) no-repeat 0 0;
-				position: absolute;
-				right: 10px;
-				line-height: 0px;
-				top: 10px;
-				width: 30px;
-				height: 30px;
-				background-size: 100%;
-			}
-			.sidebar-toggle-btn 
-			{
-				z-index: 10;
-				position: relative;
-			}
-			.header__area.sticky .menu-parent
-			{
-				display: block !important;
-			}
-			.header__area.sticky .menu-parent ul
-			{
-				text-align: center !important;
-			}
-			@media(max-width: 1199px)
-			{
-				#mobile-menu
-				{
-					display: none !important;
-				}
-				.header__area.sticky .menu-parent
-				{
-					display: none !important;
-				}
-			}
-			
-		</style>
 		<div id="header-sticky" class="header__area bg-blue">
 			<div class="header__top">
 				<div class="container">
@@ -253,7 +88,7 @@
 						<div class="col-xxl-2 col-xl-2 col-lg-3 col-md-2 col-sm-4 col-6">
 							<div class="header__left d-flex align-items-center header-ib-logo">
 								<?php if( have_rows('logo', 'option') ): ?>
-									<a href="https://tesla.hdweb24h.com/en/home-page-new/" title="Tesla" class="main-logo">
+									<a href="<?php echo esc_url(home_url('/')); ?>" title="Tesla" class="main-logo">
 										<?php while( have_rows('logo', 'option') ): the_row();  ?>
 											<img class="logo-white" src="<?php echo get_sub_field('white_logo', 'option'); ?>" alt="logo">
 										<?php endwhile; wp_reset_postdata(); ?>
@@ -271,25 +106,31 @@
 								<div class="header__lang">
 									<ul class="d-flex align-items-center"><?php echo do_shortcode('[language_switcher]'); ?></ul>
 								</div>
+								<?php if(!wp_is_mobile()){ ?>
 								<div class="header__cta d-flex align-items-center ml-30">
 									<?php $contact_inf = get_field('contact_inf','option');
 									if($contact_inf){ ?>
 										<a href="#" class="w-btn">Trial class</a>
 										</a>
-										<!-- <a href="tel:<?php //echo $contact_inf['hotline'] ?>" class="w-btn">
-											<img src="<?php //echo esc_url(get_template_directory_uri()); ?>/assets/img/icon/header-phone.png" alt="hotline" />
-											<span><?php //echo $contact_inf['hotline']; ?></span>
-										</a> -->
 										<?php $contact_us = get_field('contact_us','option'); ?>
 										<a href="<?php echo $contact_us['book_a_tour_link']; ?>" class="e-btn">Book a Tour</a>
-										<a href="#" class="e-btn">Enquire Now</a>
+										<a href="#" class="e-btn" data-bs-toggle="modal" data-bs-target="#popupContact">Enquire Now</a>
 									<?php } ?>
 								</div>
+								<?php } ?>
+								<div class="sidebar__menu d-xl-none">
+								   <div class="sidebar-toggle-btn sidebar-toggle-btn-white ml-30" id="sidebar-toggle">
+									   <span class="line"></span>
+									   <span class="line"></span>
+									   <span class="line"></span>
+								   </div>
+							   </div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+			<?php if(!wp_is_mobile()){ ?>
 			<div class="header__menu">
 				<div class="container">
 					<nav class="main-menu"> 
@@ -303,12 +144,14 @@
 					</nav>
 				</div>
 			</div>
+			<?php } ?>
+			
 		</div>
 	</header>
 	<!-- header area end --> 
 
 <?php 
-$array_value = array("Tesla","Group");
+// $array_value = array("Tesla","Group");
 //custom_logs($array_value);
 ?>
 <!--?php echo file_get_contents('../custom_logs.log'); ?-->
@@ -319,9 +162,8 @@ $array_value = array("Tesla","Group");
             <button class="sidebar__close-btn" id="sidebar__close-btn"> <span><i class="fal fa-times"></i></span> <span>close</span> </button>
         </div>
         <div class="sidebar__content">
-
         	<?php if( have_rows('logo', 'option') ): ?>
-            	<div class="logo mb-40">
+            	<div class="logo">
             		<a href="<?php echo esc_url(home_url('/')); ?>">
             			<?php while( have_rows('logo', 'option') ): the_row();  ?>
 							<img src="<?php echo get_sub_field('blue_logo', 'option'); ?>" alt="logo">
@@ -329,7 +171,6 @@ $array_value = array("Tesla","Group");
 	            	</a>
             	</div>
             <?php endif; ?>
-            <!-- <div class="mobile-menu fix"></div> -->
             <div class="mb-menu fix">
             	<nav> 
                     <?php 
@@ -340,6 +181,16 @@ $array_value = array("Tesla","Group");
 					?>
                 </nav>
             </div>
+			<div class="mb-cta mt-10 d-flex flex-direction-column align-items-center">
+				<?php $contact_inf = get_field('contact_inf','option');
+				if($contact_inf){ ?>
+					<a href="#" class="e-btn">Trial class</a>
+					</a>
+					<?php $contact_us = get_field('contact_us','option'); ?>
+					<a href="<?php echo $contact_us['book_a_tour_link']; ?>" class="e-btn">Book a Tour</a>
+					<a href="#" class="e-btn" data-bs-toggle="modal" data-bs-target="#popupContact">Enquire Now</a>
+				<?php } ?>
+			</div>
             <style type="text/css">
             	@media(max-width: 1199px)
 				{
@@ -357,16 +208,9 @@ $array_value = array("Tesla","Group");
 					}
 				}
             </style>
-            <div class="sidebar__search p-relative mt-40 mb-22 form-search">
-                <?php if(get_locale() == 'vi') { ?>
-                        <?php get_search_form(); ?>
-                    <?php } else if(get_locale() == 'en_US') { ?>
-                        <?php get_search_form(); ?>
-                    <?php } ?> 
-            </div>
-            <div class="header__btn header__btn-2 btn-home-mobile"> 
+            <!-- <div class="header__btn header__btn-2 btn-home-mobile"> 
 				<a href="#" class="e-btn open_cursor custom_cursor_hover" data-bs-toggle="modal" data-bs-target="#myModal"><span><?php if(pll_current_language() == 'vi'){ echo 'Đăng ký tư vấn'; }else{echo 'Make An Enquiry'; } ?> </span></a>
-			</div>
+			</div> -->
         </div>
     </div>
 </div>
@@ -375,32 +219,29 @@ $array_value = array("Tesla","Group");
 <!-- sidebar area end -->
 
 <?php 
-	if( have_rows('menu_custom', 'option') ):
-		while( have_rows('menu_custom', 'option') ): the_row(); 
-			$who = get_sub_field('who_image', 'option');
-			$discover = get_sub_field('discover_image', 'option');
-			$learning = get_sub_field('learning_image', 'option');
-			$admissions = get_sub_field('admissions_image', 'option');
-			$knowledge = get_sub_field('knowledge_image', 'option');
-			$community = get_sub_field('community_image', 'option');
+	// if( have_rows('menu_custom', 'option') ):
+	// 	while( have_rows('menu_custom', 'option') ): the_row(); 
+	// 		$who = get_sub_field('who_image', 'option');
+	// 		$discover = get_sub_field('discover_image', 'option');
+	// 		$learning = get_sub_field('learning_image', 'option');
+	// 		$admissions = get_sub_field('admissions_image', 'option');
+	// 		$knowledge = get_sub_field('knowledge_image', 'option');
+	// 		$community = get_sub_field('community_image', 'option');
 
-			echo '<style> @media only screen and (min-width: 1200px){ body #mega-menu-wrap-primary-menu #mega-menu-primary-menu > li.explore-icon > ul > li > ul > li > ul > li > ul > li.who-bg{ background-image: url('.$who.'); }body #mega-menu-wrap-primary-menu #mega-menu-primary-menu > li.explore-icon > ul > li > ul > li > ul > li > ul > li.discover-bg{ background-image: url('.$discover.'); } body #mega-menu-wrap-primary-menu #mega-menu-primary-menu > li.explore-icon > ul > li > ul > li > ul > li > ul > li.learning-bg{ background-image: url('.$learning.'); } body #mega-menu-wrap-primary-menu #mega-menu-primary-menu > li.explore-icon > ul > li > ul > li > ul > li > ul > li.admissions-bg{ background-image: url('.$admissions.'); } body #mega-menu-wrap-primary-menu #mega-menu-primary-menu > li.explore-icon > ul > li > ul > li > ul > li > ul > li.knowledge-bg{ background-image: url('.$knowledge.'); } body #mega-menu-wrap-primary-menu #mega-menu-primary-menu > li.explore-icon > ul > li > ul > li > ul > li > ul > li.community-bg{ background-image: url('.$community.'); } } </style>';
+	// 		echo '<style> @media only screen and (min-width: 1200px){ body #mega-menu-wrap-primary-menu #mega-menu-primary-menu > li.explore-icon > ul > li > ul > li > ul > li > ul > li.who-bg{ background-image: url('.$who.'); }body #mega-menu-wrap-primary-menu #mega-menu-primary-menu > li.explore-icon > ul > li > ul > li > ul > li > ul > li.discover-bg{ background-image: url('.$discover.'); } body #mega-menu-wrap-primary-menu #mega-menu-primary-menu > li.explore-icon > ul > li > ul > li > ul > li > ul > li.learning-bg{ background-image: url('.$learning.'); } body #mega-menu-wrap-primary-menu #mega-menu-primary-menu > li.explore-icon > ul > li > ul > li > ul > li > ul > li.admissions-bg{ background-image: url('.$admissions.'); } body #mega-menu-wrap-primary-menu #mega-menu-primary-menu > li.explore-icon > ul > li > ul > li > ul > li > ul > li.knowledge-bg{ background-image: url('.$knowledge.'); } body #mega-menu-wrap-primary-menu #mega-menu-primary-menu > li.explore-icon > ul > li > ul > li > ul > li > ul > li.community-bg{ background-image: url('.$community.'); } } </style>';
 
-	endwhile; endif; 
+	// endwhile; endif; 
  ?>
 <?php
- $post_id=get_the_ID();
- if($post_id==37 || $post_id == 8)
- {
-	$_SESSION['link_pre_id']=null;
-	$_SESSION['link_pre']=null;
-	$_SESSION['link_pre_name']=null;
+//  $post_id=get_the_ID();
+//  if($post_id==37 || $post_id == 8) {
+// 	$_SESSION['link_pre_id']=null;
+// 	$_SESSION['link_pre']=null;
+// 	$_SESSION['link_pre_name']=null;
 		
-		
-	$_SESSION['link_new_id']=null;
-	$_SESSION['link_new']=null;
-	$_SESSION['link_new_name']=null;
-	//$_SESSION['lg_vi']=null;
- }
- 
+// 	$_SESSION['link_new_id']=null;
+// 	$_SESSION['link_new']=null;
+// 	$_SESSION['link_new_name']=null;
+// 	//$_SESSION['lg_vi']=null;
+// }
  ?>

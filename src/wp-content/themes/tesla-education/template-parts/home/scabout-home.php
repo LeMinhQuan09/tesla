@@ -4,7 +4,7 @@
     $name_about = get_field('btn_aboutus');
     $gallery_about = get_field('gallery_aboutus');
     $bg_about = get_field('bg_about');  ?>
-<section class="home__about pt-60 pb-40">
+<section class="home__about pt-60 pb-40 pt-30-mob pb-30-mob">
     <div class="container-fluid">
         <div class="row">
             <div class="col-xl-3 col-lg-3 col-sm-12 d-flex justify-content-center home__about-content">

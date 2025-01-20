@@ -67,7 +67,7 @@ ul.social-list li img {
     justify-content: center;
     gap: 5px;
 }
-.fixed-contact ul li a {
+.fixed-contact ul li .item {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,10 +76,90 @@ ul.social-list li img {
     border: 1px solid #fff;
     width: 46px;
     height: 46px;
+    cursor: pointer;
 }
 .fixed-contact img {
     width: 55%;
 }
 .progress-wrap {
     bottom: 40px !important;
+}
+/*== POPUP CONTACT  ==*/
+#popupContact .modal-dialog{
+    max-width: 1000px;
+}
+#popupContact .btn-close {
+    position: absolute;
+    top: 5px;
+    color: #fff;
+    right: 5px;
+    filter: brightness(0) invert(1);
+}
+#popupContact .col-left .title {
+    font-size: 24px !important;
+}
+#popupContact .col-right .content {
+    padding: 60px 30px !important;
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+}
+#popupContact .modal-body {
+    padding: 0px;
+}
+#popupContact .modal-content {
+    border: none;
+}
+.popup__contact-wrapper {
+    display: flex;
+}
+.popup__contact-wrapper .col-left {
+    width: 60%;
+    padding-right: 30px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.popup__contact-wrapper .col-right {
+    width: 40%;
+}
+/*== END POPUP CONTACT  ==*/
+
+@media (max-width: 769px){
+    #popupContact .modal-dialog {
+        max-width: 96%;
+    }
+    .popup__contact-wrapper .col-left {
+        padding-right: 15px;
+        padding-left: 0px;
+        width: 50%;
+    }
+    .popup__contact-wrapper .col-right {
+        width: 50%;
+    }
+}
+
+@media (max-width: 767px){
+    .footer__area .widget-title {
+        margin-bottom: 15px;
+    }
+    .footer__copyright p {
+        font-size: 14px;
+    }
+    .footer__copyright {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 641px){
+    #popupContact .col-left {
+        width: 100%;
+    }
+    #popupContact .col-right {
+        display: none;
+    }
+    #popupContact .btn-close {
+        filter: none;
+    }
 }

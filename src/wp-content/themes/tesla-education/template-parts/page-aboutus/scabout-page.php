@@ -4,7 +4,7 @@
     $img_about = get_field('img_about');
     $short_about = get_field('short_description_about');
 ?>
-<section class="about__content pt-80 pb-40">
+<section class="about__content pt-80 pt-30-mob pb-40 pb-30-mob">
     <div class="container container-1570">
         <div class="row">
             <div class="col-xl-5 col-lg-5 col-sm-12 pl-30 p-relative about__content-img">

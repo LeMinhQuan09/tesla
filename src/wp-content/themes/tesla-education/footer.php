@@ -18,7 +18,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 footer__widget-des">
+                <div class="col-lg-4 footer__widget-des mb-30-mob">
                     <?php dynamic_sidebar( 'footer_des' ); ?> 
                     <ul class="social-list mt-35">
                         <li>
@@ -48,10 +48,10 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-2 footer__widget-menu">
+                <div class="col-lg-2 footer__widget-menu mb-30-mob">
                     <?php dynamic_sidebar( 'footer_menu_1' ); ?> 
                 </div>
-                <div class="col-lg-2 footer__widget-menu">
+                <div class="col-lg-2 footer__widget-menu mb-30-mob">
                     <?php dynamic_sidebar( 'footer_menu_2' ); ?>
                 </div>
                 <div class="col-lg-4 footer__widget-contact">
@@ -286,28 +286,42 @@
 
         </div>
     </div>
+    <!-- Popup Contact us -->
+    <div class="modal popup-contact" id="popupContact">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <?php get_template_part('template-parts/partial/popup-contact', 'partial'); ?>
+                </div>
+                <div class="modal-button">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+            </div>
+
+        </div>
+    </div>
 </footer><!-- #site-footer -->
 <!-- footer area end --> 
 <!-- fixed contact -->
 <div class="fixed-contact">
     <ul>
         <li>
-            <a href="#">
-                <img src="https://tesla.hdweb24h.com/wp-content/themes/tesla-education/assets/img/icon/ic-search.png" alt="">
-            </a>
+            <div class="fixed-contact-search item"  data-bs-toggle="modal" data-bs-target="#mySearch">
+                <img src="<?php echo site_url(); ?>/wp-content/themes/tesla-education/assets/img/icon/ic-search.png" alt="" />
+            </div>
         </li>
         <li>
-            <a href="#">
+            <a href="#" class="item" data-bs-toggle="modal" data-bs-target="#popupContact">
                 <img src="https://tesla.hdweb24h.com/wp-content/uploads/2025/01/icon-ques.png" alt="">
             </a>
         </li>
         <li>
-            <a href="tel:0984948080">
+            <a href="tel:0984948080" class="item">
                 <img src="https://tesla.hdweb24h.com/wp-content/uploads/2025/01/cta-phone.png" alt="">
             </a>
         </li>
         <li>
-            <a href="https://zalo.me/0984948080" target="_blank">
+            <a href="https://zalo.me/0984948080" target="_blank" class="item">
                 <img src="https://tesla.hdweb24h.com/wp-content/uploads/2025/01/zalo-white.png" alt="">
             </a>
         </li>
@@ -329,7 +343,7 @@
 <script src="<?php echo site_url(); ?>/wp-content/themes/tesla-education/assets/js/wow.min.js"></script> 
 <script src="<?php echo site_url(); ?>/wp-content/themes/tesla-education/assets/js/imagesloaded.pkgd.min.js"></script> 
 <script src="<?php echo site_url(); ?>/wp-content/themes/tesla-education/assets/dist/aos.js"></script>
-<script src="<?php echo site_url(); ?>/wp-content/themes/tesla-education/assets/js/js-cursor.js"></script>  
+<!-- <script src="<?php //echo site_url(); ?>/wp-content/themes/tesla-education/assets/js/js-cursor.js"></script>   -->
 <script src="<?php echo site_url(); ?>/wp-content/themes/tesla-education/assets/js/main.js"></script>  
 <script> 
     if($(window).width() > 1199){

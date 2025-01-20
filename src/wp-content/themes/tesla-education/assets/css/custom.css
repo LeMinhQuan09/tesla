@@ -222,6 +222,61 @@
 .bg-gray {
 	background-color: #F5F5F5;
 }
+.play-vid .thumb {
+    cursor: pointer;
+}
+.play-vid .img img {
+	object-fit: cover;
+    border-radius: 15px;
+}
+.play-vid .img::before {
+	content: '';
+    display: block;
+    padding-bottom: 56.25%;
+}
+.play-vid .icon-play {
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 50%;
+    z-index: 1;
+    cursor: pointer;
+}
+.play-vid .icon-play::before {
+    content: '';
+    position: absolute;
+    top: auto;
+    left: auto;
+    width: 72px;
+    height: 72px;
+    background: #FFFFFF85;
+    border-radius: 50%;
+    animation: pulse 1.5s infinite;
+    z-index: -1;
+}
+.play-vid .icon-play img {
+    width: 22px;
+    height: 22px;
+    transform: translateX(2px);
+    z-index: 2;
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 0.7;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 0.3;
+    }
+    100% {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
 /*== END CSS STYLE ALL ==*/
 /*== CSS HERO BANNER ==*/
 .hero-banner__bg {
@@ -666,43 +721,53 @@
 	align-items: center;
 	margin-bottom: 90px;
 }
-.page-template-template-contact .col-left .title {
+.page-template-template-contact .col-left .title,
+#popupContact .col-left .title {
 	font-size: 28px;
 	text-transform: uppercase;
 	color: var(--cl-main);
 	font-weight: 700;
 }
-.page-template-template-contact .col-left form {
+.page-template-template-contact .col-left form,
+#popupContact .col-left form {
 	padding: 0;
 }
-.page-template-template-contact .col-left div.wpforms-container-full {
+.page-template-template-contact .col-left div.wpforms-container-full,
+#popupContact .col-left div.wpforms-container-full {
 	margin-bottom: 0;
 	margin-top: 0;
 }
-.page-template-template-contact .col-left form label.wpforms-field-label {
+.page-template-template-contact .col-left form label.wpforms-field-label,
+#popupContact .col-left form label.wpforms-field-label {
 	font-size: 16px !important;
 	margin-bottom: 0 !important;
 }
-.page-template-template-contact .col-left form input::placeholder {
+.page-template-template-contact .col-left form input::placeholder,
+#popupContact .col-left form input::placeholder {
 	font-size: 13px !important;
 	color: #A4A4A4;
 }
 .page-template-template-contact .col-left form input,
-.page-template-template-contact .col-left form select {
+.page-template-template-contact .col-left form select,
+#popupContact .col-left form input,
+#popupContact .col-left form select {
 	border: none !important;
 	border-bottom: 1px solid #7A7A7A !important;
 	padding-left: 0 !important;
 	font-size: 14px !important;
 }
-.page-template-template-contact div.wpforms-container-full .wpforms-form .wpforms-field {
+.page-template-template-contact div.wpforms-container-full .wpforms-form .wpforms-field,
+#popupContact div.wpforms-container-full .wpforms-form .wpforms-field {
 	padding: 5px 0;
 }
-.page-template-template-contact .wpforms-error {
+.page-template-template-contact .wpforms-error,
+#popupContact .wpforms-error {
 	font-size: 13px !important;
 	margin-bottom: 0 !important;
     line-height: normal !important
 }
-.page-template-template-contact .col-left button[type="submit"] {
+.page-template-template-contact .col-left button[type="submit"],
+#popupContact .col-left button[type="submit"] {
 	height: 38px !important;
     border-radius: 8px !important;
     border: 1px solid #fff !important;
@@ -714,34 +779,42 @@
     align-items: center;
     justify-content: center;
 }
-.page-template-template-contact .col-right {
+.page-template-template-contact .col-right,
+#popupContact .col-right {
 	padding: 0;
 }
-.page-template-template-contact .col-right .content {
+.page-template-template-contact .col-right .content,
+#popupContact .col-right .content {
 	padding: 70px 50px 100px;
 	background-color: var(--cl-main);
 	color: #fff;
 }
-.page-template-template-contact .col-right .content > * {
+.page-template-template-contact .col-right .content > *,
+#popupContact .col-right .content > * {
 	font-size: 16px;
 }
-.page-template-template-contact .col-right .title {
+.page-template-template-contact .col-right .title,
+#popupContact .col-right .title {
 	font-size: 20px;
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #fff;
 }
-.page-template-template-contact .list-inf .item {
+.page-template-template-contact .list-inf .item,
+#popupContact .list-inf .item {
 	margin-bottom: 20px;
 }
-.page-template-template-contact .list-inf .item:last-child {
+.page-template-template-contact .list-inf .item:last-child,
+#popupContact .list-inf .item:last-child {
 	margin-bottom: 0;
 }
-.page-template-template-contact .list-inf .sub {
+.page-template-template-contact .list-inf .sub,
+#popupContact .list-inf .sub {
 	display: block;
 	font-weight: 700;
 }
-.page-template-template-contact .list-inf a {
+.page-template-template-contact .list-inf a,
+#popupContact .list-inf a {
 	font-size: 14px !important;
 }
 /*== END TEMPLATE PAGE CONTACT US ==*/
@@ -772,7 +845,7 @@
 	border-bottom: none;
 }
 .col-toc #toc_container li a {
-	font-size: 18px;
+	font-size: 16px;
 	text-transform: uppercase;
 	padding: 12px 0;
 	display: inline-block;
@@ -784,7 +857,7 @@
 }
 .col-toc .toc_title {
 	text-align: left !important;
-	font-size: 20px;
+	font-size: 18px;
     line-height: 1.5;
     color: var(--cl-main) !important;
     margin-bottom: 0 !important;
@@ -805,20 +878,20 @@
 }
 @media (min-width: 1200px){
 	.page-template-template-like-post .col-toc {
-		width: 350px;
-		padding: 50px 3% 100px 3%;
+		width: 250px;
+		padding: 50px 2% 100px 2%;
 	}
 	.page-template-template-like-post .content-post {
-		width: calc(100% - 350px);
-		padding: 0 5% 150px 5%;
+		width: calc(100% - 250px);
+		padding: 0 4% 150px 4%;
 	}
 }
 @media (min-width: 1400px){
 	.page-template-template-like-post .col-toc {
-		width: 450px;
+		width: 350px;
 	}
 	.page-template-template-like-post .content-post {
-		width: calc(100% - 450px);
+		width: calc(100% - 350px);
 	}
 }
 /*== END TEMPLATE PAGE LIKE A POST ==*/
@@ -910,7 +983,44 @@
 } */
 /*== END TEMPLATE PAGE SCHOOL FEES - TABLE ==*/
 /* RESPONSIVE */
-@media (max-width: 768px){
+@media (max-width: 1199px) {
+    .heading-title {
+        font-size: 30px;
+    }
+	.hero-banner__title {
+		font-size: 32px;
+	}
+}
+
+@media (min-width: 768px){
+	.container-1570 {
+		max-width: 720px !important;
+	}
+}
+
+@media (max-width: 769px) {
+    .heading-title {
+        font-size: 30px;
+		line-height: normal;
+    }
+	.blurred-text {
+		font-size: 60px;
+		line-height: 60px;
+		left: -5px;
+	}
+	.heading-group {
+		margin-bottom: 40px;
+	}
+	.hero-banner__title {
+		font-size: 28px;
+	}
+	.sidebar__area {
+		width: 400px;
+		right: -420px;
+	}
+	.popup-video .modal-dialog {
+        max-width: 95%;
+    }
 	/*== TEMPLATE VIDEO */
 	.tesla-video .list-arts .thumb:after {
 		top: 20% !important;
@@ -926,8 +1036,51 @@
 		transform: translateX(-23%);
 	}
 	/*== END TEMPLATE VIDEO ==*/
+	.page-template-template-contact .sec-contact .box {
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom: 40px;
+	}
+	.page-template-template-contact .col-left .content {
+		padding: 30px;
+	}
+	.page-template-template-contact .col-right .content {
+		padding: 50px;
+	}
+	.page-template-template-contact .col-left .title {
+		font-size: 26px;
+	}
 }
-@media (max-width: 640px){
+
+@media (max-width: 641px) {
+    .heading-title {
+        font-size: 26px;
+		margin-bottom: 15px;
+    }
+	.hero-banner {
+		padding-top: 80px;
+		padding-bottom: 120px;
+	}
+	.hero-banner__title {
+		font-size: 26px;
+	}
+	.hero-banner__content .rank-math-breadcrumb p {
+		font-size: 16px;
+	}
+	.blurred-text {
+		font-size: 50px;
+		line-height: 60px;
+		left: 0px;
+	}
+	.page-template-template-contact .col-left .title {
+		font-size: 20px;
+	}
+	.page-template-template-contact .col-left .content {
+        padding: 30px 20px;
+    }
+	.page-template-template-contact .col-right .content {
+        padding: 50px 35px;
+    }
 	/*== CSS ALL ==*/
 	.section-title {
 		font-size: 22px;
@@ -1005,6 +1158,13 @@
 	/* END TEMPLATE SCHOOL FEE */
 }
 @media (max-width: 425px){
+	.blurred-text {
+		font-size: 40px;
+	}
+	.sidebar__area {
+		right: -370px;
+		width: 350px;
+	}
 	/*== TEMPLATE VIDEO */
 	.tesla-video .list-arts .slick-prev {
 		left: 40%;

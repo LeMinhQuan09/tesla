@@ -1,7 +1,7 @@
 <?php $title_campus = get_field('title_campus');
     $desc_campus = get_field('desc_campus');
     $gallery_campus = get_field('gallery_campus'); ?>
-<section class="home__campus pt-60 pb-60">
+<section class="home__campus pt-60 pb-60 pt-30-mob pb-30-mob">
     <div class="container">
         <?php if($title_campus){
             echo '<div class="row">';

@@ -2,7 +2,7 @@
     $desc_whychoose = get_field('desc_whychoose');
     $lists_why_choose = get_field('lists_why_choose');
 ?>
-<section class="about__whychoose pt-60 pb-60">
+<section class="about__whychoose pt-60 pb-60 pt-30-mob pb-30-mob">
     <div class="container">
         <div class="about__whychoose-top mb-40">
             <?php if($title_whychoose){ echo '<div class="heading-group p-relative mb-40">'; }

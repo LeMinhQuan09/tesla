@@ -30,7 +30,7 @@ $current_lang = get_locale(); ?>
 			$sl_form = get_sub_field('sl_form');
 	        $title_right = get_sub_field('title_right');
     ?>
-	<section class="sec-contact mt-100 mt-30-mod mb-100 mb-30-mob">
+	<section class="sec-contact mt-100 mt-30-mob mb-100 mb-30-mob">
 		<div class="container">
 			<div class="row box">
 				<div class="col-xxl-8 col-xl-8 col-lg-8 col-sm-12 col-left">
