@@ -1032,6 +1032,12 @@ function custom_theme_style(){
 	wp_register_style( $handle = 'page-aboutus', $src = get_template_directory_uri().'/assets/css/page-aboutus.css', $deps = array(), $ver = false, $media = 'all' );
 	wp_enqueue_style('page-aboutus');
 
+	wp_register_style( $handle = 'page-enroll', $src = get_template_directory_uri().'/assets/css/page-enroll.css', $deps = array(), $ver = false, $media = 'all' );
+	wp_enqueue_style('page-enroll');
+
+	wp_register_style( $handle = 'page-ib-early', $src = get_template_directory_uri().'/assets/css/page-ib-early.css', $deps = array(), $ver = false, $media = 'all' );
+	wp_enqueue_style('page-ib-early');
+
     wp_register_style( $handle = 'custom', $src = get_template_directory_uri().'/assets/css/custom.css', $deps = array(), $ver = false, $media = 'all' );
 	wp_enqueue_style('custom');
 
@@ -1059,3 +1065,15 @@ function pll_language_switcher_shortcode($atts) {
     return '';
 }
 add_shortcode('language_switcher', 'pll_language_switcher_shortcode');
+//
+function add_arrow_to_parent_menu_items($items) {
+	if (wp_is_mobile()) {
+		foreach ($items as &$item) {
+			if (in_array('menu-item-has-children', $item->classes)) {
+				$item->title .= ' <span class="menu-arrow"><i class="fa-solid fa-angle-down"></i></span>';
+			}
+		}
+	}
+	return $items;
+}
+add_filter('wp_nav_menu_objects', 'add_arrow_to_parent_menu_items');
