@@ -4,8 +4,28 @@
 
 // -------------------------------------------------------------
 
-if ( Helper::isAcfProActive() ) {
+define( 'THEME_PATH', untrailingslashit( get_template_directory() ) . DIRECTORY_SEPARATOR );
+define( 'THEME_URL', untrailingslashit( esc_url( get_template_directory_uri() ) ) . '/' );
 
+const ASSETS_URL = THEME_URL . 'assets/';
+
+// -------------------------------------------------------------
+
+add_action( 'wp_enqueue_scripts', '_wp_enqueue_scripts', 999 );
+function _wp_enqueue_scripts() {
+	// CSS, JS
+	if (
+		Helper::isPageTemplate( 'templates/page-trial.php' ) ||
+		Helper::isPageTemplate( 'templates/page-services.php' )
+	) {
+		wp_enqueue_style( "trial-style", ASSETS_URL . "trial.css", [] );
+		wp_enqueue_script( "trial", ASSETS_URL . "trial.js", [ "jquery-core" ], false, true );
+	}
+}
+
+// -------------------------------------------------------------
+
+if ( Helper::isAcfProActive() ) {
 	add_filter( 'pre_http_request', static function ( $preempt, $parsed_args, $url ) {
 		// Intercept ACF activation request
 		if ( str_contains( $url, 'https://connect.advancedcustomfields.com/v2/plugins/activate?p=pro' ) ) {

@@ -12,6 +12,44 @@ final class Helper {
 	// -------------------------------------------------------------
 
 	/**
+	 * Check if the current page is using a specific page template (based on file name only).
+	 *
+	 * @param string $template_file_name
+	 *
+	 * @return bool
+	 */
+	public static function isPageTemplate( string $template_file_name ): bool {
+		if ( ! is_page() ) {
+			return false;
+		}
+
+		$current_template_slug = get_page_template_slug( get_the_ID() );
+		if ( ! $current_template_slug ) {
+			return false;
+		}
+
+		return $current_template_slug === trim( $template_file_name );
+	}
+
+	// -------------------------------------------------------------
+
+	/**
+	 * Check if the current page is a category page and belongs to a specific taxonomy.
+	 *
+	 * @param string $taxonomy
+	 *
+	 * @return bool
+	 */
+	public static function isTaxonomy( string $taxonomy ): bool {
+		$queried_object = get_queried_object();
+
+		// Validate queried object and its taxonomy.
+		return $queried_object && isset( $queried_object->taxonomy ) && $queried_object->taxonomy === $taxonomy;
+	}
+
+	// -------------------------------------------------------------
+
+	/**
 	 * @return void
 	 */
 	public static function breadCrumbs(): void {
@@ -348,7 +386,217 @@ final class Helper {
 
 	// -------------------------------------------------------------
 
+	/**
+	 * @param mixed $link
+	 * @param string|null $class
+	 * @param string|null $label
+	 * @param string|null $extra_title
+	 *
+	 * @return string
+	 */
+	public static function ACFLink( $link, ?string $class = '', ?string $label = '', ?string $extra_title = '' ): string {
+		// string
+		if ( ! empty( $link ) && is_string( $link ) ) {
+			$link_return = sprintf(
+				'<a class="%3$s" href="%1$s" title="%2$s">',
+				esc_url( trim( $link ) ),
+				self::escAttr( $label ),
+				self::escAttr( $class )
+			);
 
+			$link_return .= $label . $extra_title;
+			$link_return .= '</a>';
+
+			return $link_return;
+		}
+
+		// array
+		if ( ! empty( $link ) && is_array( $link ) ) {
+			$_link_title  = $link['title'] ?? '';
+			$_link_url    = $link['url'] ?? '';
+			$_link_target = $link['target'] ?? '';
+
+			// force label
+			if ( ! empty( $label ) ) {
+				$_link_title = $label;
+			}
+
+			if ( ! empty( $_link_url ) ) {
+				$link_return = sprintf(
+					'<a class="%3$s" href="%1$s" title="%2$s"',
+					esc_url( $_link_url ),
+					self::escAttr( $_link_title ),
+					self::escAttr( $class )
+				);
+
+				if ( ! empty( $_link_target ) ) {
+					$link_return .= ' target="_blank" rel="noopener noreferrer nofollow"';
+				}
+
+				$link_return .= '>';
+				$link_return .= $_link_title . $extra_title;
+				$link_return .= '</a>';
+
+				return $link_return;
+			}
+		}
+
+		return '';
+	}
+
+	// -------------------------------------------------------------
+
+	/**
+	 * @param mixed $link
+	 * @param string|null $class
+	 * @param string|null $label
+	 *
+	 * @return string
+	 */
+	public static function ACFLinkOpen( $link, ?string $class = '', ?string $label = '' ): string {
+		// string
+		if ( ! empty( $link ) && is_string( $link ) ) {
+			return sprintf(
+				'<a class="%3$s" href="%1$s" title="%2$s">',
+				esc_url( trim( $link ) ),
+				self::escAttr( $label ),
+				self::escAttr( $class )
+			);
+		}
+
+		// array
+		if ( ! empty( $link ) && is_array( $link ) ) {
+			$_link_title  = $link['title'] ?? '';
+			$_link_url    = $link['url'] ?? '';
+			$_link_target = $link['target'] ?? '';
+
+			if ( ! empty( $label ) ) {
+				$_link_title = $label;
+			}
+
+			if ( ! empty( $_link_url ) ) {
+				$link_return = sprintf(
+					'<a class="%3$s" href="%1$s" title="%2$s"',
+					esc_url( $_link_url ),
+					self::escAttr( $_link_title ),
+					self::escAttr( $class )
+				);
+
+				if ( ! empty( $_link_target ) ) {
+					$link_return .= ' target="_blank" rel="noopener noreferrer nofollow"';
+				}
+				$link_return .= '>';
+
+				return $link_return;
+			}
+		}
+
+		return '';
+	}
+
+	// -------------------------------------------------------------
+
+	/**
+	 * @param string|null $content
+	 * @param mixed $link
+	 * @param string|null $class
+	 * @param string|null $label
+	 * @param string|bool $empty_link_default_tag
+	 *
+	 * @return string
+	 */
+	public static function ACFLinkWrap( ?string $content, $link, ?string $class = '', ?string $label = '', $empty_link_default_tag = 'span' ): string {
+		// string
+		if ( is_string( $link ) && ! empty( $link ) ) {
+			$link_return = sprintf(
+				'<a class="%3$s" href="%1$s" title="%2$s">',
+				esc_url( trim( $link ) ),
+				self::escAttr( $label ),
+				self::escAttr( $class )
+			);
+			$link_return .= $content . '</a>';
+
+			return $link_return;
+		}
+
+		// array
+		$link = (array) $link;
+		if ( $link ) {
+			$_link_title  = $link['title'] ?? '';
+			$_link_url    = $link['url'] ?? '';
+			$_link_target = $link['target'] ?? '';
+
+			if ( ! empty( $label ) ) {
+				$_link_title = $label;
+			}
+
+			if ( ! empty( $_link_url ) ) {
+				$link_return = sprintf(
+					'<a class="%3$s" href="%1$s" title="%2$s"',
+					esc_url( $_link_url ),
+					self::escAttr( $_link_title ),
+					self::escAttr( $class )
+				);
+
+				if ( ! empty( $_link_target ) ) {
+					$link_return .= ' target="_blank" rel="noopener noreferrer nofollow"';
+				}
+
+				$link_return .= '>';
+				$link_return .= $content;
+				$link_return .= '</a>';
+
+				return $link_return;
+			}
+		}
+
+		// empty link
+		$link_return = $content;
+		if ( $empty_link_default_tag ) {
+			$link_return = '<' . $empty_link_default_tag . ' class="' . self::escAttr( $class ) . '">' . $content . '</' . $empty_link_default_tag . '>';
+		}
+
+		return $link_return;
+	}
+
+	// --------------------------------------------------
+
+	/**
+	 * @param string|null $string
+	 *
+	 * @return string|null
+	 */
+	public static function escAttr( ?string $string ): ?string {
+		return esc_attr( self::stripAllTags( $string ) );
+	}
+
+	// --------------------------------------------------
+
+	/**
+	 * @param string|null $string
+	 * @param bool $remove_js
+	 * @param bool $flatten
+	 * @param $allowed_tags
+	 *
+	 * @return string
+	 */
+	public static function stripAllTags( ?string $string, bool $remove_js = true, bool $flatten = true, $allowed_tags = null ): string {
+		if ( ! is_scalar( $string ) ) {
+			return '';
+		}
+
+		if ( $remove_js ) {
+			$string = preg_replace( '@<(script|style)[^>]*?>.*?</\\1>@si', ' ', $string );
+		}
+
+		$string = strip_tags( $string, $allowed_tags );
+
+		if ( $flatten ) {
+			$string = preg_replace( '/[\r\n\t ]+/', ' ', $string );
+		}
+
+		return trim( $string );
+	}
 
 	// -------------------------------------------------------------
 }
