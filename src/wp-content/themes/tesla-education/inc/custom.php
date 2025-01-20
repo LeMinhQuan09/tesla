@@ -18,8 +18,8 @@ function _wp_enqueue_scripts() {
 		Helper::isPageTemplate( 'templates/page-trial.php' ) ||
 		Helper::isPageTemplate( 'templates/page-services.php' )
 	) {
-		wp_enqueue_style( "trial-style", ASSETS_URL . "trial.css", [] );
-		wp_enqueue_script( "trial", ASSETS_URL . "trial.js", [ "jquery-core" ], false, true );
+		wp_enqueue_style( "trial-style", ASSETS_URL . "css/trial.css", [] );
+		wp_enqueue_script( "trial", ASSETS_URL . "js/trial.js", [ "jquery-core" ], false, true );
 	}
 }
 

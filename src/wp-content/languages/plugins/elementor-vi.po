@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Elementor Website Builder &#8211; More Than Just a Page Builder - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-01-10 01:25:36+0000\n"
+"PO-Revision-Date: 2025-01-17 06:46:51+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -489,7 +489,7 @@ msgstr "Trò chuyện đơn lẻ"
 
 #: modules/floating-buttons/module.php:389
 msgid "Add a Floating element so your users can easily get in touch!"
-msgstr "Thêm phần tử nổi để người dùng của bạn có thể dễ dàng liên lạc!"
+msgstr "Thêm thành phần nổi để người dùng của bạn có thể dễ dàng liên lạc!"
 
 #: modules/floating-buttons/module.php:322
 msgid "Entire Site"
@@ -1518,7 +1518,7 @@ msgstr "Để nhận tất cả các tiện ích Pro."
 
 #: includes/editor-templates/navigator.php:19
 msgid "Access all Pro widgets"
-msgstr "Truy cập tất cả các tiện ích Pro"
+msgstr "Truy cập tất cả tiện ích Pro"
 
 #: core/utils/hints.php:144 includes/controls/notice.php:83
 msgid "Don’t show again."
@@ -2680,17 +2680,17 @@ msgstr "Để đạt được chiều cao đầy đủ, sử dụng %s."
 msgid "Container"
 msgstr "Vùng chứa"
 
-#: includes/elements/column.php:418 includes/elements/section.php:716
+#: includes/elements/column.php:441 includes/elements/section.php:716
 #: includes/widgets/heading.php:324
 msgid "Hue"
 msgstr "Hue"
 
-#: includes/elements/column.php:417 includes/elements/section.php:715
+#: includes/elements/column.php:440 includes/elements/section.php:715
 #: includes/widgets/heading.php:323
 msgid "Exclusion"
 msgstr "Loại trừ"
 
-#: includes/elements/column.php:416 includes/elements/section.php:714
+#: includes/elements/column.php:439 includes/elements/section.php:714
 #: includes/widgets/heading.php:322
 msgid "Difference"
 msgstr "Sự khác biệt"
@@ -2964,42 +2964,42 @@ msgstr "Chuyển đổi Trang cho phép bạn tùy chỉnh hiệu ứng xuất h
 msgid "Select one or go ahead and %1$screate one%2$s now."
 msgstr "Chọn một hoặc tiếp tục và %1$stạo một%2$s ngay bây giờ."
 
-#: includes/elements/column.php:419 includes/elements/container.php:840
+#: includes/elements/column.php:442 includes/elements/container.php:840
 #: includes/elements/section.php:713 includes/widgets/heading.php:325
 msgid "Luminosity"
 msgstr "Độ sáng"
 
-#: includes/elements/column.php:414 includes/elements/container.php:838
+#: includes/elements/column.php:437 includes/elements/container.php:838
 #: includes/elements/section.php:711 includes/widgets/heading.php:320
 msgid "Saturation"
 msgstr "Độ bão hòa"
 
-#: includes/elements/column.php:413 includes/elements/container.php:837
+#: includes/elements/column.php:436 includes/elements/container.php:837
 #: includes/elements/section.php:710 includes/widgets/heading.php:319
 msgid "Color Dodge"
 msgstr "Màu Dodge"
 
-#: includes/elements/column.php:412 includes/elements/container.php:836
+#: includes/elements/column.php:435 includes/elements/container.php:836
 #: includes/elements/section.php:709 includes/widgets/heading.php:318
 msgid "Lighten"
 msgstr "Làm sáng"
 
-#: includes/elements/column.php:411 includes/elements/container.php:835
+#: includes/elements/column.php:434 includes/elements/container.php:835
 #: includes/elements/section.php:708 includes/widgets/heading.php:317
 msgid "Darken"
 msgstr "Làm tối"
 
-#: includes/elements/column.php:410 includes/elements/container.php:834
+#: includes/elements/column.php:433 includes/elements/container.php:834
 #: includes/elements/section.php:707 includes/widgets/heading.php:316
 msgid "Overlay"
 msgstr "Lớp phủ"
 
-#: includes/elements/column.php:409 includes/elements/container.php:833
+#: includes/elements/column.php:432 includes/elements/container.php:833
 #: includes/elements/section.php:706 includes/widgets/heading.php:315
 msgid "Screen"
 msgstr "Trang"
 
-#: includes/elements/column.php:408 includes/elements/container.php:832
+#: includes/elements/column.php:431 includes/elements/container.php:832
 #: includes/elements/section.php:705 includes/widgets/heading.php:314
 msgid "Multiply"
 msgstr "Nhân"
@@ -4235,7 +4235,7 @@ msgstr "Số lượng"
 #: assets/js/packages/editor-app-bar/editor-app-bar.js:12
 #: assets/js/packages/editor-app-bar/editor-app-bar.strings.js:21
 msgid "Add Element"
-msgstr "Thêm phần tử"
+msgstr "Thêm thành phần"
 
 #: includes/widgets/divider.php:340 modules/shapes/module.php:46
 msgid "Line"
@@ -4429,7 +4429,7 @@ msgid "Template not exist."
 msgstr "Mẫu không tồn tại."
 
 #. translators: 1: Link open tag, 2: Link close tag.
-#: includes/elements/column.php:891 includes/elements/container.php:1773
+#: includes/elements/column.php:914 includes/elements/container.php:1773
 #: includes/elements/section.php:1393 includes/widgets/common-base.php:1132
 msgid "Responsive visibility will take effect only on %1$s preview mode %2$s or live page, and not while editing in Elementor."
 msgstr "Hiển thị tương thích sẽ chỉ có hiệu lực trên %1$s chế độ xem trước %2$s hoặc trang thực tế, và không khi sửa trong Elementor."
@@ -4584,7 +4584,7 @@ msgstr "Ẩn"
 msgid "Overflow"
 msgstr "Tràn ra"
 
-#: includes/elements/column.php:826 includes/elements/container.php:1693
+#: includes/elements/column.php:849 includes/elements/container.php:1693
 #: includes/elements/section.php:1302 includes/widgets/common-base.php:622
 msgid "Motion Effects"
 msgstr "Hiệu ứng chuyển động"
@@ -5126,7 +5126,7 @@ msgstr "Trang web"
 msgid "Pro"
 msgstr "Pro"
 
-#: includes/elements/column.php:404 includes/elements/container.php:828
+#: includes/elements/column.php:427 includes/elements/container.php:828
 #: includes/elements/section.php:701 includes/widgets/heading.php:310
 msgid "Blend Mode"
 msgstr "Chế độ hòa trộn"
@@ -5207,7 +5207,7 @@ msgstr "Thêm mới %s"
 
 #: core/kits/documents/tabs/theme-style-images.php:95
 #: core/kits/documents/tabs/theme-style-images.php:166
-#: includes/elements/column.php:373 includes/elements/column.php:447
+#: includes/elements/column.php:396 includes/elements/column.php:470
 #: includes/elements/container.php:782 includes/elements/container.php:896
 #: includes/elements/section.php:655 includes/elements/section.php:759
 #: includes/widgets/image-box.php:429 includes/widgets/image-box.php:464
@@ -5916,14 +5916,14 @@ msgstr "Đặt khoảng cách mặc định giữa các tiện ích (mặc đị
 msgid "Rollback to Previous Version"
 msgstr "Khôi phục về phiên bản trước"
 
-#: includes/elements/column.php:863 includes/elements/container.php:1730
+#: includes/elements/column.php:886 includes/elements/container.php:1730
 #: includes/elements/section.php:1339 includes/widgets/common-base.php:659
 #: modules/floating-buttons/base/widget-contact-button-base.php:1414
 #: modules/floating-buttons/base/widget-floating-bars-base.php:912
 msgid "Animation Delay"
 msgstr "Độ trễ hiệu ứng hoạt hình"
 
-#: includes/elements/column.php:754 includes/elements/container.php:1634
+#: includes/elements/column.php:777 includes/elements/container.php:1634
 #: includes/elements/section.php:1250 includes/widgets/common-base.php:565
 #: assets/js/packages/editor-editing-panel/editor-editing-panel.js:10
 #: assets/js/packages/editor-editing-panel/editor-editing-panel.strings.js:82
@@ -5933,8 +5933,8 @@ msgstr "Z-Index"
 #: core/kits/documents/tabs/theme-style-form-fields.php:137
 #: core/kits/documents/tabs/theme-style-images.php:203
 #: includes/base/element-base.php:1253
-#: includes/controls/groups/background.php:673 includes/elements/column.php:318
-#: includes/elements/column.php:478 includes/elements/column.php:586
+#: includes/controls/groups/background.php:673 includes/elements/column.php:341
+#: includes/elements/column.php:501 includes/elements/column.php:609
 #: includes/elements/container.php:705 includes/elements/container.php:919
 #: includes/elements/container.php:1079 includes/elements/section.php:603
 #: includes/elements/section.php:790 includes/elements/section.php:897
@@ -6269,8 +6269,8 @@ msgstr "Chiều rộng thanh điều hướng"
 #: core/kits/documents/tabs/theme-style-buttons.php:166
 #: core/kits/documents/tabs/theme-style-images.php:134
 #: core/kits/documents/tabs/theme-style-typography.php:149
-#: includes/base/element-base.php:872 includes/elements/column.php:303
-#: includes/elements/column.php:432 includes/elements/column.php:551
+#: includes/base/element-base.php:872 includes/elements/column.php:326
+#: includes/elements/column.php:455 includes/elements/column.php:574
 #: includes/elements/container.php:690 includes/elements/container.php:871
 #: includes/elements/container.php:1032 includes/elements/section.php:588
 #: includes/elements/section.php:744 includes/elements/section.php:862
@@ -6296,7 +6296,7 @@ msgstr "Chiều rộng thanh điều hướng"
 msgid "Hover"
 msgstr "Di chuột"
 
-#: includes/elements/column.php:775 includes/elements/container.php:1655
+#: includes/elements/column.php:798 includes/elements/container.php:1655
 #: includes/elements/section.php:1271 includes/widgets/common-base.php:585
 #: includes/widgets/traits/button-trait.php:214
 #: modules/floating-buttons/base/widget-contact-button-base.php:3096
@@ -6306,7 +6306,7 @@ msgstr "Di chuột"
 msgid "Add your custom id WITHOUT the Pound key. e.g: my-id"
 msgstr "Thêm id tùy chỉnh của bạn KHÔNG CÓ phím Pound. ví dụ: id của tôi"
 
-#: includes/elements/column.php:766 includes/elements/container.php:1646
+#: includes/elements/column.php:789 includes/elements/container.php:1646
 #: includes/elements/section.php:1262 includes/widgets/common-base.php:576
 #: modules/floating-buttons/base/widget-contact-button-base.php:3087
 #: modules/floating-buttons/base/widget-floating-bars-base.php:1492
@@ -6695,7 +6695,7 @@ msgstr "Animation khi di chuột"
 msgid "Animation"
 msgstr "Hiệu ứng động"
 
-#: includes/elements/column.php:851 includes/elements/container.php:1718
+#: includes/elements/column.php:874 includes/elements/container.php:1718
 #: includes/elements/section.php:1327 includes/widgets/common-base.php:647
 #: modules/floating-buttons/base/widget-contact-button-base.php:1405
 #: modules/floating-buttons/base/widget-contact-button-base.php:2788
@@ -6703,7 +6703,7 @@ msgstr "Hiệu ứng động"
 msgid "Fast"
 msgstr "Nhanh"
 
-#: includes/elements/column.php:849 includes/elements/container.php:1716
+#: includes/elements/column.php:872 includes/elements/container.php:1716
 #: includes/elements/section.php:1325 includes/widgets/common-base.php:645
 #: modules/floating-buttons/base/widget-contact-button-base.php:1403
 #: modules/floating-buttons/base/widget-contact-button-base.php:2786
@@ -6715,7 +6715,7 @@ msgstr "Chậm"
 msgid "Disable Default Colors"
 msgstr "Tắt màu mặc định"
 
-#: includes/elements/column.php:836 includes/elements/container.php:1703
+#: includes/elements/column.php:859 includes/elements/container.php:1703
 #: includes/elements/section.php:1312 includes/widgets/common-base.php:632
 #: includes/widgets/video.php:917
 #: modules/floating-buttons/base/widget-contact-button-base.php:1389
@@ -6831,7 +6831,7 @@ msgstr "Trình phát trực quan"
 msgid "SoundCloud"
 msgstr "SoundCloud"
 
-#: includes/elements/column.php:345 includes/elements/container.php:744
+#: includes/elements/column.php:368 includes/elements/container.php:744
 #: includes/elements/section.php:630
 #: modules/floating-buttons/base/widget-floating-bars-base.php:977
 #: modules/link-in-bio/base/widget-link-in-bio-base.php:1480
@@ -6993,7 +6993,7 @@ msgstr "Kéo dãn ảnh"
 msgid "Image Carousel"
 msgstr "Băng chuyền hình ảnh"
 
-#: includes/elements/column.php:845 includes/elements/container.php:1712
+#: includes/elements/column.php:868 includes/elements/container.php:1712
 #: includes/elements/section.php:1321 includes/widgets/common-base.php:641
 #: includes/widgets/counter.php:188
 #: modules/floating-buttons/base/widget-contact-button-base.php:1399
@@ -7100,7 +7100,7 @@ msgstr "Tiêu đề thẻ HTML"
 msgid "This is the heading"
 msgstr "Đây là tiêu đề"
 
-#: includes/elements/column.php:794 includes/elements/container.php:1674
+#: includes/elements/column.php:817 includes/elements/container.php:1674
 #: includes/elements/section.php:1290 includes/widgets/common-base.php:603
 #: modules/floating-buttons/base/widget-contact-button-base.php:3113
 #: modules/floating-buttons/base/widget-floating-bars-base.php:1518
@@ -7558,7 +7558,7 @@ msgstr "Khoảng trống"
 #: core/kits/documents/tabs/theme-style-typography.php:201
 #: includes/controls/box-shadow.php:104
 #: includes/controls/groups/background.php:170
-#: includes/controls/text-shadow.php:97 includes/elements/column.php:415
+#: includes/controls/text-shadow.php:97 includes/elements/column.php:438
 #: includes/elements/container.php:839 includes/elements/container.php:1203
 #: includes/elements/section.php:712 includes/elements/section.php:1000
 #: includes/widgets/accordion.php:337 includes/widgets/accordion.php:439
@@ -7691,7 +7691,7 @@ msgid "Image"
 msgstr "Hình ảnh"
 
 #: core/base/traits/shared-widget-controls-trait.php:156
-#: includes/elements/column.php:504 includes/elements/container.php:963
+#: includes/elements/column.php:527 includes/elements/container.php:963
 #: includes/elements/section.php:817 includes/widgets/common-base.php:758
 #: modules/floating-buttons/base/widget-floating-bars-base.php:757
 #: assets/js/packages/editor-editing-panel/editor-editing-panel.js:10
@@ -7771,7 +7771,7 @@ msgstr "Biểu tượng"
 msgid "Size"
 msgstr "Kích thước"
 
-#: includes/elements/column.php:704 includes/elements/section.php:1195
+#: includes/elements/column.php:727 includes/elements/section.php:1195
 #: includes/widgets/heading.php:268 includes/widgets/icon-box.php:309
 #: includes/widgets/image-box.php:284 includes/widgets/image-carousel.php:835
 #: includes/widgets/image-gallery.php:364 includes/widgets/image.php:593
@@ -7858,7 +7858,7 @@ msgstr "Sửa"
 #: core/kits/documents/tabs/theme-style-form-fields.php:233
 #: core/kits/documents/tabs/theme-style-images.php:83
 #: core/kits/documents/tabs/theme-style-images.php:154
-#: includes/elements/column.php:529 includes/elements/column.php:566
+#: includes/elements/column.php:552 includes/elements/column.php:589
 #: includes/elements/container.php:1008 includes/elements/container.php:1059
 #: includes/elements/section.php:841 includes/elements/section.php:877
 #: includes/widgets/common-base.php:783 includes/widgets/common-base.php:820
@@ -8394,7 +8394,7 @@ msgstr "Bố cục"
 msgid "Column Width"
 msgstr "Chiều rộng cột"
 
-#: includes/elements/column.php:784 includes/elements/container.php:1664
+#: includes/elements/column.php:807 includes/elements/container.php:1664
 #: includes/elements/section.php:1280 includes/widgets/common-base.php:594
 #: modules/floating-buttons/base/widget-contact-button-base.php:3104
 #: modules/floating-buttons/base/widget-floating-bars-base.php:1509
@@ -8404,7 +8404,7 @@ msgstr "Class CSS"
 #: core/document-types/page-base.php:144
 #: core/kits/documents/tabs/theme-style-buttons.php:243
 #: core/kits/documents/tabs/theme-style-form-fields.php:159
-#: includes/elements/column.php:742 includes/elements/container.php:1366
+#: includes/elements/column.php:765 includes/elements/container.php:1366
 #: includes/elements/section.php:1238 includes/widgets/accordion.php:394
 #: includes/widgets/accordion.php:541 includes/widgets/common-base.php:212
 #: includes/widgets/divider.php:870 includes/widgets/icon-box.php:499
@@ -8428,7 +8428,7 @@ msgstr "Class CSS"
 msgid "Padding"
 msgstr "Lề trong"
 
-#: core/document-types/page-base.php:132 includes/elements/column.php:729
+#: core/document-types/page-base.php:132 includes/elements/column.php:752
 #: includes/elements/container.php:1354 includes/elements/section.php:1219
 #: includes/widgets/common-base.php:200
 #: assets/js/packages/editor-editing-panel/editor-editing-panel.js:10
@@ -8442,7 +8442,7 @@ msgstr "Lề ngoài"
 #: includes/controls/groups/flex-item.php:59
 #: includes/controls/groups/grid-container.php:139
 #: includes/controls/groups/grid-container.php:167
-#: includes/elements/column.php:216 includes/elements/column.php:696
+#: includes/elements/column.php:216 includes/elements/column.php:719
 #: includes/elements/section.php:1187 includes/widgets/common-base.php:314
 #: includes/widgets/counter.php:322 includes/widgets/counter.php:396
 #: includes/widgets/counter.php:432 includes/widgets/divider.php:478
@@ -8472,19 +8472,19 @@ msgstr "Lề ngoài"
 msgid "Center"
 msgstr "Căn giữa"
 
-#: includes/elements/column.php:688 includes/elements/section.php:1179
+#: includes/elements/column.php:711 includes/elements/section.php:1179
 msgid "Text Align"
 msgstr "Căn lề"
 
-#: includes/elements/column.php:676 includes/elements/section.php:1167
+#: includes/elements/column.php:699 includes/elements/section.php:1167
 msgid "Link Hover Color"
 msgstr "Màu liên kết khi di chuột"
 
-#: includes/elements/column.php:664 includes/elements/section.php:1155
+#: includes/elements/column.php:687 includes/elements/section.php:1155
 msgid "Link Color"
 msgstr "Màu liên kết"
 
-#: includes/elements/column.php:640 includes/elements/section.php:1131
+#: includes/elements/column.php:663 includes/elements/section.php:1131
 msgid "Heading Color"
 msgstr "Màu tiêu đề"
 
@@ -8493,7 +8493,7 @@ msgstr "Màu tiêu đề"
 #: core/kits/documents/tabs/theme-style-buttons.php:173
 #: core/kits/documents/tabs/theme-style-form-fields.php:176
 #: core/kits/documents/tabs/theme-style-typography.php:56
-#: includes/elements/column.php:652 includes/elements/section.php:1143
+#: includes/elements/column.php:675 includes/elements/section.php:1143
 #: includes/widgets/alert.php:270 includes/widgets/alert.php:310
 #: includes/widgets/counter.php:499 includes/widgets/counter.php:553
 #: includes/widgets/heading.php:355 includes/widgets/heading.php:381
@@ -8529,7 +8529,7 @@ msgstr "Màu chữ"
 
 #: core/kits/documents/tabs/theme-style-typography.php:19
 #: core/kits/documents/tabs/theme-style-typography.php:38
-#: includes/controls/groups/typography.php:436 includes/elements/column.php:631
+#: includes/controls/groups/typography.php:436 includes/elements/column.php:654
 #: includes/elements/section.php:1123 assets/js/editor-modules.js:1430
 #: assets/js/editor.js:42055
 #: assets/js/packages/editor-editing-panel/editor-editing-panel.js:10
@@ -8562,7 +8562,7 @@ msgstr "Section"
 msgid "Structure"
 msgstr "Cấu trúc"
 
-#: includes/elements/column.php:881 includes/elements/container.php:1755
+#: includes/elements/column.php:904 includes/elements/container.php:1755
 #: includes/elements/section.php:1358 includes/managers/controls.php:332
 #: includes/widgets/common-base.php:1122
 #: modules/floating-buttons/base/widget-contact-button-base.php:3058
@@ -8571,7 +8571,7 @@ msgid "Responsive"
 msgstr "Tương thích"
 
 #: core/common/modules/finder/categories/settings.php:59
-#: core/dynamic-tags/tag.php:88 includes/elements/column.php:720
+#: core/dynamic-tags/tag.php:88 includes/elements/column.php:743
 #: includes/elements/section.php:1211 includes/managers/controls.php:331
 #: includes/settings/settings.php:329 includes/settings/settings.php:332
 #: modules/floating-buttons/base/widget-contact-button-base.php:2918
@@ -8811,8 +8811,8 @@ msgstr "Tùy chỉnh"
 #: includes/controls/groups/typography.php:152
 #: includes/controls/groups/typography.php:168
 #: includes/controls/groups/typography.php:178 includes/elements/column.php:280
-#: includes/elements/column.php:358 includes/elements/column.php:407
-#: includes/elements/column.php:514 includes/elements/column.php:850
+#: includes/elements/column.php:381 includes/elements/column.php:430
+#: includes/elements/column.php:537 includes/elements/column.php:873
 #: includes/elements/container.php:642 includes/elements/container.php:757
 #: includes/elements/container.php:831 includes/elements/container.php:976
 #: includes/elements/container.php:1717 includes/elements/section.php:543
@@ -8990,7 +8990,7 @@ msgid "Link"
 msgstr "Liên kết"
 
 #: includes/base/element-base.php:1311 includes/controls/dimensions.php:85
-#: includes/elements/column.php:692 includes/elements/container.php:1426
+#: includes/elements/column.php:715 includes/elements/container.php:1426
 #: includes/elements/section.php:1183 includes/widgets/common-base.php:360
 #: includes/widgets/common-base.php:361 includes/widgets/divider.php:474
 #: includes/widgets/divider.php:770 includes/widgets/divider.php:936
@@ -9035,7 +9035,7 @@ msgid "Bottom"
 msgstr "Bên dưới"
 
 #: includes/base/element-base.php:1319 includes/controls/dimensions.php:83
-#: includes/elements/column.php:700 includes/elements/container.php:1427
+#: includes/elements/column.php:723 includes/elements/container.php:1427
 #: includes/elements/section.php:1191 includes/widgets/common-base.php:360
 #: includes/widgets/common-base.php:361 includes/widgets/divider.php:482
 #: includes/widgets/divider.php:778 includes/widgets/divider.php:944
