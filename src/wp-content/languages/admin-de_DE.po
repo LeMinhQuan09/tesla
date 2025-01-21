@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.7.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-12-05 03:13:46+0000\n"
+"PO-Revision-Date: 2024-12-30 14:35:47+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1845,7 +1845,7 @@ msgstr "Die Anwendungspasswörter-Funktion erfordert HTTPS, das auf dieser Websi
 #. https://www.php.net/manual/datetime.format.php
 #: wp-admin/update-core.php:1115
 msgid "g:i a T"
-msgstr "G:i T"
+msgstr "G:i T"
 
 #: wp-admin/theme-editor.php:53
 msgid "<a href=\"https://wordpress.org/documentation/article/appearance-theme-file-editor-screen/\">Documentation on Editing Themes</a>"
@@ -3678,7 +3678,7 @@ msgstr "Y"
 #: wp-admin/js/dashboard.js:799 wp-admin/js/dashboard.js:801
 msgctxt "upcoming events day format"
 msgid "j"
-msgstr "j"
+msgstr "j."
 
 #. translators: Date string for upcoming events. 1: Month, 2: Starting day, 3:
 #. Ending day, 4: Year.
@@ -3885,7 +3885,7 @@ msgstr "<a href=\"https://wordpress.org/documentation/article/comments-screen/\"
 #. translators: %s: UTC time.
 #: wp-admin/options-general.php:406
 msgid "Universal time is %s."
-msgstr "Die Universalzeit ist %s."
+msgstr "Die Universalzeit ist %s Uhr."
 
 #. translators: %s: UTC abbreviation
 #: wp-admin/options-general.php:395
@@ -4021,7 +4021,7 @@ msgstr "H:i"
 #: wp-admin/includes/meta-boxes.php:234 wp-admin/includes/meta-boxes.php:440
 msgctxt "publish box date format"
 msgid "M j, Y"
-msgstr "j. M. Y"
+msgstr "j. M Y"
 
 #. translators: 1: Marker.
 #: wp-admin/includes/misc.php:142
@@ -7029,7 +7029,7 @@ msgstr "WordPress-Veranstaltungen und Neuigkeiten"
 #: wp-admin/includes/class-wp-community-events.php:406
 #: wp-admin/js/dashboard.js:774
 msgid "l, M j, Y"
-msgstr "l, j. F Y"
+msgstr "l, j. M Y"
 
 #: wp-admin/includes/class-wp-community-events.php:125
 msgid "Unknown API error."
@@ -8082,12 +8082,12 @@ msgstr "Benötigt %1$s in Datei %2$s."
 #. translators: %s: Date and time.
 #: wp-admin/options-general.php:449
 msgid "Standard time begins on: %s."
-msgstr "Die Standardzeit beginnt am: %s."
+msgstr "Die Standardzeit beginnt am: %s Uhr."
 
 #. translators: %s: Date and time.
 #: wp-admin/options-general.php:447
 msgid "Daylight saving time begins on: %s."
-msgstr "Die Sommerzeit beginnt am: %s."
+msgstr "Die Sommerzeit beginnt am: %s Uhr."
 
 #. translators: %s: File name.
 #: wp-admin/includes/media.php:1741
@@ -8188,7 +8188,7 @@ msgstr "%s wird bearbeitet (aktiv)"
 #. translators: %s: Local time.
 #: wp-admin/options-general.php:416
 msgid "Local time is %s."
-msgstr "Die Ortszeit ist %s."
+msgstr "Die Ortszeit ist %s Uhr."
 
 #: wp-admin/link-manager.php:85
 msgid "Links list"
@@ -8606,7 +8606,7 @@ msgstr "Als Website-Icon festlegen"
 
 #: wp-admin/options-general.php:191 wp-admin/options-general.php:200
 msgid "Choose a Site Icon"
-msgstr "Wähle ein Website-Icon"
+msgstr "Ein Website-Icon auswählen"
 
 #. translators: Hidden accessibility text.
 #: wp-admin/includes/class-wp-application-passwords-list-table.php:258
@@ -8690,7 +8690,7 @@ msgstr "Dein aktuell genutztes Theme unterstützt keine Widgets. Das bedeutet, d
 #. translators: %s: Documentation URL.
 #: wp-admin/options-writing.php:227
 msgid "When you publish a new post, WordPress automatically notifies the following site update services. For more about this, see the <a href=\"%s\">Update Services</a> documentation article. Separate multiple service URLs with line breaks."
-msgstr "Wenn du einen Beitrag veröffentlichst, informiert WordPress die folgenden Dienste automatisch darüber. Um mehr darüber zu erfahren, rufe bitte den Dokumentationsartikel <a href=\"%s\">Update-Services (engl.)</a> auf. Trenne mehrere URLs jeweils durch einen Zeilenumbruch."
+msgstr "Wenn du einen Beitrag veröffentlichst, informiert WordPress die folgenden Dienste automatisch darüber. Um mehr darüber zu erfahren, rufe bitte den Dokumentationsartikel <a href=\"%s\">Update-Dienste (engl.)</a> auf. Trenne mehrere URLs jeweils durch einen Zeilenumbruch."
 
 #: wp-admin/includes/options.php:137
 msgid "The <a href=\"https://wordpress.org/documentation/article/wordpress-glossary/#character-set\">character encoding</a> of your site (UTF-8 is recommended)"
@@ -8815,7 +8815,7 @@ msgstr "Dieses Theme hat noch keine Bewertung."
 #: wp-admin/options-general.php:23
 msgctxt "timezone date format"
 msgid "Y-m-d H:i:s"
-msgstr "j.n.Y G:i:s"
+msgstr "j.n.Y, G:i:s"
 
 #: wp-admin/nav-menus.php:743
 msgid "To add a custom link, <strong>expand the Custom Links section, enter a URL and link text, and click Add to Menu</strong>"
@@ -8869,7 +8869,7 @@ msgstr "Einträge pro Seite:"
 #: wp-admin/includes/revision.php:252 wp-admin/includes/revision.php:295
 msgctxt "revision date short format"
 msgid "j M @ H:i"
-msgstr "j. M @ H:i"
+msgstr "j. M, G:i"
 
 #. translators: Hidden accessibility text.
 #: wp-admin/includes/ms.php:314 wp-admin/network/settings.php:420
@@ -8914,7 +8914,7 @@ msgstr ""
 
 #: wp-admin/includes/revision.php:251 wp-admin/includes/revision.php:294
 msgid "M j, Y @ H:i"
-msgstr "j. M Y \\u\\m G:i \\U\\h\\r"
+msgstr "j. M Y, G:i"
 
 #: wp-admin/comment.php:227
 msgid "Submitted on"
@@ -8930,7 +8930,7 @@ msgstr "Als Antwort auf"
 #: wp-admin/includes/template.php:869 wp-admin/js/comment.js:89
 #: wp-admin/js/post.js:794
 msgid "%1$s %2$s, %3$s at %4$s:%5$s"
-msgstr "%2$s %1$s %3$s um %4$s:%5$s"
+msgstr "%2$s %1$s %3$s um %4$s:%5$s Uhr"
 
 #: wp-admin/user-edit.php:744
 msgid "You are only logged in at this location."
@@ -10543,7 +10543,7 @@ msgstr "Du kannst auch nach Plugins, die WordPress.org-Benutzer favorisiert habe
 
 #: wp-admin/plugin-install.php:112
 msgid "If you know what you are looking for, Search is your best bet. The Search screen has options to search the WordPress Plugin Directory for a particular Term, Author, or Tag. You can also search the directory by selecting popular tags. Tags in larger type mean more plugins have been labeled with that tag."
-msgstr "Falls du weißt, wonach du suchen möchtest, ist die Suchen-Funktion die beste Wahl. Die Suchansicht bietet Optionen, die das Suchen nach einem bestimmten Begriff, Autoren oder Schlagwort innerhalb des Plugin-Verzeichnisses von WordPress ermöglichen. Außerdem kannst du das Verzeichnis durchsuchen, indem du beliebte Schlagwörter auswählst. Schlagwörter in größerer Schrift bedeuten, dass mehr Plugins mit diesem Schlagwort gekennzeichnet wurden."
+msgstr "Falls du weißt, wonach du suchst, ist die Suchfunktion die beste Wahl. Die Suchansicht bietet Optionen, die das Suchen nach einem bestimmten Begriff, Autoren oder Schlagwort innerhalb des Plugin-Verzeichnisses von WordPress ermöglichen. Außerdem kannst du das Verzeichnis durchsuchen, indem du beliebte Schlagwörter auswählst. Schlagwörter in größerer Schrift bedeuten, dass mehr Plugins mit diesem Schlagwort gekennzeichnet wurden."
 
 #: wp-admin/install.php:211 wp-admin/options-reading.php:245
 msgid "It is up to search engines to honor this request."
@@ -12404,7 +12404,7 @@ msgstr "Erneut überprüfen."
 #. translators: 1: Date, 2: Time.
 #: wp-admin/update-core.php:1111
 msgid "Last checked on %1$s at %2$s."
-msgstr "Zuletzt überprüft am %1$s um %2$s Uhr."
+msgstr "Zuletzt überprüft am %1$s um %2$s."
 
 #: wp-admin/update-core.php:1086
 msgid "Please select one or more plugins to update."
@@ -13933,7 +13933,7 @@ msgstr "Einstellungen"
 
 #: wp-admin/options-writing.php:45 wp-admin/options-writing.php:219
 msgid "Update Services"
-msgstr "Update-Services"
+msgstr "Update-Dienste"
 
 #: wp-admin/options-writing.php:190
 msgid "Default Mail Category"

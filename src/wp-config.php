@@ -20,9 +20,9 @@
 // ** MySQL settings - You can get this info from your web host ** //
 
 /** The name of the database for WordPress */
-const DB_NAME     = 'teslanew';
+const DB_NAME     = 'tesla';
 const DB_USER     = 'root';
-const DB_PASSWORD = '';
+const DB_PASSWORD = 'root';
 const DB_HOST     = 'localhost';
 const DB_CHARSET  = 'utf8mb4';
 const DB_COLLATE  = '';
