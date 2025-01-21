@@ -18,11 +18,11 @@ $view_button = $args['view_button'] ?? [];
 <div class="section service__section-4 pt-50">
     <div class="container">
         <h2 class="heading-title text-center text-stroke" data-subtitle="<?= esc_attr( $subtitle ) ?>"><?= $title ?></h2>
-        <div class="row pt-50">
-            <div class="col-12 col-md-6 thumbs">
+        <div class="row pt-50 mpt-12">
+            <div class="col-12 col-lg-6 thumbs">
 			    <?php echo wp_get_attachment_image( $image, 'large' ) ?>
             </div>
-            <div class="col-12 col-md-6 content">
+            <div class="col-12 col-lg-6 content">
 			    <?php if ( $content ) : ?>
                 <div class="cnt"><?=$content?></div>
 			    <?php endif; ?>
