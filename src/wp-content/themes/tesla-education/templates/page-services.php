@@ -25,19 +25,20 @@ $ID = get_the_ID();
 $top_bg_image = Helper::getField( 'top_bg_image', $ID );
 
 ?>
-<div class="section service__section-0">
+<!-- <div class="section service__section-0">
 	<div class="bg">
-		<?php echo wp_get_attachment_image( $top_bg_image, 'post-thumbnail' )?>
+		<?php //echo wp_get_attachment_image( $top_bg_image, 'post-thumbnail' )?>
 	</div>
     <div class="breadcrumb-wrapper">
         <div class="container">
-            <?php echo the_title( '<h1 class="title heading-title">', '</h1>', false ); ?>
-            <?php Helper::breadCrumbs(); ?>
+            <?php //echo the_title( '<h1 class="title heading-title">', '</h1>', false ); ?>
+            <?php //Helper::breadCrumbs(); ?>
         </div>
     </div>
-</div>
-<?php
+</div> -->
 
+<?php
+get_template_part('template-parts/partial/hero-banner', 'partial');
 // custom page
 $ACF = get_fields( get_the_ID() );
 
