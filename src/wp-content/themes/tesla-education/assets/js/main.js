@@ -614,5 +614,30 @@
 				}
 			});
 		});
+		///////////////////////////////////////////////////
+		// 38. Menu about-us
+		jQuery(document).ready(function () {
+			const $menuItems = jQuery(".custom-menu-about .menu-item a");
+			function updateActiveMenu() { 
+				const currentPath = window.location.pathname;
+				const currentHash = window.location.hash;
+				$menuItems.closest('.menu-item').removeClass("active-menu");
+				$menuItems.each(function () {
+				  const menuHref = jQuery(this).attr("href");
+				//   jQuery(this).find('.active-menu').removeClass("active-menu");
+				  if (menuHref === currentPath + currentHash) {
+					jQuery(this).closest('.menu-item').addClass("active-menu");
+				  }
+				});
+			}
+			updateActiveMenu();
+			$menuItems.on("click", function () {
+				// jQuery(this).find('.active-menu').removeClass("active-menu");
+				// setTimeout(updateActiveMenu, 50);
+				$menuItems.closest('.menu-item').removeClass("active-menu");
+    			jQuery(this).closest('.menu-item').addClass("active-menu")
+			  });
+		});
+		  
 		
 	})(jQuery);

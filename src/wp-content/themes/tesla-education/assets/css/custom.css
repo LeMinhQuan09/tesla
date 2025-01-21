@@ -876,6 +876,18 @@
 .page-template-template-like-post #toc_container a:hover {
 	color: var(--cl-sub) !important;
 }
+.page-template-template-like-post .content-post ul,
+.page-template-template-like-post .content-post ol {
+	padding-left: 30px;
+}
+.page-template-template-like-post .content-post ul li {
+	list-style-type: disc !important;
+	margin-bottom: 5px;
+}
+.page-template-template-like-post .content-post ol li {
+	list-style-type: auto;
+	margin-bottom: 5px;
+}
 @media (min-width: 1200px){
 	.page-template-template-like-post .col-toc {
 		width: 250px;
@@ -992,16 +1004,16 @@
 	}
 }
 
-@media (min-width: 768px){
+@media (max-width: 769px) {
 	.container-1570 {
 		max-width: 720px !important;
 	}
-}
-
-@media (max-width: 769px) {
     .heading-title {
         font-size: 30px;
 		line-height: normal;
+    }
+	.page__title {
+        font-size: 32px;
     }
 	.blurred-text {
 		font-size: 60px;
@@ -1050,12 +1062,33 @@
 	.page-template-template-contact .col-left .title {
 		font-size: 26px;
 	}
+	.page-template-template-like-post .container-wrapper {
+		flex-wrap: wrap;
+	}
+	.page-template-template-like-post .col-toc #toc_container {
+		position: relative;
+		top: 0;
+		padding-top: 20px;
+	}
+	.page-template-template-like-post main .container {
+		max-width: 100%;
+	}
+	.page-template-template-like-post .col-toc,
+	.page-template-template-like-post .content-post {
+		padding: 0 15px;
+	}
+	/* .page-template-template-like-post div#toc_container p.toc_title {
+		display: none;
+	} */
 }
 
 @media (max-width: 641px) {
     .heading-title {
         font-size: 26px;
 		margin-bottom: 15px;
+    }
+	.page__title {
+        font-size: 28px;
     }
 	.hero-banner {
 		padding-top: 80px;
@@ -1081,6 +1114,15 @@
 	.page-template-template-contact .col-right .content {
         padding: 50px 35px;
     }
+	.btn-outline, .btn-light-orange {
+		padding: 0 25px;
+		height: 36px;
+		line-height: 34px;
+	}
+	.e-btn, .w-btn {
+		height: 40px;
+		line-height: 38px;
+	}
 	/*== CSS ALL ==*/
 	.section-title {
 		font-size: 22px;
@@ -1156,6 +1198,14 @@
 		overflow-x: scroll;
 	}
 	/* END TEMPLATE SCHOOL FEE */
+	.page-template-template-like-post .col-toc,
+	.page-template-template-like-post .content-post {
+		padding: 0 12px;
+	}
+	.page-template-template-like-post .content-post {
+		margin-top: 30px;
+		padding-bottom: 30px;
+	}
 }
 @media (max-width: 425px){
 	.blurred-text {
@@ -1173,4 +1223,13 @@
 		right: 40%;
 	}
 	/*== END TEMPLATE VIDEO ==*/
+	.page-template-template-contact .col-left .content {
+        padding: 30px 13px;
+    }
+	.page-template-template-contact .col-right .content {
+		padding: 30px 25px;
+	}
+	ul.social-list li {
+		margin-right: 8px;
+	}
 }

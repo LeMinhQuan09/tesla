@@ -373,7 +373,7 @@
         padding: 25px 20px 20px;
     }
     .about__whychoose-top .desc {
-        width: 100%;
+        max-width: 100%;
     }
 }
 
@@ -381,10 +381,27 @@
     .about__value-list .item, .about__whychoose-list .item {
         padding: 25px 15px 20px;
     }
+    .about__leadership-wrapper {
+        margin-bottom: 30px;
+    }
+    .about__leadership-content {
+        padding: 30px 15px;
+    }
+    .about__leadership-content .title {
+        font-size: 24px;
+    }
 }
 
 @media (max-width: 575px){
     .about__content {
         margin-top: 0;
+    }
+    .about__content-text .heading-title {
+        font-size: 24px;
+    }
+    .about__vision .heading-group .blurred-text {
+        .blurred-text {
+            font-size: 32px;
+        }
     }
 }

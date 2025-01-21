@@ -718,15 +718,26 @@
     .home__learning-box .title {
         font-size: 22px;
     }
-    .home__learning-box .box-content {
-        padding: 30px 15px;
-    }
+    .home__learning-box .box-content,
     .home__testimonials .box {
-        padding: 30px 20px;
+        padding: 30px 15px;
     }
     .home__form-content {
         padding-left: 15px;
         padding-right: 15px;
+    }
+    .home__news-first {
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+    .home__testimonials-inf {
+        transform: translateY(-70px);
+        margin-bottom: -70px;
+        font-size: 23px;
+    }
+    .home__testimonials-inf .img {
+        width: 140px;
+        height: 140px;
     }
 }
 

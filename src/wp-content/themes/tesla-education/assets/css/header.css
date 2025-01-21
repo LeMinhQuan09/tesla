@@ -138,6 +138,13 @@
 .header__menu li.menu-item-has-children ul.sub-menu li.current-menu-item a {
     color: #fff;
 }
+.custom-menu-about li.item-hash.current-menu-item {
+    background-color: var(--cl-main) !important;
+}
+.custom-menu-about li.item-hash.current-menu-item.active-menu,
+.custom-menu-about li.item-hash.current-menu-item:hover {
+    background-color: var(--cl-sub) !important;
+}
 /* Mobile Menu */
 .mb-menu ul.menu li {
     border-bottom: 1px solid #cccccc75;
