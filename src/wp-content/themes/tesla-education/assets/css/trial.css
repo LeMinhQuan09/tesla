@@ -130,8 +130,8 @@
     margin-right: -12px;
 }
 .section.service__section-2 .infos li {
-    flex: 0 0 33.333333333333333%;
-    max-width: 33.333333333333333%;
+    /* flex: 0 0 33.333333333333333%; */
+    /* max-width: 33.333333333333333%; */
     padding-left: 12px;
     padding-right: 12px;
 }
@@ -687,6 +687,11 @@ ul.items li .content .excerpt * {
 
 .section.trial__section-2 .slick-dots li button:before {
     color: #fff !important;
+}
+
+.section.service__section-4 .thumbs > img {
+    display: block;
+    width: 100%;
 }
 
 @media (max-width: 991px) {
