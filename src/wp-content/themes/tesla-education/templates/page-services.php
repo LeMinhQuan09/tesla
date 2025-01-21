@@ -25,16 +25,16 @@ $ID = get_the_ID();
 $top_bg_image = Helper::getField( 'top_bg_image', $ID );
 
 ?>
-<div class="section trial__section-0">
+<div class="section service__section-0">
 	<div class="bg">
 		<?php echo wp_get_attachment_image( $top_bg_image, 'post-thumbnail' )?>
 	</div>
-	<div class="container">
-		<div class="row">
-			<?php echo the_title( '<h1 class="title">', '</h1>', false ); ?>
-			<?php Helper::breadCrumbs(); ?>
-		</div>
-	</div>
+    <div class="breadcrumb-wrapper">
+        <div class="container">
+            <?php echo the_title( '<h1 class="title heading-title">', '</h1>', false ); ?>
+            <?php Helper::breadCrumbs(); ?>
+        </div>
+    </div>
 </div>
 <?php
 
