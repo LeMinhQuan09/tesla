@@ -24,11 +24,11 @@ $content = $args['content'] ?? '';
         <?php endif; ?>
 
         <div class="row">
-            <div class="col-12 col-md-6 thumbs">
+            <div class="col-12 col-lg-6 thumbs">
                 <?php echo wp_get_attachment_image( $image_1, 'large' ) ?>
                 <?php echo wp_get_attachment_image( $image_2, 'large' ) ?>
             </div>
-            <div class="col-12 col-md-6 content">
+            <div class="col-12 col-lg-6 content">
                 <div class="wrapper">
 	                <?php if ( $title_2 ) : ?>
                     <h3 class="title"><?=$title_2?></h3>

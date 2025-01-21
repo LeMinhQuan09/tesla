@@ -33,7 +33,7 @@ $view_button = $args['view_button'] ?? [];
         <ul class="gallery">
             <?php foreach ( $gallery as $gal ) : ?>
                 <li>
-                    <a class="fcy-gallery" href="<?php echo wp_get_attachment_image_url( $gal, 'full', true ) ?>" title>
+                    <a class="fcy-gallery" data-fancybox="gallery-4" href="<?php echo wp_get_attachment_image_url( $gal, 'full', true ) ?>" title>
                         <?php echo wp_get_attachment_image( $gal, 'medium' ) ?>
                     </a>
                 </li>

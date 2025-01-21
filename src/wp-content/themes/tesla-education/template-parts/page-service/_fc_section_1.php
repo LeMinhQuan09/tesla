@@ -22,12 +22,12 @@ $image_2  = $args['image_2'] ?? '';
         <?php endif; ?>
         <div class="row thumbs">
             <div class="col-6">
-                <a class="fcy-gallery" href="<?php echo wp_get_attachment_image_url( $image_1, 'full', true ) ?>" title>
+                <a class="fcy-gallery" data-fancybox="gallery-1" href="<?php echo wp_get_attachment_image_url( $image_1, 'full', true ) ?>" title>
 				    <?php echo wp_get_attachment_image( $image_1, 'large' ) ?>
                 </a>
             </div>
             <div class="col-6">
-                <a class="fcy-gallery" href="<?php echo wp_get_attachment_image_url( $image_2, 'full', true ) ?>" title>
+                <a class="fcy-gallery" data-fancybox="gallery-1" href="<?php echo wp_get_attachment_image_url( $image_2, 'full', true ) ?>" title>
 	                <?php echo wp_get_attachment_image( $image_2, 'large' ) ?>
                 </a>
             </div>
