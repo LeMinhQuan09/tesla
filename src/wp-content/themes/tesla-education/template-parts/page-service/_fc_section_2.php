@@ -12,11 +12,13 @@ $subtitle = $args['subtitle'] ?? '';
 $infos    = $args['infos'] ?? '';
 
 ?>
-<div class="section service__section-2">
+<div class="section service__section-2 pt-50">
 	<div class="container">
-        <h2 class="heading-title text-center text-stroke" data-subtitle="<?=esc_attr( $subtitle ) ?>"><?=$title?></h2>
+        <h2 class="heading-title text-center text-stroke" data-subtitle="<?=esc_attr( $subtitle ) ?>">
+            <span><?=$title?></span>
+        </h2>
         <?php if ( $infos ) : ?>
-        <ul class="infos">
+        <ul class="infos pt-50">
             <?php foreach ( $infos as $info ) :
                 $_image = $info['image'] ?? '';
                 $_title = $info['title'] ?? '';

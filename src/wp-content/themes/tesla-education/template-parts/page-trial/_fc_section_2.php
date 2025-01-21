@@ -14,7 +14,9 @@ $gallery  = $args['gallery'] ?? false;
 ?>
 <div class="section trial__section-2">
 	<div class="container">
-        <h2 class="heading-title text-center text-stroke" data-subtitle="<?=esc_attr( $subtitle ) ?>"><?=$title?></h2>
+        <h2 class="heading-title text-center text-stroke" data-subtitle="<?=esc_attr( $subtitle ) ?>">
+            <span><?=$title?></span>
+        </h2>
         <?php if ( $gallery ) : ?>
         <ul class="gallery">
             <?php foreach ( $gallery as $gal ) : ?>

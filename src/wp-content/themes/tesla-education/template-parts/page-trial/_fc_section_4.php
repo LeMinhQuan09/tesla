@@ -28,9 +28,13 @@ $form_id    = $args['form_id'] ?? '';
                 $_title_2 = $subject['title_2'] ?? '';
             ?>
             <li>
-                <?php echo wp_get_attachment_image( $_icon, 'thumbnail', true ) ?>
-                <h3><?=$_title_1?></h3>
-                <p><?=$_title_2?></p>
+                <div class="wrapper">
+                    <div class="thumb">
+		                <?php echo wp_get_attachment_image( $_icon, 'thumbnail', true ) ?>
+                    </div>
+                    <h3 class="title"><?=$_title_1?></h3>
+                    <div class="subtitle"><?=$_title_2?></div>
+                </div>
             </li>
             <?php endforeach; ?>
         </ul>

@@ -14,17 +14,17 @@ $content  = $args['content'] ?? '';
 $image    = $args['image'] ?? '';
 
 ?>
-<div class="section service__section-3">
+<div class="section service__section-3 pt-50">
 	<div class="container">
-        <h2 class="heading-title text-center text-stroke" data-subtitle="<?=esc_attr( $subtitle ) ?>"><?=$title?></h2>
+        <div class="wrapper">
+            <h2 class="heading-title text-center text-stroke" data-subtitle="<?=esc_attr( $subtitle ) ?>"><?=$title?></h2>
 
-        <?php if ( $title_2 ) : ?>
-        <h3 class="heading-title"><?=$title_2?></h3>
-        <?php endif; ?>
-        <?php if ( $content ) : ?>
-        <div class="cnt"><?=$content?></div>
-        <?php endif; ?>
+            <div class="wrapper-desc">
+                <h3 class="title"><?=$title_2?></h3>
+                <div class="cnt"><?=$content?></div>
+            </div>
 
-        <?php echo wp_get_attachment_image( $image, 'full' ) ?>
+	        <?php echo wp_get_attachment_image( $image, 'full' ) ?>
+        </div>
     </div>
 </div>

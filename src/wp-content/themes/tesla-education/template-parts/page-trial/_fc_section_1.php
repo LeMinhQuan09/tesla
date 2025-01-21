@@ -16,7 +16,7 @@ $title_2 = $args['title_2'] ?? '';
 $content = $args['content'] ?? '';
 
 ?>
-<div class="section trial__section-1">
+<div class="section trial__section-1 pt-50">
     <div class="container">
         <h2 class="heading-title text-center text-stroke" data-subtitle="<?=esc_attr( $subtitle ) ?>"><?=$title?></h2>
         <?php if ( $desc ) : ?>
@@ -29,12 +29,14 @@ $content = $args['content'] ?? '';
                 <?php echo wp_get_attachment_image( $image_2, 'large' ) ?>
             </div>
             <div class="col-12 col-md-6 content">
-                <?php if ( $title_2 ) : ?>
-                <h3 class="heading-title"><?=$title_2?></h3>
-                <?php endif; ?>
-                <?php if ( $content ) : ?>
-                <div class="cnt"><?=$content?></div>
-                <?php endif; ?>
+                <div class="wrapper">
+	                <?php if ( $title_2 ) : ?>
+                    <h3 class="title"><?=$title_2?></h3>
+	                <?php endif; ?>
+	                <?php if ( $content ) : ?>
+                    <div class="cnt"><?=$content?></div>
+	                <?php endif; ?>
+                </div>
             </div>
         </div>
     </div>

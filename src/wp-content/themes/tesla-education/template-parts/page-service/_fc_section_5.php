@@ -13,15 +13,15 @@ $desc             = $args['desc'] ?? '';
 $repeater_content = $args['repeater_content'] ?? '';
 
 ?>
-<div class="section service__section-1">
+<div class="section service__section-5 pt-50">
     <div class="container">
         <h2 class="heading-title text-center text-stroke" data-subtitle="<?= esc_attr( $subtitle ) ?>"><?= $title ?></h2>
 	    <?php if ( $desc ) : ?>
-        <div class="desc"><?=$desc?></div>
+        <div class="desc text-center"><?=$desc?></div>
 	    <?php endif; ?>
 
         <?php if ( $repeater_content ) : ?>
-        <ul class="item">
+        <ul class="items">
             <?php
             foreach ( $repeater_content as $item ) :
                 $_image = $item['image'] ?? '';
@@ -35,7 +35,7 @@ $repeater_content = $args['repeater_content'] ?? '';
                 <div class="content">
                     <h3><?=$_title?></h3>
                     <?php if ( $_desc  ) : ?>
-                    <p class="excerpt"><?=$_desc?></p>
+                    <div class="excerpt"><?=$_desc?></div>
                     <?php endif; ?>
                 </div>
             </li>

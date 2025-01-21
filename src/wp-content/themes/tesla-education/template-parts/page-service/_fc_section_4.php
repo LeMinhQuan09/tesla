@@ -15,10 +15,10 @@ $gallery     = $args['gallery'] ?? '';
 $view_button = $args['view_button'] ?? [];
 
 ?>
-<div class="section service__section-3">
+<div class="section service__section-4 pt-50">
     <div class="container">
         <h2 class="heading-title text-center text-stroke" data-subtitle="<?= esc_attr( $subtitle ) ?>"><?= $title ?></h2>
-        <div class="row">
+        <div class="row pt-50">
             <div class="col-12 col-md-6 thumbs">
 			    <?php echo wp_get_attachment_image( $image, 'large' ) ?>
             </div>
@@ -28,6 +28,7 @@ $view_button = $args['view_button'] ?? [];
 			    <?php endif; ?>
             </div>
         </div>
+
 	    <?php if ( $gallery ) : ?>
         <ul class="gallery">
             <?php foreach ( $gallery as $gal ) : ?>
@@ -39,5 +40,7 @@ $view_button = $args['view_button'] ?? [];
             <?php endforeach; ?>
         </ul>
 	    <?php endif; ?>
+
+        <?php echo Helper::ACFLink( $view_button, 'mt-15 btn-light-orange btn-outline-blue ml-auto mr-auto d-flex align-items-center justify-content-center' ); ?>
     </div>
 </div>
