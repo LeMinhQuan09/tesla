@@ -106,18 +106,17 @@
 								<div class="header__lang">
 									<ul class="d-flex align-items-center"><?php echo do_shortcode('[language_switcher]'); ?></ul>
 								</div>
-								<?php if(!wp_is_mobile()){ ?>
 								<div class="header__cta d-flex align-items-center ml-30">
 									<?php $contact_inf = get_field('contact_inf','option');
-									if($contact_inf){ ?>
-										<a href="#" class="w-btn">Trial class</a>
+									$contact_us = get_field('contact_us','option');
+									if($contact_us){ ?>
+										<a href="<?php echo $contact_us['trial_class_link']; ?>" class="w-btn"><?php echo $contact_us['trial_class']; ?></a>
 										</a>
 										<?php $contact_us = get_field('contact_us','option'); ?>
-										<a href="<?php echo $contact_us['book_a_tour_link']; ?>" class="e-btn">Book a Tour</a>
+										<a href="<?php echo $contact_us['book_a_tour_link']; ?>" class="e-btn"><?php echo $contact_us['book_a_tour']; ?></a>
 										<a href="#" class="e-btn" data-bs-toggle="modal" data-bs-target="#popupContact">Enquire Now</a>
 									<?php } ?>
 								</div>
-								<?php } ?>
 								<div class="sidebar__menu d-xl-none">
 								   <div class="sidebar-toggle-btn sidebar-toggle-btn-white ml-30" id="sidebar-toggle">
 									   <span class="line"></span>
@@ -130,7 +129,6 @@
 					</div>
 				</div>
 			</div>
-			<?php if(!wp_is_mobile()){ ?>
 			<div class="header__menu">
 				<div class="container">
 					<nav class="main-menu"> 
@@ -144,7 +142,6 @@
 					</nav>
 				</div>
 			</div>
-			<?php } ?>
 			
 		</div>
 	</header>
@@ -183,11 +180,11 @@
             </div>
 			<div class="mb-cta mt-10 d-flex flex-direction-column align-items-center">
 				<?php $contact_inf = get_field('contact_inf','option');
+				$contact_us = get_field('contact_us','option');
 				if($contact_inf){ ?>
-					<a href="#" class="e-btn">Trial class</a>
+					<a href="<?php echo $contact_us['trial_class_link']; ?>" class="w-btn"><?php echo $contact_us['trial_class']; ?></a>
 					</a>
-					<?php $contact_us = get_field('contact_us','option'); ?>
-					<a href="<?php echo $contact_us['book_a_tour_link']; ?>" class="e-btn">Book a Tour</a>
+					<a href="<?php echo $contact_us['book_a_tour_link']; ?>" class="e-btn"><?php echo $contact_us['book_a_tour']; ?></a>
 					<a href="#" class="e-btn" data-bs-toggle="modal" data-bs-target="#popupContact">Enquire Now</a>
 				<?php } ?>
 			</div>

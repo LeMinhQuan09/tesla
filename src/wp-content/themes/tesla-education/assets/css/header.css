@@ -206,7 +206,14 @@
 /* End Header Menu */
 /*== END HEADER NEW ==*/
 
-@media(max-width: 768px){
+@media (max-width: 992px){
+    .header__area .header__menu,
+    .header__area .header__cta {
+        display: none !important;
+    }
+}
+
+@media(max-width: 769px){
     .ib-logo-top {	
         padding-left: 20px;
         max-width: 110px;
