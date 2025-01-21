@@ -2,7 +2,7 @@
     $blurred_leader = get_field('blurred_leader');
     $list_of_leaders = get_field('list_of_leaders');
 ?>
-<section class="about__leadership pt-80 pb-40">
+<section id="leadership" class="about__leadership pt-80 pb-40">
     <div class="container">
         <div class="row">
             <div class="col-12">

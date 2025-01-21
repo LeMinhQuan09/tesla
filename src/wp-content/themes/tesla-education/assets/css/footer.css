@@ -153,13 +153,20 @@ ul.social-list li img {
 }
 
 @media (max-width: 641px){
-    #popupContact .col-left {
+    .popup__contact-wrapper .col-left {
         width: 100%;
+        padding: 20px 20px 0;
+    }
+    #popupContact .col-left .title {
+        font-size: 22px !important;
     }
     #popupContact .col-right {
         display: none;
     }
     #popupContact .btn-close {
         filter: none;
+    }
+    .footer__area .widget-title {
+        font-size: 18px;
     }
 }

@@ -2,7 +2,7 @@
     $sc_vision = get_field('section_vision');
     $sc_mission = get_field('section_mission');
 ?>
-<section class="about__vision pt-100 pb-60">
+<section id="vision-mission" class="about__vision pt-100 pb-60">
     <div class="container container-1570">
         <div class="row">
             <div class="col-12">
