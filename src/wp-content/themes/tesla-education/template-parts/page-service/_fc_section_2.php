@@ -18,7 +18,7 @@ $infos    = $args['infos'] ?? '';
             <span><?=$title?></span>
         </h2>
         <?php if ( $infos ) : ?>
-        <ul class="infos pt-50">
+        <ul class="infos infos-slick pt-50">
             <?php foreach ( $infos as $info ) :
                 $_image = $info['image'] ?? '';
                 $_title = $info['title'] ?? '';

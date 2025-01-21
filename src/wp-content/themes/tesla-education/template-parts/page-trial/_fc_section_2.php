@@ -18,10 +18,10 @@ $gallery  = $args['gallery'] ?? false;
             <span><?=$title?></span>
         </h2>
         <?php if ( $gallery ) : ?>
-        <ul class="gallery">
+        <ul class="gallery gallery-slick-2">
             <?php foreach ( $gallery as $gal ) : ?>
             <li>
-                <a class="fcy-gallery" href="<?php echo wp_get_attachment_image_url( $gal, 'full', true ) ?>" title>
+                <a class="fcy-gallery" data-fancybox="gallery-2" href="<?php echo wp_get_attachment_image_url( $gal, 'full', true ) ?>" title>
                     <?php echo wp_get_attachment_image( $gal, 'medium' ) ?>
                 </a>
             </li>

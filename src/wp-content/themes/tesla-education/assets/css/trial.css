@@ -30,6 +30,8 @@
     display: block;
     width: 100%;
     pointer-events: none;
+    min-height: 200px;
+    object-fit: cover;
 }
 
 .section.service__section-0 > .breadcrumb-wrapper {
@@ -102,9 +104,14 @@
     margin-right: auto;
 }
 
-.container .desc {
+.container .desc, .container .cnt {
     margin-bottom: 30px;
-    font-weight: 500;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.container .desc *, .container .cnt * {
+    font-weight: inherit;
 }
 
 /** */
@@ -154,6 +161,7 @@
     font-weight: 400;
     color: currentColor;
     margin-bottom: 0;
+    margin-top: 4px;
 }
 
 /** */
@@ -230,13 +238,16 @@ margin-bottom: 8px;
 /** */
 ul.items {
     display: flex;
-    gap: 40px;
     position: relative;
     padding-bottom: 25px;
+    margin-left: -12px;
+    margin-right: -12px;
 }
 ul.items li {
-    flex: 0 0 calc(50% - 20px);
-    max-width: calc(50% - 20px);
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 ul.items li .thumb {}
 ul.items li .thumb a {
@@ -310,12 +321,16 @@ ul.items li .content .excerpt * {
 .section.service__section-7 {}
 .section.service__section-7 ul.items {
     flex-wrap: wrap;
-    gap: 24px;
     margin-bottom: 24px;
+    margin-right: -12px;
+    margin-left: -12px;
 }
 .section.service__section-7 ul.items li {
-    flex: 0 0 calc(50% - 12px);
-    max-width: calc(50% - 12px);
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 24px;
 }
 .section.service__section-7 ul.items li .thumb {}
 .section.service__section-7 ul.items li .content {}
@@ -326,6 +341,7 @@ ul.items li .content .excerpt * {
 .section.service__section-7 ul.items li .content .excerpt {
     color: #25205E;
     margin-bottom: 0;
+    line-height: 24px;
 }
 
 .excerpt *, .desc * {
@@ -353,6 +369,7 @@ ul.items li .content .excerpt * {
     position: absolute;
     width: 100%;
     z-index: -1;
+    background-position: bottom right;
 }
 
 .section.trial__section-1 .container {
@@ -396,7 +413,7 @@ ul.items li .content .excerpt * {
     position: relative;
     margin-bottom: 10px;
     margin-left: 30px;
-    line-height: 22px;
+    line-height: 24px;
     font-weight: 500;
 }
 
@@ -460,8 +477,6 @@ ul.items li .content .excerpt * {
     padding-bottom: 24px;
     padding-right: 12px;
     padding-left: 12px;
-    flex: 0 0 33.33333333333%;
-    max-width: 33.33333333333%;
 }
 .section.trial__section-2 .gallery li a {
     display: block;
@@ -516,13 +531,12 @@ ul.items li .content .excerpt * {
     display: block;
     position: relative;
 }
-.section.trial__section-3 .video-thumb > a::after {
+.section.trial__section-3 .video-thumb > a::before {
     pointer-events: none;
     content: '';
     background-image: url("../img/video_icon.png");
     position: absolute;
     z-index: 9;
-    width: 14%;
     height: 14%;
     top: 50%;
     left: 50%;
@@ -532,7 +546,24 @@ ul.items li .content .excerpt * {
     background-position: center;
     min-width: 60px;
     min-height: 60px;
+    aspect-ratio: 1 / 1;
 }
+/*.section.trial__section-3 .video-thumb > a::after {*/
+/*    content: '';*/
+/*    pointer-events: none;*/
+/*    position: absolute;*/
+/*    z-index: 9;*/
+/*    height: 14%;*/
+/*    top: 50%;*/
+/*    left: 50%;*/
+/*    transform: translateX(-50%) translateY(-50%);*/
+/*    min-width: 60px;*/
+/*    min-height: 60px;*/
+/*    aspect-ratio: 1 / 1;*/
+/*    border-radius: 50%;*/
+/*    background: #FFFFFF85;*/
+/*    animation: pulse 1.5s infinite;*/
+/*}*/
 .section.trial__section-3 .video-thumb img {
     display: block;
     width: 100%;
@@ -608,6 +639,8 @@ ul.items li .content .excerpt * {
     font-size: 14px;
     font-weight: 600;
     color: #fff;
+    line-height: 22px;
+    margin-top: 5px;
 }
 
 .section .trial-form {
@@ -641,4 +674,113 @@ ul.items li .content .excerpt * {
 .section .trial-form .form-contact div.wpforms-container-full {
     margin-top: 0;
     margin-bottom: 0;
+}
+
+.slick-dots {
+    bottom: -30px !important;
+}
+.slick-dots > li {
+    padding-bottom: 0 !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.section.trial__section-2 .slick-dots li button:before {
+    color: #fff !important;
+}
+
+@media (max-width: 991px) {
+    .mpt-12 {
+        padding-top: 12px;
+    }
+    .mpt-24 {
+        padding-top: 24px;
+    }
+
+    .heading-title.text-stroke::before {
+        opacity: 0 !important;
+    }
+
+    .section.trial__section-1,
+    .section.trial__section-3,
+    .section.trial__section-4,
+    .section.trial__section-2 {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .section.service__section-1,
+    .section.service__section-3,
+    .section.service__section-4,
+    .section.service__section-5,
+    .section.service__section-6 .bg-title,
+    .section.service__section-7,
+    .section.service__section-2 {
+        padding-top: 24px;
+    }
+
+    .section.service__section-3 .wrapper {
+        padding: 24px;
+    }
+
+    .section.service__section-2 .infos,
+    .section.service__section-3 .wrapper .wrapper-desc {
+        padding-top: 0;
+        margin-top: 24px;
+    }
+
+    .heading-title.text-stroke {
+        margin-bottom: 12px;
+        font-size: 22px;
+    }
+
+    .container .desc {
+        margin-bottom: 24px;
+    }
+
+    .section.trial__section-1 .content {
+        margin-top: 24px;
+    }
+
+    .section.trial__section-4 .subject {
+        margin-top: -24px;
+        margin-bottom: 30px;
+    }
+
+    .section.trial__section-4 .subject li {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .section .trial-form {
+        margin-top: 30px;
+        padding: 30px 12px;
+    }
+
+    .section.service__section-4 .content {
+        margin-top: 24px;
+    }
+
+    .section.service__section-4 .gallery li {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .section.service__section-4 .gallery {
+        margin-top: 12px;
+    }
+
+    .section.service__section-6 .gallery li {
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding: 12px;
+    }
+
+    ul.items li .content h3 {
+        font-size: 17px;
+    }
+
+    .section.service__section-3 .wrapper .wrapper-desc .title {
+        font-size: 17px;
+    }
 }

@@ -18,8 +18,11 @@ function _wp_enqueue_scripts() {
 		Helper::isPageTemplate( 'templates/page-trial.php' ) ||
 		Helper::isPageTemplate( 'templates/page-services.php' )
 	) {
+		wp_enqueue_style( "fancybox-style", "https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css", [] );
 		wp_enqueue_style( "trial-style", ASSETS_URL . "css/trial.css", [] );
-		wp_enqueue_script( "trial", ASSETS_URL . "js/trial.js", [ "jquery-core" ], false, true );
+
+		wp_enqueue_script( "fancybox", "https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js", [], false, true );
+		wp_enqueue_script( "trial", ASSETS_URL . "js/trial.js", [ "jquery-core", "fancybox" ], false, true );
 	}
 }
 

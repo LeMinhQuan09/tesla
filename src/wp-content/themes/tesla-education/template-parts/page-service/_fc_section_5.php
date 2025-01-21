@@ -21,7 +21,7 @@ $repeater_content = $args['repeater_content'] ?? '';
 	    <?php endif; ?>
 
         <?php if ( $repeater_content ) : ?>
-        <ul class="items">
+        <ul class="items items-slick-2">
             <?php
             foreach ( $repeater_content as $item ) :
                 $_image = $item['image'] ?? '';
