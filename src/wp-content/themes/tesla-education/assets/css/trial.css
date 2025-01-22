@@ -124,7 +124,6 @@
 
 /** */
 .section.service__section-2 .infos {
-    display: flex;
     flex-flow: row wrap;
     margin-left: -12px;
     margin-right: -12px;
